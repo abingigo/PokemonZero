@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: CINCCINO
+  m_EditorClassIdentifier: 
+  number: 573
+  Name: Cinccino
+  type1: {fileID: 11400000, guid: 3750903d3d7725249ad58f780b7502dd, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 4b0000005f0000003c00000073000000410000003c000000
+  genderRate: 4
+  growthRate: 0
+  baseExp: 165
+  effortPoints: 000000000000000000000000020000000000000000000000
+  rareness: 60
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 20e29f39ba9b64c4281f5a7efbbc2811, type: 2}
+  - {fileID: 11400000, guid: 3b06881a72bf1484bbaf4753811d2af4, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: fc19e285b84dea04d8932ae41480f33d, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: b5a618bf8bc64934ab8715563848f0f9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: e1f0ca606b269274086ab049a2660bd2, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 9fa512b1a1f8b494b8983789a26b78bc, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 2b58131a6a10d524d8e8387eefc7cf86, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 97cff45275a9b3547b54951c8c675752, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 71a954b50e95c03418b9e6232e02619a, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 40fbbd79ee7a5af479241996d7409199, type: 2}
+  - {fileID: 11400000, guid: bcc39f962239a4047bbfb85776a73d47, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 733b71b3f1afbad4781a673a8bd2ef03, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 3d9bca32e18e01148bc971b5ef3eaf15, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: f90fd8421ff52154f8e46e1f29743ebd, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: e2098cbc6810b20418d18d7624720cb0, type: 2}
+  - {fileID: 11400000, guid: 8af7932eea2781e4ab3d7d5f0a52098f, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: c63726464bef8424599861c98bdd735b, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 5f1d27a8a5f42ca4394f16600b30a724, type: 2}
+  - {fileID: 11400000, guid: 58f75b111cb59134b8ceb985038384d0, type: 2}
+  - {fileID: 11400000, guid: ccecd3dfaa77c7b4c8f7ba5b34bf6524, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - {fileID: 11400000, guid: b9742506f00fa4b4da007df424cc6105, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  eggMoves: []
+  compatibility: 04000000
+  stepsToHatch: 3840
+  height: 0.5
+  weight: 7.5
+  color: 3
+  shape: 7
+  habitat: 0
+  kind: Scarf
+  pokedex: Their white fur feels amazing to touch. Their fur repels dust and prevents
+    static electricity from building up.
+  generation: 5
+  battlerPlayerX: 1
+  battlerPlayerY: 0
+  battlerEnemyX: 2
+  battlerEnemyY: 20
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

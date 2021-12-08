@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: SHELLOS
+  m_EditorClassIdentifier: 
+  number: 422
+  Name: Shellos
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 4c000000300000003000000022000000390000003e000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 65
+  effortPoints: 010000000000000000000000000000000000000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 1f877222fed2bcf47b930dd87856856e, type: 2}
+  - {fileID: 11400000, guid: bfd422453dff67441815e7edbafe64dc, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0428fa1467bf4fd43b7692480997770d, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: c57fa1a0d8831a24291988209e123312, type: 2}
+  - level: 2
+    move: {fileID: 11400000, guid: 113ce8f88d1d9fa4dbbae11f08c09615, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - level: 11
+    move: {fileID: 11400000, guid: b82a85a586c325d4ea66eda1f1627920, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 04afededd239f5b42b8afa2b1f9a2fd7, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: f72dd514f515f3d49ab66af3d5d59fb1, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: a1a2da6755fc63e4484eea6662220f34, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 01db128e98c41fa49adf2d0c934ddaed, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: b4614e59b39a4ca4c9dced24c26d9084, type: 2}
+  - {fileID: 11400000, guid: 0af16b8261dbfb44ea6bcafb878e2ba0, type: 2}
+  - {fileID: 11400000, guid: 3eb9c09d88e1bb3488eb6b07296ac81f, type: 2}
+  - {fileID: 11400000, guid: f75feb7a85018f944a710bea445c319a, type: 2}
+  - {fileID: 11400000, guid: b67eee1c8ab6b5c48aed137fa0d73aa9, type: 2}
+  - {fileID: 11400000, guid: 6422ab59df246034887e3bf5f3271ad7, type: 2}
+  - {fileID: 11400000, guid: 7da22946fba30404a9f6059b541215a9, type: 2}
+  - {fileID: 11400000, guid: 3ea755ce672a4d14398ac5ea38745ecd, type: 2}
+  - {fileID: 11400000, guid: 28893423939b98046b763dd25448edd3, type: 2}
+  - {fileID: 11400000, guid: fd2c71a29ef42a644b458ddff2bbd936, type: 2}
+  - {fileID: 11400000, guid: 1e83b7e1983ca434a823d071f1e54bef, type: 2}
+  - {fileID: 11400000, guid: 6932e8e7ca290aa4681521ccf91cf766, type: 2}
+  - {fileID: 11400000, guid: b45569434c13d4d468e9e7eaf4fef9c7, type: 2}
+  - {fileID: 11400000, guid: d85184a28d0a2114b9f27b30d3f48872, type: 2}
+  - {fileID: 11400000, guid: 0d20379389c9c2a4fa83e05e13db0a0d, type: 2}
+  - {fileID: 11400000, guid: 81884471bce47d74cb5a48d51434d157, type: 2}
+  compatibility: 010000000a000000
+  stepsToHatch: 5120
+  height: 0.3
+  weight: 6.3
+  color: 6
+  shape: 1
+  habitat: 0
+  kind: Sea Slug
+  pokedex: Its colors and shapes differ from region to region. In the Sinnoh region,
+    two types are confirmed.
+  generation: 4
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: -1
+  battlerEnemyY: 21
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: a1e77ac2328bdee4e8ddc406f08d516a, type: 2}
+    method: 0
+    level: 30
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: HEATRAN
+  m_EditorClassIdentifier: 
+  number: 485
+  Name: Heatran
+  type1: {fileID: 11400000, guid: 16d5ce159a6d9374191d2f7002755c54, type: 2}
+  type2: {fileID: 11400000, guid: 1af614eedc636c54087ace0bc602bb6b, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 5b0000005a0000006a0000004d000000820000006a000000
+  genderRate: 3
+  growthRate: 2
+  baseExp: 270
+  effortPoints: 000000000000000000000000000000000300000000000000
+  rareness: 3
+  happiness: 100
+  abilities:
+  - {fileID: 11400000, guid: a2c38bcc6ba66fd4083bccbe94378b49, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d8cc0e1236e3f3e47b0a141597de148b, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: b1d5d6454c954864fb722efebd56775b, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 54881034344feb4418dcaf079657fccb, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: e93ac3af756b14041a8b64b2b3f6e1cb, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 9a5f8eb9a62bc1f41bfed21ba48117dd, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 68821e874d752894aa4caa0f6a7edd76, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: 25b5fd83f20fb83459585a216540b044, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: 4cb95ef667457d148a14371fca4786ae, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 22919859f3e2a1146aa7fc877a6c43ad, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: 9c7782b67bf51b2498f6b476ada6018b, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: a8a2007764e2af94da3743121f81dcff, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: 82b0b5235920068429cf65400614f520, type: 2}
+  - level: 57
+    move: {fileID: 11400000, guid: 9a5f8eb9a62bc1f41bfed21ba48117dd, type: 2}
+  - level: 65
+    move: {fileID: 11400000, guid: e93ac3af756b14041a8b64b2b3f6e1cb, type: 2}
+  - level: 73
+    move: {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - level: 81
+    move: {fileID: 11400000, guid: 54881034344feb4418dcaf079657fccb, type: 2}
+  - level: 88
+    move: {fileID: 11400000, guid: d5600cf1508bd1e43bc6f8084d882233, type: 2}
+  - level: 96
+    move: {fileID: 11400000, guid: b1d5d6454c954864fb722efebd56775b, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  - {fileID: 11400000, guid: 7399e032a4d3e9943a28edc51d1ce9f3, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 727fe08606774df45923617d3fe24a17, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 789a8466f214038449da73f2897f0af6, type: 2}
+  - {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - {fileID: 11400000, guid: 805ff6ccc75ec21418c31f068ebe4019, type: 2}
+  - {fileID: 11400000, guid: 8a4fe52ebc88d9d4a916b5935f1daaa1, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: f44021ebea438ea498b20cf321ca21c9, type: 2}
+  - {fileID: 11400000, guid: 21c4ae45a64f56f40b02765eaaf49255, type: 2}
+  - {fileID: 11400000, guid: 9c767ad4ddecda04b93fee0c164c88a5, type: 2}
+  - {fileID: 11400000, guid: 458fbbf5b7fce0b438d246d874bf6b6c, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 54881034344feb4418dcaf079657fccb, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: e93ac3af756b14041a8b64b2b3f6e1cb, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 0ba349cceaf4f6e4c9671aea97f2df52, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 107def8aec8d1944a855c946e4dd2cd1, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 432ee9b7101e395418fc5c83dc8529f6, type: 2}
+  - {fileID: 11400000, guid: 6c135a91d8f3313448e55cf4a021c4e8, type: 2}
+  - {fileID: 11400000, guid: d5600cf1508bd1e43bc6f8084d882233, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: c0ac7d571a37c9c49820a0bd71db88d2, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - {fileID: 11400000, guid: 9f04dce678f5271478bf3435724d13a8, type: 2}
+  eggMoves: []
+  compatibility: 0e000000
+  stepsToHatch: 2560
+  height: 1.7
+  weight: 430
+  color: 2
+  shape: 7
+  habitat: 0
+  kind: Lava Dome
+  pokedex: It dwells in volcanic caves. It digs in with its cross-shaped feet to
+    crawl on ceilings and walls.
+  generation: 4
+  battlerPlayerX: 2
+  battlerPlayerY: 0
+  battlerEnemyX: -1
+  battlerEnemyY: 20
+  battlerShadowX: 0
+  battlerShadowSize: 3
+  evolveMethods: []

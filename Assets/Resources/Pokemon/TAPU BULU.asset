@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: TAPU BULU
+  m_EditorClassIdentifier: 
+  number: 787
+  Name: Tapu Bulu
+  type1: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type2: {fileID: 11400000, guid: b3489cc7b8bc2d040b26eca2a4bab2e8, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 4600000082000000730000004b000000550000005f000000
+  genderRate: 7
+  growthRate: 2
+  baseExp: 257
+  effortPoints: 000000000300000000000000000000000000000000000000
+  rareness: 3
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: b0f75163ac4c7614891536f3f55dffc4, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 92e1e5274200aec43953cb7d12d3bade, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: a052b0fde8df74a45b67cee2982997cf, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 20f54130706c0ea4d8a26bdca7fe5a88, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 09271b52af5ad884894726ffc96aa0a9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 20b965bca0968254eb1e252c919029d5, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 1a16ff4c7b94c1b418d72c9b38cc7eaa, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 0bc2e1c7817f56d43844f53bc02f5aae, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: bc2c067b17831a84d974763995cd722d, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: c4fd0234a28188b4fa057b8b6afd5b0e, type: 2}
+  - level: 14
+    move: {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: a8a2007764e2af94da3743121f81dcff, type: 2}
+  - level: 26
+    move: {fileID: 11400000, guid: 6499b12852cc6a549a8f291384179a3e, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: e1e328c4dcf158e4d95fc832f489b135, type: 2}
+  - level: 38
+    move: {fileID: 11400000, guid: 5ee715cbff890b14495237eda8b7ccbb, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: ac47196cd04ad744986c864d6c052409, type: 2}
+  - level: 48
+    move: {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: b917b8bb667589e47a3e8f5aadb1e905, type: 2}
+  - level: 58
+    move: {fileID: 11400000, guid: d74bbd1529414e14891d421571d9a72a, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 6ec3d2102029ca24ebdadbd203e9c84a, type: 2}
+  - {fileID: 11400000, guid: 10761d83b52dee44aa829ecbdc1a26c8, type: 2}
+  - {fileID: 11400000, guid: 368b02477458b7346a133c179649ac04, type: 2}
+  - {fileID: 11400000, guid: 71a954b50e95c03418b9e6232e02619a, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: bcc39f962239a4047bbfb85776a73d47, type: 2}
+  - {fileID: 11400000, guid: 77c1d3e55da79974094300bff42aa0c6, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 1862fe79dde81ca4b95e38f9173a0426, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 733b71b3f1afbad4781a673a8bd2ef03, type: 2}
+  - {fileID: 11400000, guid: 79ef5d2057a04374d9011be53be140c5, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 107def8aec8d1944a855c946e4dd2cd1, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 169d2d736722a3d44a125034b77e1508, type: 2}
+  - {fileID: 11400000, guid: 23365cd91e8550c4eb38704e22cba3de, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: d5600cf1508bd1e43bc6f8084d882233, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: 904eac28bab37c940b5d903e10fbcc52, type: 2}
+  - {fileID: 11400000, guid: c0ac7d571a37c9c49820a0bd71db88d2, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  - {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  eggMoves: []
+  compatibility: 0e000000
+  stepsToHatch: 3840
+  height: 1.9
+  weight: 45.5
+  color: 7
+  shape: 3
+  habitat: 0
+  kind: Land Spirit
+  pokedex: It pulls large trees up by the roots and swings them around. It causes
+    vegetation to grow, and then it absorbs energy from the growth.
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: TOGEDEMARU
+  m_EditorClassIdentifier: 
+  number: 777
+  Name: Togedemaru
+  type1: {fileID: 11400000, guid: 998c7d8c38a000d44a161b885deff6b5, type: 2}
+  type2: {fileID: 11400000, guid: 1af614eedc636c54087ace0bc602bb6b, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 41000000620000003f000000600000002800000049000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 152
+  effortPoints: 000000000200000000000000000000000000000000000000
+  rareness: 180
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 61e887b0a2c1583429a61315944ea7a2, type: 2}
+  - {fileID: 11400000, guid: f98b596b01a1b4f499859041cf125602, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 65970b4ce35b9324994d9f1f71c32294, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: ccd1ce40b46c9f742a60ed519ea50d74, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: f79575eb147536f4789c5fc59768a79e, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: 333b1dab26f34474da982bd470e88fbe, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: bd55dbbc211e93f42bff0ed72127eb83, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: c1b7b039352bfed4d87abcdff6fb58ef, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: a7b3845e4f9ca704ebf17405e064aac8, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 5eb9ebaaf4c22e44c8e346777123df81, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: d956062b2db1a41499c86c3847480406, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: 1b437347340c13a4ab054a06df625d94, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 0b3e9ac2cc4cf024baabe415a4518c9c, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: 817b0f91801c4b84f94dbc6ac9a130a2, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: 25a74a97352821d439065d21d4a6fc9f, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: 83ce4c25d5ec33f4cb930c303c114cda, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: db9a4d7cc0ec7374aa2066bce88005ce, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - {fileID: 11400000, guid: 2788749b13d80bc4c94fb13130214292, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 40fbbd79ee7a5af479241996d7409199, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 5e608745621bd7d428d5bd93df8aabb7, type: 2}
+  - {fileID: 11400000, guid: 4db975a9d34068045952d2600c735b08, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 6c990fbefc91eaf40b66f88cd4d325a9, type: 2}
+  - {fileID: 11400000, guid: e97c31018c3acc7408f50470de6c71ad, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: e93ac3af756b14041a8b64b2b3f6e1cb, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: 8af7932eea2781e4ab3d7d5f0a52098f, type: 2}
+  - {fileID: 11400000, guid: 5eb9ebaaf4c22e44c8e346777123df81, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 88111c7e31a1cef4ea67663cdc386ed2, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: c63726464bef8424599861c98bdd735b, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 7b6308140b7aa4c479f058732f49d9df, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 5f1d27a8a5f42ca4394f16600b30a724, type: 2}
+  - {fileID: 11400000, guid: 58f75b111cb59134b8ceb985038384d0, type: 2}
+  - {fileID: 11400000, guid: ccecd3dfaa77c7b4c8f7ba5b34bf6524, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: b9742506f00fa4b4da007df424cc6105, type: 2}
+  - {fileID: 11400000, guid: bfaf13c092c6bfd4eb64e9f5057ddc97, type: 2}
+  - {fileID: 11400000, guid: 817b0f91801c4b84f94dbc6ac9a130a2, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  - {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 207103b72d0e37249ad6b7c90d094f8c, type: 2}
+  - {fileID: 11400000, guid: 59d966f58a2f5704a859ee4d87a1a349, type: 2}
+  - {fileID: 11400000, guid: 19a71c12cf76a4549bd597b756e632c5, type: 2}
+  - {fileID: 11400000, guid: b6f8ecce0a4b7c34b8165ed8f991b052, type: 2}
+  - {fileID: 11400000, guid: c7b943972ef69774fad65ab91c3135fd, type: 2}
+  - {fileID: 11400000, guid: 6a37eb3265b57c7488142d8157a9774e, type: 2}
+  - {fileID: 11400000, guid: 9fa512b1a1f8b494b8983789a26b78bc, type: 2}
+  - {fileID: 11400000, guid: 08855fc9043c4ac4d95b929976ab6e65, type: 2}
+  - {fileID: 11400000, guid: fc803b297479f20429b8ee014c36c580, type: 2}
+  compatibility: 0400000005000000
+  stepsToHatch: 2560
+  height: 0.3
+  weight: 3.3
+  color: 3
+  shape: 5
+  habitat: 0
+  kind: Roly-Poly
+  pokedex: The long hairs on its back act as lightning rods. The bolts of lightning
+    it attracts are stored as energy in its electric sac.
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: MAGIKARP
+  m_EditorClassIdentifier: 
+  number: 129
+  Name: Magikarp
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 140000000a00000037000000500000000f00000014000000
+  genderRate: 3
+  growthRate: 2
+  baseExp: 40
+  effortPoints: 000000000000000000000000010000000000000000000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: e92567c2836b1c84b8b37b4695ef77b2, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 187b42ce68119eb4993809176dd725ea, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 37622ea7f9398554b80f80ebfb716c1f, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 30
+    move: {fileID: 11400000, guid: b6f8ecce0a4b7c34b8165ed8f991b052, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  eggMoves: []
+  compatibility: 0b0000000d000000
+  stepsToHatch: 1280
+  height: 0.9
+  weight: 10
+  color: 7
+  shape: 2
+  habitat: 9
+  kind: Fish
+  pokedex: Its swimming muscles are weak, so it is easily washed away by currents.
+    In places where water pools, you can see many Magikarp deposited there by the
+    flow.
+  generation: 1
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: 2
+  battlerEnemyY: -1
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 4e65514b7dea06d4ba4e74d323bda49e, type: 2}
+    method: 0
+    level: 20
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

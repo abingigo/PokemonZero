@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: POLIWAG
+  m_EditorClassIdentifier: 
+  number: 60
+  Name: Poliwag
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2800000032000000280000005a0000002800000028000000
+  genderRate: 3
+  growthRate: 3
+  baseExp: 60
+  effortPoints: 000000000000000000000000010000000000000000000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 9748ff079eb9766448c25a5a7ad9b534, type: 2}
+  - {fileID: 11400000, guid: 4fb0caafa4079b34ca7c4b2c88dbd483, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e92567c2836b1c84b8b37b4695ef77b2, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: bfc9389e00e8c21438d9d441760574eb, type: 2}
+  - level: 11
+    move: {fileID: 11400000, guid: 065a9272a8f9dec43a89efd38f05232b, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: a480599ae86e3ae4daea75a029fb361a, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: 04afededd239f5b42b8afa2b1f9a2fd7, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 31cd901174c35b7499736b0130c884ff, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 7f79981779f90ed46939b34dcb87b6ab, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: ed14636f70b6b6c49a20cc400c4c64b4, type: 2}
+  - level: 35
+    move: {fileID: 11400000, guid: d964dc41877d9ee479eccb748124184f, type: 2}
+  - level: 38
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: b82a85a586c325d4ea66eda1f1627920, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 4db975a9d34068045952d2600c735b08, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 31cd901174c35b7499736b0130c884ff, type: 2}
+  - {fileID: 11400000, guid: 59d966f58a2f5704a859ee4d87a1a349, type: 2}
+  - {fileID: 11400000, guid: 4db975a9d34068045952d2600c735b08, type: 2}
+  - {fileID: 11400000, guid: 738fa855cd84d4e4dbb23c60d94aafdc, type: 2}
+  - {fileID: 11400000, guid: e25ff55c0d294c2479ccdf2b96504041, type: 2}
+  - {fileID: 11400000, guid: 31cb41a7036e31a409d90fb4d7f528d8, type: 2}
+  - {fileID: 11400000, guid: 1802755f28fbe0c49ada7c49698942a8, type: 2}
+  - {fileID: 11400000, guid: fd2c71a29ef42a644b458ddff2bbd936, type: 2}
+  - {fileID: 11400000, guid: 7f79981779f90ed46939b34dcb87b6ab, type: 2}
+  - {fileID: 11400000, guid: 71d72a96d26088946b3f7379d591b3e6, type: 2}
+  - {fileID: 11400000, guid: 37622ea7f9398554b80f80ebfb716c1f, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  compatibility: 01000000
+  stepsToHatch: 5120
+  height: 0.6
+  weight: 12.4
+  color: 1
+  shape: 6
+  habitat: 9
+  kind: Tadpole
+  pokedex: "It is possible to see this Pok\xE9mon's spiral innards right through
+    its thin skin. However, the skin is also very flexible. Even sharp fangs bounce
+    right off it."
+  generation: 1
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 9
+  battlerEnemyY: 23
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 8a5c33c3afea0e6468ebc4425d786ce4, type: 2}
+    method: 0
+    level: 25
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

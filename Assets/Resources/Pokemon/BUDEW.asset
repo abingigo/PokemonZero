@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: BUDEW
+  m_EditorClassIdentifier: 
+  number: 406
+  Name: Budew
+  type1: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type2: {fileID: 11400000, guid: 5102592db4d3c0b42afdfffb099d366a, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 280000001e00000023000000370000003200000046000000
+  genderRate: 3
+  growthRate: 3
+  baseExp: 56
+  effortPoints: 000000000000000000000000000000000100000000000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: f65d9efa2c4a2e64a945aedc2a6486b0, type: 2}
+  - {fileID: 11400000, guid: 4d7ad2eed0417954fab73880567b86d2, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c960ccabfecf5e14f983862e7054db95, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 30370983c226f7f4c9ed6ce2f329c928, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: 95bae70b03ec1cb46a7f49da4440ec70, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: fea30b8b78cdfda458eaacd5c279de37, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: abe7227700b063843bb2277db96224a3, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 40fbbd79ee7a5af479241996d7409199, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: bcc39f962239a4047bbfb85776a73d47, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: c6076a2f2b3a0ec4e84c1eb56c0412e7, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - {fileID: 11400000, guid: bd402d81b9ec7fb4b9c815d68553d80a, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 0a5663a5d98a46c4aa46005d13c1dedc, type: 2}
+  - {fileID: 11400000, guid: e40a834467a86414e8c7143a195a283e, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: c7ba6d479ca85044d9c74b2bf7901446, type: 2}
+  - {fileID: 11400000, guid: 440bd928019752740b3586c08408087f, type: 2}
+  - {fileID: 11400000, guid: 1802755f28fbe0c49ada7c49698942a8, type: 2}
+  - {fileID: 11400000, guid: 9970cda403a2acd46bae4a9433704e3e, type: 2}
+  - {fileID: 11400000, guid: 25a74a97352821d439065d21d4a6fc9f, type: 2}
+  - {fileID: 11400000, guid: d0661dc3cca27174daaf21c8b8d903df, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 8658b2de94218014cb670102be7ef5d3, type: 2}
+  - {fileID: 11400000, guid: a8c68243bddfc2f43ba405bbc9dc8bf5, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  compatibility: 0e000000
+  stepsToHatch: 5120
+  height: 0.2
+  weight: 1.2
+  color: 4
+  shape: 11
+  habitat: 0
+  kind: Bud
+  pokedex: Over the winter, it closes its bud and endures the cold. In spring, the
+    bud opens and releases pollen.
+  generation: 4
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: 1
+  battlerEnemyY: 18
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 0}
+    method: 13
+    level: 0
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

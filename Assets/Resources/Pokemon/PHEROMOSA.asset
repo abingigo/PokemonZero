@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: PHEROMOSA
+  m_EditorClassIdentifier: 
+  number: 795
+  Name: Pheromosa
+  type1: {fileID: 11400000, guid: f8100491677cb204e81f57dc7c8839bb, type: 2}
+  type2: {fileID: 11400000, guid: 324dec365b4d99c4eae61910aa02e62c, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 470000008900000025000000970000008900000025000000
+  genderRate: 7
+  growthRate: 2
+  baseExp: 257
+  effortPoints: 000000000000000000000000030000000000000000000000
+  rareness: 45
+  happiness: 0
+  abilities:
+  - {fileID: 11400000, guid: 9bc466e669631df459aec227475bdd25, type: 2}
+  hiddenAbility: {fileID: 0}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: a957a3eee6d8cce44b08abb49801d3c9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 4660d9994071c8f48b840e28ea89ba2e, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c7711e69fcb434e489fba899c2fa2040, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 512f3cb23729717469b1a54f8bfd333f, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 25b5fd83f20fb83459585a216540b044, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: b3c9bbb252a0dd04c806679a4484fe41, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 8c18b0924f6ad4d4783f67f89ec43d08, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 05e2e430b199f1c419d295103efaeda6, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: c7063beeb07f29a4ca9c1f80c559b602, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: 4e58f42b52291b24fb087de463acdc4e, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: aa359eee39b55d445afa0f75eca6157b, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 3dd5e868366405443b1d5b874bc91dcd, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: 9f3d90ceba0a52044ac53ffdddf18c47, type: 2}
+  - level: 47
+    move: {fileID: 11400000, guid: 020e4d541235d04409ce602119056104, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: 02dbfd14d3465984d84282f535c47c88, type: 2}
+  - level: 59
+    move: {fileID: 11400000, guid: 345ec2daff34b9f47a7de8e0e875e981, type: 2}
+  - level: 67
+    move: {fileID: 11400000, guid: ec3406770ff682246913f4963d4695c2, type: 2}
+  - level: 73
+    move: {fileID: 11400000, guid: 18094e52039ac8b428423a4ee696b81a, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 7c2c09fa9827001499e2e668ff740de8, type: 2}
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - {fileID: 11400000, guid: 6ec3d2102029ca24ebdadbd203e9c84a, type: 2}
+  - {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: d13fdfbdecd0fca418757375a1923080, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 5e608745621bd7d428d5bd93df8aabb7, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 1862fe79dde81ca4b95e38f9173a0426, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 733b71b3f1afbad4781a673a8bd2ef03, type: 2}
+  - {fileID: 11400000, guid: 5b41405c20a7e904a98275b948378085, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: e2098cbc6810b20418d18d7624720cb0, type: 2}
+  - {fileID: 11400000, guid: c7711e69fcb434e489fba899c2fa2040, type: 2}
+  - {fileID: 11400000, guid: eb98d811445ab1548a5b0b96f44f2792, type: 2}
+  - {fileID: 11400000, guid: ca9dee6b895549c44bbb45eeb3b4e76a, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 0d70e8a21edcaf343a075de71eb9b329, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: c63726464bef8424599861c98bdd735b, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 5226b4fdf01335b4197b5f26597afe97, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: 18ae92af37123bc4fb3c598c98b68f6f, type: 2}
+  - {fileID: 11400000, guid: c0ac7d571a37c9c49820a0bd71db88d2, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: b9742506f00fa4b4da007df424cc6105, type: 2}
+  eggMoves: []
+  compatibility: 0e000000
+  stepsToHatch: 30720
+  height: 1.8
+  weight: 25
+  color: 8
+  shape: 11
+  habitat: 0
+  kind: Lissome
+  pokedex: One of the Ultra Beasts. It refuses to touch anything, perhaps because
+    it senses some uncleanness in this world.
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

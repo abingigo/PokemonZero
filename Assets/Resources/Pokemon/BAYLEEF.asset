@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: BAYLEEF
+  m_EditorClassIdentifier: 
+  number: 153
+  Name: Bayleef
+  type1: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 3c0000003e000000500000003c0000003f00000050000000
+  genderRate: 1
+  growthRate: 3
+  baseExp: 142
+  effortPoints: 000000000000000001000000000000000000000001000000
+  rareness: 45
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 101266e530f191b4197dfb8fa704b227, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c960ccabfecf5e14f983862e7054db95, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: d817f7b098346334c8170810787f3d99, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: d0661dc3cca27174daaf21c8b8d903df, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 43181bc7284bfef46992639987666c62, type: 2}
+  - level: 6
+    move: {fileID: 11400000, guid: d0661dc3cca27174daaf21c8b8d903df, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: 43181bc7284bfef46992639987666c62, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: b6b8f3dab18f9f84b9e47d2d9944f223, type: 2}
+  - level: 26
+    move: {fileID: 11400000, guid: 9970cda403a2acd46bae4a9433704e3e, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: 2e97c90779b8da444ac5537310827be9, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 04afededd239f5b42b8afa2b1f9a2fd7, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: 709f3d0f2d196cc4a9e8145cd69f2004, type: 2}
+  - level: 54
+    move: {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 3ff95b2c24a130748872c96ecbe0ebf6, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: e2098cbc6810b20418d18d7624720cb0, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 7c394a35fe67307408a52fbf5519958c, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  eggMoves: []
+  compatibility: 0000000006000000
+  stepsToHatch: 5120
+  height: 1.2
+  weight: 15.8
+  color: 4
+  shape: 7
+  habitat: 3
+  kind: Leaf
+  pokedex: A Bayleef's neck is ringed by curled-up leaves. Inside each leaf is a
+    small tree shoot. The fragrance of this shoot makes people peppy.
+  generation: 2
+  battlerPlayerX: -3
+  battlerPlayerY: 0
+  battlerEnemyX: 1
+  battlerEnemyY: 12
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: c43589d8c8712d04fb350bc1fe41873d, type: 2}
+    method: 0
+    level: 32
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

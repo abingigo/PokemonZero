@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: CLAUNCHER
+  m_EditorClassIdentifier: 
+  number: 692
+  Name: Clauncher
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 32000000350000003e0000002c0000003a0000003f000000
+  genderRate: 3
+  growthRate: 2
+  baseExp: 66
+  effortPoints: 000000000000000000000000000000000100000000000000
+  rareness: 225
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: f01fd54f6bf4e3d4cba8edd9a5512028, type: 2}
+  hiddenAbility: {fileID: 0}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 37622ea7f9398554b80f80ebfb716c1f, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: dcb37f2d91aa3774381fdc221421d83f, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: 065a9272a8f9dec43a89efd38f05232b, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: b6f8ecce0a4b7c34b8165ed8f991b052, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: 31cd901174c35b7499736b0130c884ff, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - level: 30
+    move: {fileID: 11400000, guid: 2f28a610d33ccc1488c1a8339be6435b, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - level: 39
+    move: {fileID: 11400000, guid: 54c6a585cc9d2c949835dc8290b02756, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: 99159734f75edf74390333eaf88eb597, type: 2}
+  - level: 48
+    move: {fileID: 11400000, guid: f72dd514f515f3d49ab66af3d5d59fb1, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 789a8466f214038449da73f2897f0af6, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 458fbbf5b7fce0b438d246d874bf6b6c, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - {fileID: 11400000, guid: b546fae3659fc83479a2016cdb7414f0, type: 2}
+  - {fileID: 11400000, guid: 54c6a585cc9d2c949835dc8290b02756, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: b9742506f00fa4b4da007df424cc6105, type: 2}
+  - {fileID: 11400000, guid: bd402d81b9ec7fb4b9c815d68553d80a, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 99159734f75edf74390333eaf88eb597, type: 2}
+  - {fileID: 11400000, guid: 2f28a610d33ccc1488c1a8339be6435b, type: 2}
+  - {fileID: 11400000, guid: 738fa855cd84d4e4dbb23c60d94aafdc, type: 2}
+  - {fileID: 11400000, guid: 5634fa46ba93d1f428d31ce08733b979, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  compatibility: 0100000008000000
+  stepsToHatch: 3840
+  height: 0.5
+  weight: 8.3
+  color: 1
+  shape: 13
+  habitat: 0
+  kind: Water Gun
+  pokedex: Through controlled expulsions of internal gas, it can expel water like
+    a pistol shot. At close distances, it can shatter rock.
+  generation: 6
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: cd2467a056bbc0a47b4a6d9b6a7efcaf, type: 2}
+    method: 0
+    level: 37
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

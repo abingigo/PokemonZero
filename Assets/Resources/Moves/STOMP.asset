@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: STOMP
+  m_EditorClassIdentifier: 
+  idNumber: 381
+  Name: Stomp
+  functionCode: 010
+  basePower: 65
+  type: {fileID: 11400000, guid: 3750903d3d7725249ad58f780b7502dd, type: 2}
+  damageCategory: 0
+  accuracy: 100
+  totalPP: 20
+  additionalEffectChance: 30
+  target: 10
+  priority: 0
+  flags: abe
+  description: The target is stomped with a big foot. It may also make the target
+    flinch.

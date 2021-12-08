@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: DUALCHOP
+  m_EditorClassIdentifier: 
+  idNumber: 77
+  Name: Dual Chop
+  functionCode: 0BD
+  basePower: 40
+  type: {fileID: 11400000, guid: 4e61585cd9c553744b9f3f346ca3f698, type: 2}
+  damageCategory: 0
+  accuracy: 90
+  totalPP: 15
+  additionalEffectChance: 0
+  target: 10
+  priority: 0
+  flags: abef
+  description: The user attacks its target by hitting it with brutal strikes. The
+    target is hit twice in a row.

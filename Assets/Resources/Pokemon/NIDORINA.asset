@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: NIDORINA
+  m_EditorClassIdentifier: 
+  number: 30
+  Name: Nidorina
+  type1: {fileID: 11400000, guid: 5102592db4d3c0b42afdfffb099d366a, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 460000003e00000043000000380000003700000037000000
+  genderRate: 6
+  growthRate: 3
+  baseExp: 128
+  effortPoints: 020000000000000000000000000000000000000000000000
+  rareness: 120
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 4d7ad2eed0417954fab73880567b86d2, type: 2}
+  - {fileID: 11400000, guid: 3e472ae99c1f1c54a898272cd716f402, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 19b5a399683fd184eb044d5168141407, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: d817f7b098346334c8170810787f3d99, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: b79ac1c262e3acd4fb08f83cf361a406, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 1efdeb0e782ab1d48824ee0ea9b9af1b, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: b3c9bbb252a0dd04c806679a4484fe41, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 1757f69826de8ab4daa9133b486186fe, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: c90dbb95069eb5344b363f6e796a64b4, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: dbe84880b586df24690639118cad2148, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - level: 35
+    move: {fileID: 11400000, guid: 8d0cfd758c0a12741862583221ac189f, type: 2}
+  - level: 38
+    move: {fileID: 11400000, guid: b8ce42755fd280e4a9c6ddb75645bc17, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: 9c7782b67bf51b2498f6b476ada6018b, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: 6073eb5a74316f249a7b8618c1be86e7, type: 2}
+  - level: 58
+    move: {fileID: 11400000, guid: e18d6c3fd87e1d8428b8627d1cb9a991, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 179cd32e15381b14caae2dadb65cd4f2, type: 2}
+  - {fileID: 11400000, guid: c63726464bef8424599861c98bdd735b, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6c135a91d8f3313448e55cf4a021c4e8, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7b6308140b7aa4c479f058732f49d9df, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 5f1d27a8a5f42ca4394f16600b30a724, type: 2}
+  - {fileID: 11400000, guid: 58f75b111cb59134b8ceb985038384d0, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: bd402d81b9ec7fb4b9c815d68553d80a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves: []
+  compatibility: 0000000004000000
+  stepsToHatch: 5120
+  height: 0.8
+  weight: 20
+  color: 1
+  shape: 7
+  habitat: 3
+  kind: Poison Pin
+  pokedex: When it is with its friends or family, its barbs are tucked away to prevent
+    injury. It appears to become nervous if separated from the others.
+  generation: 1
+  battlerPlayerX: 3
+  battlerPlayerY: 0
+  battlerEnemyX: -2
+  battlerEnemyY: 17
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 9a18b97dc6e17d1459501522083e7619, type: 2}
+    method: 18
+    level: 0
+    item: {fileID: 11400000, guid: ed92b10f239b9a54d87440a1e758eeed, type: 2}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

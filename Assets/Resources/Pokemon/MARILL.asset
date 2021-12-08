@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: MARILL
+  m_EditorClassIdentifier: 
+  number: 183
+  Name: Marill
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 11400000, guid: b3489cc7b8bc2d040b26eca2a4bab2e8, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 460000001400000032000000280000001400000032000000
+  genderRate: 3
+  growthRate: 0
+  baseExp: 88
+  effortPoints: 020000000000000000000000000000000000000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 13b0b07ff49eed8469906b9d781647ff, type: 2}
+  - {fileID: 11400000, guid: 054fa1c3f033ca14c9c5f6ed79cb09f5, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 7fcec49a7a1ca4f46b18ece2a971a688, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 2
+    move: {fileID: 11400000, guid: 1efdeb0e782ab1d48824ee0ea9b9af1b, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 065a9272a8f9dec43a89efd38f05232b, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: f79575eb147536f4789c5fc59768a79e, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: 333b1dab26f34474da982bd470e88fbe, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 31cd901174c35b7499736b0130c884ff, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: 554435b3f466a3a43865cd6a5b82862b, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 1d20ea3d30d25c1488f5fce5d15672b2, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: f24bbeb588f376546a1cbb8b7a168138, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - level: 47
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - {fileID: 11400000, guid: 6ec3d2102029ca24ebdadbd203e9c84a, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 40fbbd79ee7a5af479241996d7409199, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 79ef5d2057a04374d9011be53be140c5, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: f90fd8421ff52154f8e46e1f29743ebd, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 6cffc9749a4de3940b592945eb3edac1, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 126f0e41550985d4eb37ea7da88bfe90, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 0af16b8261dbfb44ea6bcafb878e2ba0, type: 2}
+  - {fileID: 11400000, guid: 99159734f75edf74390333eaf88eb597, type: 2}
+  - {fileID: 11400000, guid: ed14636f70b6b6c49a20cc400c4c64b4, type: 2}
+  - {fileID: 11400000, guid: 04afededd239f5b42b8afa2b1f9a2fd7, type: 2}
+  - {fileID: 11400000, guid: d7335704a1c02c74192853ef1b46ee61, type: 2}
+  - {fileID: 11400000, guid: a63413e5543eec1468d9ac24fdf3f7ca, type: 2}
+  - {fileID: 11400000, guid: f72dd514f515f3d49ab66af3d5d59fb1, type: 2}
+  - {fileID: 11400000, guid: 4374999d9ab487b4fa2f44799b0ce1af, type: 2}
+  - {fileID: 11400000, guid: c7b943972ef69774fad65ab91c3135fd, type: 2}
+  - {fileID: 11400000, guid: 71d72a96d26088946b3f7379d591b3e6, type: 2}
+  - {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - {fileID: 11400000, guid: a29f3881c9dfbf74f9f4f820851f0df1, type: 2}
+  - {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  compatibility: 0100000005000000
+  stepsToHatch: 2560
+  height: 0.4
+  weight: 8.5
+  color: 1
+  shape: 5
+  habitat: 9
+  kind: Aqua Mouse
+  pokedex: Its body is covered with water-repellent fur. Because of the fur, it can
+    swim through water at high speed without being slowed by the water's resistance.
+  generation: 2
+  battlerPlayerX: -2
+  battlerPlayerY: 0
+  battlerEnemyX: 6
+  battlerEnemyY: 24
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 5bbc122b0d60cec4eabee2898ae5b465, type: 2}
+    method: 0
+    level: 18
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

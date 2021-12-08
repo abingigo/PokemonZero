@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ac059f817d70a4daf2498ac18cfefc, type: 3}
+  m_Name: TM72
+  m_EditorClassIdentifier: 
+  number: 359
+  Name: TM72
+  pluralName: TM72s
+  pocket: 4
+  price: 10000
+  description: "After making its attack, the user rushes back to switch places with
+    a party Pok\xE9mon in waiting."
+  useOutsideBattle: 3
+  useInBattle: 0
+  specialItem: 0
+  move: {fileID: 11400000, guid: bfaf13c092c6bfd4eb64e9f5057ddc97, type: 2}

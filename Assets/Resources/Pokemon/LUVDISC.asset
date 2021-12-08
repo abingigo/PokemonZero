@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: LUVDISC
+  m_EditorClassIdentifier: 
+  number: 370
+  Name: Luvdisc
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2b0000001e00000037000000610000002800000041000000
+  genderRate: 4
+  growthRate: 0
+  baseExp: 116
+  effortPoints: 000000000000000000000000010000000000000000000000
+  rareness: 225
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: e92567c2836b1c84b8b37b4695ef77b2, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 050f5cb50c5fec94fb0c4f5d1ef5a013, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 985c5060330fe7748aa15dcc6f6703b1, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 3dd5e868366405443b1d5b874bc91dcd, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: c4b7b5b1672b0dc4695ac27763124f32, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 3f7124b4c25d45c46a0ef52b7661a012, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: e19c63f309986cb449f9b6fdd435c941, type: 2}
+  - level: 26
+    move: {fileID: 11400000, guid: b6f8ecce0a4b7c34b8165ed8f991b052, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: ce0ab9af87f410b468eca0648f0eea67, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: cf5709cdc680e934d8a98c1e5f5b284a, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 6073eb5a74316f249a7b8618c1be86e7, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 1d20ea3d30d25c1488f5fce5d15672b2, type: 2}
+  - level: 42
+    move: {fileID: 11400000, guid: 4c1e55f71c035094e8088fc93ed02b3a, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 582807179e5367949b0161f84840f198, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 99159734f75edf74390333eaf88eb597, type: 2}
+  - {fileID: 11400000, guid: 1d20ea3d30d25c1488f5fce5d15672b2, type: 2}
+  - {fileID: 11400000, guid: 3eb9c09d88e1bb3488eb6b07296ac81f, type: 2}
+  - {fileID: 11400000, guid: 6073eb5a74316f249a7b8618c1be86e7, type: 2}
+  - {fileID: 11400000, guid: 5634fa46ba93d1f428d31ce08733b979, type: 2}
+  - {fileID: 11400000, guid: 8905feb5de71a3b4da50e60245081f42, type: 2}
+  - {fileID: 11400000, guid: 113ce8f88d1d9fa4dbbae11f08c09615, type: 2}
+  - {fileID: 11400000, guid: 37622ea7f9398554b80f80ebfb716c1f, type: 2}
+  - {fileID: 11400000, guid: a29f3881c9dfbf74f9f4f820851f0df1, type: 2}
+  - {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  compatibility: 0b000000
+  stepsToHatch: 5120
+  height: 0.6
+  weight: 8.7
+  color: 5
+  shape: 2
+  habitat: 7
+  kind: Rendezvous
+  pokedex: Luvdisc make the branches of Corsola their nests. There is a custom from
+    long ago of giving a Luvdisc as a gift to express one's feelings of love.
+  generation: 3
+  battlerPlayerX: -3
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods: []

@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: CRYOGONAL
+  m_EditorClassIdentifier: 
+  number: 615
+  Name: Cryogonal
+  type1: {fileID: 11400000, guid: 23a8fdf4bf4b5794888980c1e2d1c640, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 500000003200000032000000690000005f00000087000000
+  genderRate: 7
+  growthRate: 1
+  baseExp: 180
+  effortPoints: 000000000000000000000000000000000000000002000000
+  rareness: 25
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: eb6d57fd874c5284085b22361ab0b6f3, type: 2}
+  hiddenAbility: {fileID: 0}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 115a2def0f784b84ea5aced748fea9ac, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: e4e0b35a14a5e3246bdc055865844271, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 5f7ef4ab7c1764a468af1bbcd8d06db7, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 7651ecf01002fca41950c4dd828a1539, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 8cd4e4b5ec136e742804bbbdbeb78b41, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 512f3cb23729717469b1a54f8bfd333f, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: fd2c71a29ef42a644b458ddff2bbd936, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: e25ff55c0d294c2479ccdf2b96504041, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 4673ead0fa757164b85ae30ec04d84de, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: b4614e59b39a4ca4c9dced24c26d9084, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: 68821e874d752894aa4caa0f6a7edd76, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 4623db742ce813c40b66559b1fdb9f71, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: e8d8900a9734faa4d9d4f06cdbc2fa32, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: a1a2da6755fc63e4484eea6662220f34, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: b3ee404298882214396bbaf6db3f0f9d, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: e4e0b35a14a5e3246bdc055865844271, type: 2}
+  - level: 57
+    move: {fileID: 11400000, guid: 115a2def0f784b84ea5aced748fea9ac, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 5c89504bf20b1d247ba8fdf8824e4fa4, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: aed73158441f9864f927a1fa407055f2, type: 2}
+  - {fileID: 11400000, guid: 5f7ef4ab7c1764a468af1bbcd8d06db7, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4cb536fcd53ee2e46bd8bb8506547cfe, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8a4fe52ebc88d9d4a916b5935f1daaa1, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 458fbbf5b7fce0b438d246d874bf6b6c, type: 2}
+  - {fileID: 11400000, guid: 507ed77e41a902145a7f236d9030b194, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: e2098cbc6810b20418d18d7624720cb0, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 7c394a35fe67307408a52fbf5519958c, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves: []
+  compatibility: 09000000
+  stepsToHatch: 6400
+  height: 1.1
+  weight: 148
+  color: 1
+  shape: 0
+  habitat: 0
+  kind: Crystallizing
+  pokedex: They are born in snow clouds. They use chains made of ice crystals to
+    capture prey.
+  generation: 5
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 8
+  battlerShadowX: 0
+  battlerShadowSize: 3
+  evolveMethods: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: THOUSANDARROWS
+  m_EditorClassIdentifier: 
+  idNumber: 299
+  Name: Thousand Arrows
+  functionCode: 11C
+  basePower: 90
+  type: {fileID: 11400000, guid: b642020f54f7aa54f8c36480f251cd46, type: 2}
+  damageCategory: 0
+  accuracy: 100
+  totalPP: 10
+  additionalEffectChance: 0
+  target: 6
+  priority: 0
+  flags: bef
+  description: "This move also hits Pok\xE9mon that are in the air. Those Pok\xE9mon
+    are knocked down to the ground."

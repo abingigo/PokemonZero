@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: DITTO
+  m_EditorClassIdentifier: 
+  number: 132
+  Name: Ditto
+  type1: {fileID: 11400000, guid: 3750903d3d7725249ad58f780b7502dd, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 300000003000000030000000300000003000000030000000
+  genderRate: 7
+  growthRate: 1
+  baseExp: 101
+  effortPoints: 010000000000000000000000000000000000000000000000
+  rareness: 35
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 09799517708eb7a4b98b31839e540a3a, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: b18aff8bcf56c324da6ad6fa00ce533d, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 9da27bce46bf0984e830580ec3d48a1f, type: 2}
+  tutorMoves: []
+  eggMoves: []
+  compatibility: 0c000000
+  stepsToHatch: 5120
+  height: 0.3
+  weight: 4
+  color: 6
+  shape: 0
+  habitat: 8
+  kind: Transform
+  pokedex: A Ditto rearranges its cell structure to transform itself. However, if
+    it tries to change based on its memory, it will get details wrong.
+  generation: 1
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 29
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

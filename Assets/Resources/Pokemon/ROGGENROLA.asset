@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: ROGGENROLA
+  m_EditorClassIdentifier: 
+  number: 524
+  Name: Roggenrola
+  type1: {fileID: 11400000, guid: dc478ca038608c84991d8c006976a542, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 370000004b000000550000000f0000001900000019000000
+  genderRate: 3
+  growthRate: 3
+  baseExp: 56
+  effortPoints: 000000000000000001000000000000000000000000000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 65970b4ce35b9324994d9f1f71c32294, type: 2}
+  - {fileID: 11400000, guid: 4759e45ce40c1b245a01f60903ec7191, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0428fa1467bf4fd43b7692480997770d, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 5e5344d5440911e4ba158895f43227a6, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: 9f67b9857b245ed4bac66a6106ea78b1, type: 2}
+  - level: 14
+    move: {fileID: 11400000, guid: e1f0ca606b269274086ab049a2660bd2, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: c57fa1a0d8831a24291988209e123312, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: 54c6a585cc9d2c949835dc8290b02756, type: 2}
+  - level: 27
+    move: {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - level: 30
+    move: {fileID: 11400000, guid: 432ee9b7101e395418fc5c83dc8529f6, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: 56534d553ac7fa540a2e7b7391866455, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: d5600cf1508bd1e43bc6f8084d882233, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 8a4fe52ebc88d9d4a916b5935f1daaa1, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 7c2c09fa9827001499e2e668ff740de8, type: 2}
+  - {fileID: 11400000, guid: 7399e032a4d3e9943a28edc51d1ce9f3, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - {fileID: 11400000, guid: 805ff6ccc75ec21418c31f068ebe4019, type: 2}
+  - {fileID: 11400000, guid: 8a4fe52ebc88d9d4a916b5935f1daaa1, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 458fbbf5b7fce0b438d246d874bf6b6c, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 6c990fbefc91eaf40b66f88cd4d325a9, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: fa0d99b3d1d2f68478ffb324c4fb5899, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 56534d553ac7fa540a2e7b7391866455, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 54c6a585cc9d2c949835dc8290b02756, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 432ee9b7101e395418fc5c83dc8529f6, type: 2}
+  - {fileID: 11400000, guid: d5600cf1508bd1e43bc6f8084d882233, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 8dc7e2bc39c1345489a560f55c70b299, type: 2}
+  - {fileID: 11400000, guid: 6422ab59df246034887e3bf5f3271ad7, type: 2}
+  - {fileID: 11400000, guid: 6c990fbefc91eaf40b66f88cd4d325a9, type: 2}
+  - {fileID: 11400000, guid: 61b00c2cf2065fc448d2b67a8786be9e, type: 2}
+  - {fileID: 11400000, guid: ae7d505d7f57df34e9f3914d23df4d30, type: 2}
+  - {fileID: 11400000, guid: a8402c580c94af74db508ad511272011, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: cf5709cdc680e934d8a98c1e5f5b284a, type: 2}
+  - {fileID: 11400000, guid: 5fa95a0fa3789854e8ab81a22ced799f, type: 2}
+  compatibility: 09000000
+  stepsToHatch: 3840
+  height: 0.4
+  weight: 18
+  color: 1
+  shape: 6
+  habitat: 0
+  kind: Mantle
+  pokedex: They were discovered a hundred years ago in an earthquake fissure. Inside
+    each one is an energy core.
+  generation: 5
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 31
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 4d155d2354ff85f4ba553c56abfcc563, type: 2}
+    method: 0
+    level: 25
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

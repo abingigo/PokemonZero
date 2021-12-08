@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: TRUBBISH
+  m_EditorClassIdentifier: 
+  number: 568
+  Name: Trubbish
+  type1: {fileID: 11400000, guid: 5102592db4d3c0b42afdfffb099d366a, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 32000000320000003e00000041000000280000003e000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 66
+  effortPoints: 000000000000000000000000010000000000000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 79e9e7ee89226df449a9cc55711fbcf8, type: 2}
+  - {fileID: 11400000, guid: 1f877222fed2bcf47b930dd87856856e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9b866be21bb7b7c4d9f37f31480c3fe0, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: eadb1a7953d0bf148ac271c6aeb6bd59, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 1b45286570148a44fafe4aed8f20c1dc, type: 2}
+  - level: 3
+    move: {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 8d0cfd758c0a12741862583221ac189f, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: adccc31b9f635694eaf2a8101d098ce5, type: 2}
+  - level: 14
+    move: {fileID: 11400000, guid: a480599ae86e3ae4daea75a029fb361a, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: 1e83b7e1983ca434a823d071f1e54bef, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: b45569434c13d4d468e9e7eaf4fef9c7, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: d85184a28d0a2114b9f27b30d3f48872, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: cf5709cdc680e934d8a98c1e5f5b284a, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: f75feb7a85018f944a710bea445c319a, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 0af16b8261dbfb44ea6bcafb878e2ba0, type: 2}
+  - level: 42
+    move: {fileID: 11400000, guid: 5d7d94dbbd0a4704da6a9cf8bc48718b, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: 3d9bca32e18e01148bc971b5ef3eaf15, type: 2}
+  - level: 47
+    move: {fileID: 11400000, guid: 8a4fe52ebc88d9d4a916b5935f1daaa1, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 727fe08606774df45923617d3fe24a17, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 4d665b10aeca102439012c33d58ba434, type: 2}
+  - {fileID: 11400000, guid: 8a4fe52ebc88d9d4a916b5935f1daaa1, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 3d9bca32e18e01148bc971b5ef3eaf15, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 01db128e98c41fa49adf2d0c934ddaed, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - {fileID: 11400000, guid: b546fae3659fc83479a2016cdb7414f0, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: bd402d81b9ec7fb4b9c815d68553d80a, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 8dc7e2bc39c1345489a560f55c70b299, type: 2}
+  - {fileID: 11400000, guid: 6422ab59df246034887e3bf5f3271ad7, type: 2}
+  - {fileID: 11400000, guid: e25ff55c0d294c2479ccdf2b96504041, type: 2}
+  - {fileID: 11400000, guid: 113ce8f88d1d9fa4dbbae11f08c09615, type: 2}
+  - {fileID: 11400000, guid: e1f0ca606b269274086ab049a2660bd2, type: 2}
+  - {fileID: 11400000, guid: 333b1dab26f34474da982bd470e88fbe, type: 2}
+  - {fileID: 11400000, guid: 5e5344d5440911e4ba158895f43227a6, type: 2}
+  - {fileID: 11400000, guid: eef45644292232d43beee18cbf72df99, type: 2}
+  - {fileID: 11400000, guid: a8c68243bddfc2f43ba405bbc9dc8bf5, type: 2}
+  compatibility: 09000000
+  stepsToHatch: 5120
+  height: 0.6
+  weight: 31
+  color: 4
+  shape: 11
+  habitat: 0
+  kind: Trash Bag
+  pokedex: "The combination of garbage bags and industrial waste caused the chemical
+    reaction that crated this Pok\xE9mon."
+  generation: 5
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: 4
+  battlerEnemyY: 31
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: b7fa1cf36dcadd84985af17e80bc2836, type: 2}
+    method: 0
+    level: 36
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

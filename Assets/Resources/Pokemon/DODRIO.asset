@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: DODRIO
+  m_EditorClassIdentifier: 
+  number: 85
+  Name: Dodrio
+  type1: {fileID: 11400000, guid: 3750903d3d7725249ad58f780b7502dd, type: 2}
+  type2: {fileID: 11400000, guid: fd89ade6501c04947b8989c64a15f08d, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 3c0000006e000000460000006e0000003c0000003c000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 165
+  effortPoints: 000000000200000000000000000000000000000000000000
+  rareness: 45
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 5fe94f591f01c2d4c951fd8dcee96e6b, type: 2}
+  - {fileID: 11400000, guid: a9a2e1f9016b7ec4d9a1b95b2a546139, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 8b985967b6ec4d1449537826b288cd51, type: 2}
+  moveset:
+  - level: 0
+    move: {fileID: 11400000, guid: 17e256bf11ae1db4397a58215cb4a977, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 17e256bf11ae1db4397a58215cb4a977, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 5ffe045b5d1284540aa5b4a3856f52c7, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: d817f7b098346334c8170810787f3d99, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: f32eba0f01b00104692cce0fe7d7e48b, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: e8c50a10b6f515147aeedb471d0509ce, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: f32eba0f01b00104692cce0fe7d7e48b, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: e8c50a10b6f515147aeedb471d0509ce, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: c4e6e4003fcc2804c93b5b00d6c8b5e2, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: 8d578e2297caf9f4fb626cfbf9fac026, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: b27e66c346100724ebb5c8d8c14f792d, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: de85f6f8247ebe94aa3aca055ef5f297, type: 2}
+  - level: 26
+    move: {fileID: 11400000, guid: 3dd5e868366405443b1d5b874bc91dcd, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: 67c72c4794198c846bc46bbaec09aa5f, type: 2}
+  - level: 38
+    move: {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: aa359eee39b55d445afa0f75eca6157b, type: 2}
+  - level: 47
+    move: {fileID: 11400000, guid: 8e110308dd4194b4b82183591a44eb4f, type: 2}
+  - level: 52
+    move: {fileID: 11400000, guid: 4db975a9d34068045952d2600c735b08, type: 2}
+  - level: 56
+    move: {fileID: 11400000, guid: 0fafe7ae6440a1444b55e1cc55763bdd, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 4db975a9d34068045952d2600c735b08, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: e4f9bf53068099f4abf8b90058ec610a, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 0d70e8a21edcaf343a075de71eb9b329, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 799824fbbce844f409ffba256e78b58c, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: b3030af636f24f7438f84ce2b83be711, type: 2}
+  - {fileID: 11400000, guid: 6c135a91d8f3313448e55cf4a021c4e8, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: c0ac7d571a37c9c49820a0bd71db88d2, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  eggMoves: []
+  compatibility: 03000000
+  stepsToHatch: 5120
+  height: 1.8
+  weight: 85.2
+  color: 2
+  shape: 6
+  habitat: 3
+  kind: Triple Bird
+  pokedex: "A peculiar Pok\xE9mon species with three heads. It vigorously races across
+    grassy plains even in arid seasons with little rainfall."
+  generation: 1
+  battlerPlayerX: 8
+  battlerPlayerY: 0
+  battlerEnemyX: -2
+  battlerEnemyY: 4
+  battlerShadowX: 0
+  battlerShadowSize: 3
+  evolveMethods: []

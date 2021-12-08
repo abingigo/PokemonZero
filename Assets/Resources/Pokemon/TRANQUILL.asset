@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: TRANQUILL
+  m_EditorClassIdentifier: 
+  number: 520
+  Name: Tranquill
+  type1: {fileID: 11400000, guid: 3750903d3d7725249ad58f780b7502dd, type: 2}
+  type2: {fileID: 11400000, guid: fd89ade6501c04947b8989c64a15f08d, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 3e0000004d0000003e00000041000000320000002a000000
+  genderRate: 3
+  growthRate: 3
+  baseExp: 125
+  effortPoints: 000000000200000000000000000000000000000000000000
+  rareness: 120
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 630eb5db8f906234da23da360894e163, type: 2}
+  - {fileID: 11400000, guid: bae28843a9f2ad448920a86d43dfb218, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 3e472ae99c1f1c54a898272cd716f402, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: af659a84b314bf84ab2904e0a63cd62c, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: d817f7b098346334c8170810787f3d99, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 25b5fd83f20fb83459585a216540b044, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: f32eba0f01b00104692cce0fe7d7e48b, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: d817f7b098346334c8170810787f3d99, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 25b5fd83f20fb83459585a216540b044, type: 2}
+  - level: 11
+    move: {fileID: 11400000, guid: f32eba0f01b00104692cce0fe7d7e48b, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: 3d8e6e96be7c93c429a9ec2b7db4157b, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: 0d70e8a21edcaf343a075de71eb9b329, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: aee536aef7801c74c87ed6164d806e23, type: 2}
+  - level: 27
+    move: {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: 59aa9115449329543984947b708f01e9, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 1ee5ea6147ae70f468e04c28a76a45b7, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: 48c2f5bbea0fedb43883629b7c64a0d9, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - level: 54
+    move: {fileID: 11400000, guid: f09ad6f831b6e534e8700871dcc55ae2, type: 2}
+  - level: 59
+    move: {fileID: 11400000, guid: 799824fbbce844f409ffba256e78b58c, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4cb536fcd53ee2e46bd8bb8506547cfe, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: e4f9bf53068099f4abf8b90058ec610a, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 54881034344feb4418dcaf079657fccb, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 0d70e8a21edcaf343a075de71eb9b329, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 799824fbbce844f409ffba256e78b58c, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: b3030af636f24f7438f84ce2b83be711, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: f09ad6f831b6e534e8700871dcc55ae2, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - {fileID: 11400000, guid: b9742506f00fa4b4da007df424cc6105, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  eggMoves: []
+  compatibility: 03000000
+  stepsToHatch: 3840
+  height: 0.6
+  weight: 15
+  color: 3
+  shape: 8
+  habitat: 0
+  kind: Wild Pigeon
+  pokedex: Many people believe that, deep in the forest where Tranquill live, there
+    is a peaceful place where there is no war.
+  generation: 5
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 27
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: a0a09cea43e01e64e9fc9fd0a33879f5, type: 2}
+    method: 0
+    level: 32
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

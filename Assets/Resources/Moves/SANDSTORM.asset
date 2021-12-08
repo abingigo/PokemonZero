@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: SANDSTORM
+  m_EditorClassIdentifier: 
+  idNumber: 619
+  Name: Sandstorm
+  functionCode: 101
+  basePower: 0
+  type: {fileID: 11400000, guid: dc478ca038608c84991d8c006976a542, type: 2}
+  damageCategory: 2
+  accuracy: 0
+  totalPP: 10
+  additionalEffectChance: 0
+  target: 16
+  priority: 0
+  flags: 
+  description: Summons a five-turn sandstorm to hurt all combatants except the Rock,
+    Ground, and Steel types.

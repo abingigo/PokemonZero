@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: PYUKUMUKU
+  m_EditorClassIdentifier: 
+  number: 771
+  Name: Pyukumuku
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 370000003c00000082000000050000001e00000082000000
+  genderRate: 3
+  growthRate: 0
+  baseExp: 144
+  effortPoints: 000000000000000000000000000000000000000002000000
+  rareness: 60
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 26f0242e499ffa54b89c33db8ae4436b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: cd020170826a4c446b516bafbeb337fd, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 2929caad807939048922cce4041a0624, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 113ce8f88d1d9fa4dbbae11f08c09615, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: a9a8ab45a6a1f7f488e53c156115b563, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: b67eee1c8ab6b5c48aed137fa0d73aa9, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: 63663d629d2bb2e47ae146027896c73b, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 6422ab59df246034887e3bf5f3271ad7, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: cee3a48ce25cbcd4185543571297d70d, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: a1a2da6755fc63e4484eea6662220f34, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: 4c1e55f71c035094e8088fc93ed02b3a, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: 3ea755ce672a4d14398ac5ea38745ecd, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 7c2c09fa9827001499e2e668ff740de8, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: cee3a48ce25cbcd4185543571297d70d, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: 8fcfabc1eb42f944bb46646212f40965, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 6211e2e3b2c27ce42a5e47e2dd0c3be7, type: 2}
+  - {fileID: 11400000, guid: 738fa855cd84d4e4dbb23c60d94aafdc, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 9fa512b1a1f8b494b8983789a26b78bc, type: 2}
+  - {fileID: 11400000, guid: 6add258d41d590549a140e74f755951c, type: 2}
+  compatibility: 01000000
+  stepsToHatch: 3840
+  height: 0.3
+  weight: 1.2
+  color: 0
+  shape: 1
+  habitat: 0
+  kind: Sea Cucumber
+  pokedex: It lives in shallow seas, such as areas near a beach. It can eject its
+    internal organs, which it uses to engulf its prey or battle enemies.
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: EKANS
+  m_EditorClassIdentifier: 
+  number: 23
+  Name: Ekans
+  type1: {fileID: 11400000, guid: 5102592db4d3c0b42afdfffb099d366a, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 230000003c0000002c000000370000002800000036000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 58
+  effortPoints: 000000000100000000000000000000000000000000000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: a039e4eb826749a4ba367a5fccc4bfc5, type: 2}
+  - {fileID: 11400000, guid: 98337af27b750f14ea025011b4d2c271, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e8b1d2900dcb4b64994ab7026137f568, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: c2648aa6548e8b440ad9d42a75e5da55, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 25b5fd83f20fb83459585a216540b044, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: 1757f69826de8ab4daa9133b486186fe, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: dbe84880b586df24690639118cad2148, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: 06727a2d0318f7a488650aea14546a0d, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: 5242ad80abb2b8440a8b4fcfb6967dbd, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: 72514c2b7c076374583ce1454fe2c414, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: b45569434c13d4d468e9e7eaf4fef9c7, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: d85184a28d0a2114b9f27b30d3f48872, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 6932e8e7ca290aa4681521ccf91cf766, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: adccc31b9f635694eaf2a8101d098ce5, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: b82a85a586c325d4ea66eda1f1627920, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: cee3a48ce25cbcd4185543571297d70d, type: 2}
+  - level: 38
+    move: {fileID: 11400000, guid: 5d7d94dbbd0a4704da6a9cf8bc48718b, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: e25ff55c0d294c2479ccdf2b96504041, type: 2}
+  - level: 44
+    move: {fileID: 11400000, guid: f83d1b06ac479c146867b49f74e549d3, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: 3d9bca32e18e01148bc971b5ef3eaf15, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 5f7ef4ab7c1764a468af1bbcd8d06db7, type: 2}
+  - {fileID: 11400000, guid: 10761d83b52dee44aa829ecbdc1a26c8, type: 2}
+  - {fileID: 11400000, guid: 7399e032a4d3e9943a28edc51d1ce9f3, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 727fe08606774df45923617d3fe24a17, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 805ff6ccc75ec21418c31f068ebe4019, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: cee3a48ce25cbcd4185543571297d70d, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 01db128e98c41fa49adf2d0c934ddaed, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - {fileID: 11400000, guid: b546fae3659fc83479a2016cdb7414f0, type: 2}
+  - {fileID: 11400000, guid: 5226b4fdf01335b4197b5f26597afe97, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: c0ac7d571a37c9c49820a0bd71db88d2, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: bd402d81b9ec7fb4b9c815d68553d80a, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: e9d7d5d7cd33d2b478be8304283a881d, type: 2}
+  - {fileID: 11400000, guid: 20b965bca0968254eb1e252c919029d5, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: e18d6c3fd87e1d8428b8627d1cb9a991, type: 2}
+  - {fileID: 11400000, guid: 1e3bfb6b95690ec479e079404dd02e3f, type: 2}
+  - {fileID: 11400000, guid: 8d578e2297caf9f4fb626cfbf9fac026, type: 2}
+  - {fileID: 11400000, guid: a8a2007764e2af94da3743121f81dcff, type: 2}
+  - {fileID: 11400000, guid: 92e7908853d67f842b6ab26a89f7f9e5, type: 2}
+  - {fileID: 11400000, guid: 5226b4fdf01335b4197b5f26597afe97, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 17dabdf6d7e52ea4b886fe7a7c0d8f7b, type: 2}
+  - {fileID: 11400000, guid: 74376a6bb3cd04e46af0d13d206bfdea, type: 2}
+  compatibility: 040000000d000000
+  stepsToHatch: 5120
+  height: 2
+  weight: 6.9
+  color: 6
+  shape: 1
+  habitat: 3
+  kind: Snake
+  pokedex: An Ekans curls itself up in a spiral while it rests. This position allows
+    it to quickly respond to an enemy from any direction with a threat from its upraised
+    head.
+  generation: 1
+  battlerPlayerX: -3
+  battlerPlayerY: 0
+  battlerEnemyX: 2
+  battlerEnemyY: 24
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: ce9ae801a4a32b04f890a97c379a4bc5, type: 2}
+    method: 0
+    level: 22
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: PHANTUMP
+  m_EditorClassIdentifier: 
+  number: 708
+  Name: Phantump
+  type1: {fileID: 11400000, guid: 0efe27d07494a9b41a9179f76fa88737, type: 2}
+  type2: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2b000000460000003000000026000000320000003c000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 62
+  effortPoints: 000000000100000000000000000000000000000000000000
+  rareness: 120
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: f65d9efa2c4a2e64a945aedc2a6486b0, type: 2}
+  - {fileID: 11400000, guid: a52418544e0bd384dad2d67005d7c378, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 4d365a8610c182044b13d2b3f4d82e99, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: e8d8900a9734faa4d9d4f06cdbc2fa32, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: 5e7d8a00c31c9dc43a8e45752b1784e7, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 95bae70b03ec1cb46a7f49da4440ec70, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 4fd478406f5381d43b03cfa9a5161ed3, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: a48be0dd24ebfbb4ebf688813d41523f, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: 6499b12852cc6a549a8f291384179a3e, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 6422ab59df246034887e3bf5f3271ad7, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: 9f04dce678f5271478bf3435724d13a8, type: 2}
+  - level: 35
+    move: {fileID: 11400000, guid: 4cdaeb67dbd7e7240ab363d48c1953dc, type: 2}
+  - level: 39
+    move: {fileID: 11400000, guid: 7b723c79b6e762d46b8ad034facbc195, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: b1e8890c23926bf478034b426a754f1c, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: 20f54130706c0ea4d8a26bdca7fe5a88, type: 2}
+  - level: 54
+    move: {fileID: 11400000, guid: e1e328c4dcf158e4d95fc832f489b135, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 7b21df2f9d5a04a4db6a7e07908156ac, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 7399e032a4d3e9943a28edc51d1ce9f3, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: 727fe08606774df45923617d3fe24a17, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: ac5e69f887e997c4a9f80e4d1759e9ca, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 5b41405c20a7e904a98275b948378085, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 7c394a35fe67307408a52fbf5519958c, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 88111c7e31a1cef4ea67663cdc386ed2, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: c6076a2f2b3a0ec4e84c1eb56c0412e7, type: 2}
+  - {fileID: 11400000, guid: 179cd32e15381b14caae2dadb65cd4f2, type: 2}
+  - {fileID: 11400000, guid: 0acc358555bac0445b70fea0bbbaa347, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 904eac28bab37c940b5d903e10fbcc52, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 5666e150a4f5ef94a9f697162a2feb59, type: 2}
+  - {fileID: 11400000, guid: 174ab769d1291824abe970785700d33b, type: 2}
+  - {fileID: 11400000, guid: 9f04dce678f5271478bf3435724d13a8, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 6211e2e3b2c27ce42a5e47e2dd0c3be7, type: 2}
+  - {fileID: 11400000, guid: 3b8862e383eaa7043b572299d7034197, type: 2}
+  - {fileID: 11400000, guid: 5ddc1d6f4cef3aa4bbb7050e3df96243, type: 2}
+  - {fileID: 11400000, guid: 126f0e41550985d4eb37ea7da88bfe90, type: 2}
+  - {fileID: 11400000, guid: 6add258d41d590549a140e74f755951c, type: 2}
+  compatibility: 060000000a000000
+  stepsToHatch: 5120
+  height: 0.4
+  weight: 7
+  color: 2
+  shape: 3
+  habitat: 0
+  kind: Stump
+  pokedex: "These Pok\xE9mon are stumps possessed by the spirits of children who
+    died in the forest. Their cries sound like eerie screams."
+  generation: 6
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 54725bd72057fc94baac8498d545567a, type: 2}
+    method: 0
+    level: 38
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

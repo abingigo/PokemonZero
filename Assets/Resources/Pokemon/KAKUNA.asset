@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: KAKUNA
+  m_EditorClassIdentifier: 
+  number: 14
+  Name: Kakuna
+  type1: {fileID: 11400000, guid: f8100491677cb204e81f57dc7c8839bb, type: 2}
+  type2: {fileID: 11400000, guid: 5102592db4d3c0b42afdfffb099d366a, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2d0000001900000032000000230000001900000019000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 72
+  effortPoints: 000000000000000002000000000000000000000000000000
+  rareness: 120
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 98337af27b750f14ea025011b4d2c271, type: 2}
+  hiddenAbility: {fileID: 0}
+  moveset:
+  - level: 0
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  - {fileID: 11400000, guid: 5e608745621bd7d428d5bd93df8aabb7, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  eggMoves: []
+  compatibility: 02000000
+  stepsToHatch: 3840
+  height: 0.6
+  weight: 10
+  color: 9
+  shape: 1
+  habitat: 2
+  kind: Cocoon
+  pokedex: It remains virtually immobile while it clings to a tree. However, on the
+    inside, it busily prepares for evolution. This is evident from how hot its shell
+    becomes.
+  generation: 1
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 22
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: a4746e645d7614844af5f1d1d0da6e73, type: 2}
+    method: 0
+    level: 10
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

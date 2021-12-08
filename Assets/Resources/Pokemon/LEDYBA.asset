@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: LEDYBA
+  m_EditorClassIdentifier: 
+  number: 165
+  Name: Ledyba
+  type1: {fileID: 11400000, guid: f8100491677cb204e81f57dc7c8839bb, type: 2}
+  type2: {fileID: 11400000, guid: fd89ade6501c04947b8989c64a15f08d, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 28000000140000001e000000370000002800000050000000
+  genderRate: 3
+  growthRate: 0
+  baseExp: 53
+  effortPoints: 000000000000000000000000000000000000000001000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: cf06fa2fc241a8143bb7e3a0b7d6e82a, type: 2}
+  - {fileID: 11400000, guid: a9a2e1f9016b7ec4d9a1b95b2a546139, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 187b42ce68119eb4993809176dd725ea, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: a29f3881c9dfbf74f9f4f820851f0df1, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 8c18b0924f6ad4d4783f67f89ec43d08, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: 0da93def9f54ea74e9f7f9ad1fc8e1d1, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: 4e58f42b52291b24fb087de463acdc4e, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: 4104ea6bd070dfb4ab10f6fcdc022e6e, type: 2}
+  - level: 26
+    move: {fileID: 11400000, guid: 2929caad807939048922cce4041a0624, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 3dd5e868366405443b1d5b874bc91dcd, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: 02dbfd14d3465984d84282f535c47c88, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 59aa9115449329543984947b708f01e9, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: f24bbeb588f376546a1cbb8b7a168138, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 5c89504bf20b1d247ba8fdf8824e4fa4, type: 2}
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 6ec3d2102029ca24ebdadbd203e9c84a, type: 2}
+  - {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 4d665b10aeca102439012c33d58ba434, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 79ef5d2057a04374d9011be53be140c5, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 6cffc9749a4de3940b592945eb3edac1, type: 2}
+  - {fileID: 11400000, guid: 01db128e98c41fa49adf2d0c934ddaed, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 126f0e41550985d4eb37ea7da88bfe90, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 0d70e8a21edcaf343a075de71eb9b329, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: e9ac4341e5da65c44bf4c042572f3608, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: f09ad6f831b6e534e8700871dcc55ae2, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: bbe20c1c35364c441a73967fbca9302a, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - {fileID: 11400000, guid: b9742506f00fa4b4da007df424cc6105, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: a9a8ab45a6a1f7f488e53c156115b563, type: 2}
+  - {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  - {fileID: 11400000, guid: 02dbfd14d3465984d84282f535c47c88, type: 2}
+  - {fileID: 11400000, guid: b67eee1c8ab6b5c48aed137fa0d73aa9, type: 2}
+  - {fileID: 11400000, guid: e15d1e2fd89fb9f48994d275c65484ae, type: 2}
+  - {fileID: 11400000, guid: 4d665b10aeca102439012c33d58ba434, type: 2}
+  - {fileID: 11400000, guid: 59d966f58a2f5704a859ee4d87a1a349, type: 2}
+  - {fileID: 11400000, guid: 738fa855cd84d4e4dbb23c60d94aafdc, type: 2}
+  - {fileID: 11400000, guid: 79ef5d2057a04374d9011be53be140c5, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: 352468116a4160a49b40a5545e4c1762, type: 2}
+  - {fileID: 11400000, guid: 5242ad80abb2b8440a8b4fcfb6967dbd, type: 2}
+  - {fileID: 11400000, guid: 4e58f42b52291b24fb087de463acdc4e, type: 2}
+  - {fileID: 11400000, guid: f09ad6f831b6e534e8700871dcc55ae2, type: 2}
+  compatibility: 02000000
+  stepsToHatch: 3840
+  height: 1
+  weight: 10.8
+  color: 7
+  shape: 8
+  habitat: 2
+  kind: Five Star
+  pokedex: Ledyba communicate using a fluid that they secrete from where the legs
+    join the body. They are said to convey feelings to others by altering the fluid's
+    scent.
+  generation: 2
+  battlerPlayerX: 4
+  battlerPlayerY: 0
+  battlerEnemyX: -1
+  battlerEnemyY: 16
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 4b2b9d97e09c9e844a58ede61a995883, type: 2}
+    method: 0
+    level: 18
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

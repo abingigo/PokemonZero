@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: WIMPOD
+  m_EditorClassIdentifier: 
+  number: 767
+  Name: Wimpod
+  type1: {fileID: 11400000, guid: f8100491677cb204e81f57dc7c8839bb, type: 2}
+  type2: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 19000000230000002800000050000000140000001e000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 46
+  effortPoints: 000000000000000000000000010000000000000000000000
+  rareness: 90
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: b9df7f9969392384989bf22e58be8282, type: 2}
+  hiddenAbility: {fileID: 0}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: e9ac4341e5da65c44bf4c042572f3608, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 5e5344d5440911e4ba158895f43227a6, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: b725cb5730e1d7447ac0616f2d43d79e, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 99159734f75edf74390333eaf88eb597, type: 2}
+  - {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - {fileID: 11400000, guid: c160776c36cd775448192a82a2175dfd, type: 2}
+  - {fileID: 11400000, guid: a8c68243bddfc2f43ba405bbc9dc8bf5, type: 2}
+  - {fileID: 11400000, guid: 5fa95a0fa3789854e8ab81a22ced799f, type: 2}
+  compatibility: 0200000008000000
+  stepsToHatch: 5120
+  height: 0.5
+  weight: 12
+  color: 3
+  shape: 9
+  habitat: 0
+  kind: Turn Tail
+  pokedex: "This Pok\xE9mon is a coward. As it desperately dashes off, the flailing
+    of its many legs leaves a sparkling clean path in its wake."
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 9300df4670cd61745b7920577dd077a7, type: 2}
+    method: 0
+    level: 30
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

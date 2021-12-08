@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: PSYDUCK
+  m_EditorClassIdentifier: 
+  number: 54
+  Name: Psyduck
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 320000003400000030000000370000004100000032000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 64
+  effortPoints: 000000000000000000000000000000000100000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 4fb0caafa4079b34ca7c4b2c88dbd483, type: 2}
+  - {fileID: 11400000, guid: a6970edffffa818429533945034e2e2d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e92567c2836b1c84b8b37b4695ef77b2, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: b79ac1c262e3acd4fb08f83cf361a406, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: 1efdeb0e782ab1d48824ee0ea9b9af1b, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: 55625fd82e590e74c9dcac6cdfc888c9, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: c90dbb95069eb5344b363f6e796a64b4, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: 20b965bca0968254eb1e252c919029d5, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: 5242ad80abb2b8440a8b4fcfb6967dbd, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: 4c1e55f71c035094e8088fc93ed02b3a, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 0af16b8261dbfb44ea6bcafb878e2ba0, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: 14be1c7337eecda4d9e831b35afab4b6, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 6ec3d2102029ca24ebdadbd203e9c84a, type: 2}
+  - {fileID: 11400000, guid: 71a954b50e95c03418b9e6232e02619a, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 79ef5d2057a04374d9011be53be140c5, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 6cffc9749a4de3940b592945eb3edac1, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 126f0e41550985d4eb37ea7da88bfe90, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: 2267163dd3fd6694bab61af3ea58e725, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 88111c7e31a1cef4ea67663cdc386ed2, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 179cd32e15381b14caae2dadb65cd4f2, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 904eac28bab37c940b5d903e10fbcc52, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - {fileID: 11400000, guid: 14be1c7337eecda4d9e831b35afab4b6, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  - {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: f75feb7a85018f944a710bea445c319a, type: 2}
+  - {fileID: 11400000, guid: e8d8900a9734faa4d9d4f06cdbc2fa32, type: 2}
+  - {fileID: 11400000, guid: f5d208df7014d8e428ba0fd60ae3c625, type: 2}
+  - {fileID: 11400000, guid: 59d966f58a2f5704a859ee4d87a1a349, type: 2}
+  - {fileID: 11400000, guid: 7baeb4dcdea60074599d4d9340b2f803, type: 2}
+  - {fileID: 11400000, guid: a63413e5543eec1468d9ac24fdf3f7ca, type: 2}
+  - {fileID: 11400000, guid: bfc9389e00e8c21438d9d441760574eb, type: 2}
+  - {fileID: 11400000, guid: b82a85a586c325d4ea66eda1f1627920, type: 2}
+  - {fileID: 11400000, guid: 352468116a4160a49b40a5545e4c1762, type: 2}
+  - {fileID: 11400000, guid: 71d72a96d26088946b3f7379d591b3e6, type: 2}
+  - {fileID: 11400000, guid: 6e107f7131ba6544ebf9107de6173d4a, type: 2}
+  - {fileID: 11400000, guid: 82ab9f92625f30d4798af6b6dd1a39b8, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: dcfd46b2aac3fa34cae1ced5e8b8b3e0, type: 2}
+  - {fileID: 11400000, guid: 81884471bce47d74cb5a48d51434d157, type: 2}
+  compatibility: 0100000004000000
+  stepsToHatch: 5120
+  height: 0.8
+  weight: 19.6
+  color: 9
+  shape: 5
+  habitat: 9
+  kind: Duck
+  pokedex: When its headache intensifies, it starts using strange powers. However,
+    it has no recollection of its powers, so it always looks befuddled and bewildered.
+  generation: 1
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 1
+  battlerEnemyY: 20
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: b1c666a539424cf459c675f7da14ec9b, type: 2}
+    method: 0
+    level: 33
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

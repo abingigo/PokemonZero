@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50ecc3cc4a864746972a1bc57416f72, type: 3}
+  m_Name: POISON
+  m_EditorClassIdentifier: 
+  picture: {fileID: 4012688487591821003, guid: 7cd34e1f741d0ae4fad08e494d5eefd7, type: 3}
+  Name: 17
+  weakness:
+  - {fileID: 11400000, guid: afcb29c4aa47d7e44b1909212dbf0758, type: 2}
+  - {fileID: 11400000, guid: b642020f54f7aa54f8c36480f251cd46, type: 2}
+  resistance:
+  - {fileID: 11400000, guid: 324dec365b4d99c4eae61910aa02e62c, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: f8100491677cb204e81f57dc7c8839bb, type: 2}
+  - {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  - {fileID: 11400000, guid: b3489cc7b8bc2d040b26eca2a4bab2e8, type: 2}
+  immunity: []
+  isImmuneToParalysis: 0
+  isImmuneToBurn: 0
+  isImmuneToPoisoning: 1
+  isImmuneToFreezing: 0
+  isPseudoType: 0
+  isSpecialType: 0

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: BELDUM
+  m_EditorClassIdentifier: 
+  number: 374
+  Name: Beldum
+  type1: {fileID: 11400000, guid: 1af614eedc636c54087ace0bc602bb6b, type: 2}
+  type2: {fileID: 11400000, guid: afcb29c4aa47d7e44b1909212dbf0758, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2800000037000000500000001e000000230000003c000000
+  genderRate: 7
+  growthRate: 2
+  baseExp: 60
+  effortPoints: 000000000000000001000000000000000000000000000000
+  rareness: 3
+  happiness: 35
+  abilities:
+  - {fileID: 11400000, guid: 126de53d6429e2342a45f08af68ecdc1, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e7bc42b9ff3c75f419b3e192150ae1a7, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: cf5709cdc680e934d8a98c1e5f5b284a, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: e93ac3af756b14041a8b64b2b3f6e1cb, type: 2}
+  - {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  eggMoves: []
+  compatibility: 09000000
+  stepsToHatch: 10240
+  height: 0.6
+  weight: 95.2
+  color: 1
+  shape: 4
+  habitat: 6
+  kind: Iron Ball
+  pokedex: "When Beldum gather in a swarm, they move in perfect unison as if they
+    were but one Pok\xE9mon. They communicate with each other using brain waves."
+  generation: 3
+  battlerPlayerX: -6
+  battlerPlayerY: 0
+  battlerEnemyX: 3
+  battlerEnemyY: 12
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 76da58d6ef26777428d05b9185b57ab0, type: 2}
+    method: 0
+    level: 20
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

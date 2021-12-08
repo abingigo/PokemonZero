@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: CRAFTYSHIELD
+  m_EditorClassIdentifier: 
+  idNumber: 122
+  Name: Crafty Shield
+  functionCode: 14A
+  basePower: 0
+  type: {fileID: 11400000, guid: b3489cc7b8bc2d040b26eca2a4bab2e8, type: 2}
+  damageCategory: 2
+  accuracy: 0
+  totalPP: 10
+  additionalEffectChance: 0
+  target: 14
+  priority: 3
+  flags: 
+  description: The user protects itself and its allies from status moves with a mysterious
+    power.

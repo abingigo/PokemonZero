@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: MOONBLAST
+  m_EditorClassIdentifier: 
+  idNumber: 112
+  Name: Moonblast
+  functionCode: 045
+  basePower: 95
+  type: {fileID: 11400000, guid: b3489cc7b8bc2d040b26eca2a4bab2e8, type: 2}
+  damageCategory: 1
+  accuracy: 100
+  totalPP: 15
+  additionalEffectChance: 30
+  target: 10
+  priority: 0
+  flags: bef
+  description: The user attacks by borrowing the power of the moon. This may also
+    lower the target's Sp. Atk stat.

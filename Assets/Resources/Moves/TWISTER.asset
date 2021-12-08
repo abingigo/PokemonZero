@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: TWISTER
+  m_EditorClassIdentifier: 
+  idNumber: 78
+  Name: Twister
+  functionCode: 078
+  basePower: 40
+  type: {fileID: 11400000, guid: 4e61585cd9c553744b9f3f346ca3f698, type: 2}
+  damageCategory: 1
+  accuracy: 100
+  totalPP: 20
+  additionalEffectChance: 20
+  target: 6
+  priority: 0
+  flags: be
+  description: The user whips up a vicious tornado to tear at the opposing team.
+    It may also make targets flinch.

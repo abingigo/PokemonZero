@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: SHELLDER
+  m_EditorClassIdentifier: 
+  number: 90
+  Name: Shellder
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 1e0000004100000064000000280000002d00000019000000
+  genderRate: 3
+  growthRate: 2
+  baseExp: 61
+  effortPoints: 000000000000000001000000000000000000000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 4d0319e1ac0f3f846a2c4eb8eb77b73d, type: 2}
+  - {fileID: 11400000, guid: fc19e285b84dea04d8932ae41480f33d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a2f86aabe2835bf4a98331adf77d8ed6, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: 0bc2e1c7817f56d43844f53bc02f5aae, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: a29f3881c9dfbf74f9f4f820851f0df1, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 59f8e894a4abb214ca6e3317a70b817e, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: 25b5fd83f20fb83459585a216540b044, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 2a3fd48646db4ad4ca466fdcc617cb71, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 7651ecf01002fca41950c4dd828a1539, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: cfa1cca448d7977468e45c47d7118a60, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 4673ead0fa757164b85ae30ec04d84de, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 7a97c227492a0b540aaeac57b68a0050, type: 2}
+  - level: 44
+    move: {fileID: 11400000, guid: 3eb9c09d88e1bb3488eb6b07296ac81f, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - level: 52
+    move: {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - level: 56
+    move: {fileID: 11400000, guid: 7863d511e7e9a8e49834da393d96e23b, type: 2}
+  - level: 61
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8a4fe52ebc88d9d4a916b5935f1daaa1, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: 582807179e5367949b0161f84840f198, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 1d20ea3d30d25c1488f5fce5d15672b2, type: 2}
+  - {fileID: 11400000, guid: a98e852db89a59b429868817663340b4, type: 2}
+  - {fileID: 11400000, guid: 05ca090d42ef6bd4b904a9cd6252b8d8, type: 2}
+  - {fileID: 11400000, guid: 31cd901174c35b7499736b0130c884ff, type: 2}
+  - {fileID: 11400000, guid: 59f8e894a4abb214ca6e3317a70b817e, type: 2}
+  - {fileID: 11400000, guid: 7f79981779f90ed46939b34dcb87b6ab, type: 2}
+  - {fileID: 11400000, guid: 512f3cb23729717469b1a54f8bfd333f, type: 2}
+  - {fileID: 11400000, guid: e1f0ca606b269274086ab049a2660bd2, type: 2}
+  - {fileID: 11400000, guid: 5242ad80abb2b8440a8b4fcfb6967dbd, type: 2}
+  - {fileID: 11400000, guid: cf5709cdc680e934d8a98c1e5f5b284a, type: 2}
+  - {fileID: 11400000, guid: 08855fc9043c4ac4d95b929976ab6e65, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  compatibility: 08000000
+  stepsToHatch: 5120
+  height: 0.3
+  weight: 4
+  color: 6
+  shape: 0
+  habitat: 7
+  kind: Bivalve
+  pokedex: At night, it burrows a hole in the seafloor with its broad tongue to make
+    a place to sleep. While asleep, it closes its shell, but leaves its tongue hanging
+    out.
+  generation: 1
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: 1
+  battlerEnemyY: 27
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: b2127493e4078a5429256fc012b541bd, type: 2}
+    method: 18
+    level: 0
+    item: {fileID: 11400000, guid: 6bb310bce33bf274ebb3ead6a9753d46, type: 2}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

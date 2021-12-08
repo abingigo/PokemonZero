@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ac059f817d70a4daf2498ac18cfefc, type: 3}
+  m_Name: TM93
+  m_EditorClassIdentifier: 
+  number: 380
+  Name: TM93
+  pluralName: TM93s
+  pocket: 4
+  price: 50000
+  description: The user shrouds itself in electricity and smashes into its target.
+    It also damages the user a little.
+  useOutsideBattle: 3
+  useInBattle: 0
+  specialItem: 0
+  move: {fileID: 11400000, guid: 817b0f91801c4b84f94dbc6ac9a130a2, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: LEAFSTORM
+  m_EditorClassIdentifier: 
+  idNumber: 254
+  Name: Leaf Storm
+  functionCode: 03F
+  basePower: 130
+  type: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  damageCategory: 1
+  accuracy: 90
+  totalPP: 5
+  additionalEffectChance: 0
+  target: 10
+  priority: 0
+  flags: bef
+  description: A storm of sharp is whipped up. The attack's recoil harshly reduces
+    the user's Sp. Atk stat.

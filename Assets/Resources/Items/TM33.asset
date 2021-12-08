@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ac059f817d70a4daf2498ac18cfefc, type: 3}
+  m_Name: TM33
+  m_EditorClassIdentifier: 
+  number: 320
+  Name: TM33
+  pluralName: TM33s
+  pocket: 4
+  price: 10000
+  description: A wondrous wall of light is put up to suppress damage from physical
+    attacks for five turns.
+  useOutsideBattle: 3
+  useInBattle: 0
+  specialItem: 0
+  move: {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}

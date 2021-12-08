@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: CHANDELURE
+  m_EditorClassIdentifier: 
+  number: 609
+  Name: Chandelure
+  type1: {fileID: 11400000, guid: 0efe27d07494a9b41a9179f76fa88737, type: 2}
+  type2: {fileID: 11400000, guid: 16d5ce159a6d9374191d2f7002755c54, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 3c000000370000005a00000050000000910000005a000000
+  genderRate: 3
+  growthRate: 3
+  baseExp: 234
+  effortPoints: 000000000000000000000000000000000300000000000000
+  rareness: 45
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: a2c38bcc6ba66fd4083bccbe94378b49, type: 2}
+  - {fileID: 11400000, guid: d8cc0e1236e3f3e47b0a141597de148b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 2a6000f640e38de4383b020aa66ce6dd, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 137584bd988fb5946af8b07f8eadaad1, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: e8d8900a9734faa4d9d4f06cdbc2fa32, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 74df6d454d41bdf4e8d7777a394bee46, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: fd4c55811a37c6f49b7481138881380c, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 7b21df2f9d5a04a4db6a7e07908156ac, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 71a954b50e95c03418b9e6232e02619a, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 727fe08606774df45923617d3fe24a17, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: ac5e69f887e997c4a9f80e4d1759e9ca, type: 2}
+  - {fileID: 11400000, guid: 8bf3f228428e2b34cbf058a163817cdf, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: f44021ebea438ea498b20cf321ca21c9, type: 2}
+  - {fileID: 11400000, guid: 21c4ae45a64f56f40b02765eaaf49255, type: 2}
+  - {fileID: 11400000, guid: 9c767ad4ddecda04b93fee0c164c88a5, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 54881034344feb4418dcaf079657fccb, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: e2098cbc6810b20418d18d7624720cb0, type: 2}
+  - {fileID: 11400000, guid: 0ba349cceaf4f6e4c9671aea97f2df52, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: c6076a2f2b3a0ec4e84c1eb56c0412e7, type: 2}
+  - {fileID: 11400000, guid: c63726464bef8424599861c98bdd735b, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: 904eac28bab37c940b5d903e10fbcc52, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 5666e150a4f5ef94a9f697162a2feb59, type: 2}
+  - {fileID: 11400000, guid: 174ab769d1291824abe970785700d33b, type: 2}
+  - {fileID: 11400000, guid: 9f04dce678f5271478bf3435724d13a8, type: 2}
+  eggMoves: []
+  compatibility: 0a000000
+  stepsToHatch: 5120
+  height: 1
+  weight: 34.3
+  color: 0
+  shape: 3
+  habitat: 0
+  kind: Luring
+  pokedex: Being consumed in Chandelure's flame burns up the spirit, leaving the
+    body behind.
+  generation: 5
+  battlerPlayerX: -2
+  battlerPlayerY: 0
+  battlerEnemyX: -1
+  battlerEnemyY: 2
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

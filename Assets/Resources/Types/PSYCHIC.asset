@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50ecc3cc4a864746972a1bc57416f72, type: 3}
+  m_Name: PSYCHIC
+  m_EditorClassIdentifier: 
+  picture: {fileID: 9033904364931200546, guid: 7cd34e1f741d0ae4fad08e494d5eefd7, type: 3}
+  Name: 11
+  weakness:
+  - {fileID: 11400000, guid: f8100491677cb204e81f57dc7c8839bb, type: 2}
+  - {fileID: 11400000, guid: 0efe27d07494a9b41a9179f76fa88737, type: 2}
+  - {fileID: 11400000, guid: e7b8fce3641139147ac03800175408e8, type: 2}
+  resistance:
+  - {fileID: 11400000, guid: 324dec365b4d99c4eae61910aa02e62c, type: 2}
+  - {fileID: 11400000}
+  immunity: []
+  isImmuneToParalysis: 0
+  isImmuneToBurn: 0
+  isImmuneToPoisoning: 0
+  isImmuneToFreezing: 0
+  isPseudoType: 0
+  isSpecialType: 1

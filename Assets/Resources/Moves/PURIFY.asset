@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: PURIFY
+  m_EditorClassIdentifier: 
+  idNumber: 540
+  Name: Purify
+  functionCode: 15B
+  basePower: 0
+  type: {fileID: 11400000, guid: 5102592db4d3c0b42afdfffb099d366a, type: 2}
+  damageCategory: 2
+  accuracy: 0
+  totalPP: 20
+  additionalEffectChance: 0
+  target: 10
+  priority: 0
+  flags: bce
+  description: 'The user heals the target''s status condition. If so, it also restores
+    the user''s own HP. '

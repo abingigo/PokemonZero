@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: CHERUBI
+  m_EditorClassIdentifier: 
+  number: 420
+  Name: Cherubi
+  type1: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2d000000230000002d000000230000003e00000035000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 55
+  effortPoints: 000000000000000000000000000000000100000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 2c8c649687353cd42b8b659246758919, type: 2}
+  hiddenAbility: {fileID: 0}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f0458d63ef15bf34cba2684bbe3dacfc, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 95bae70b03ec1cb46a7f49da4440ec70, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: 6499b12852cc6a549a8f291384179a3e, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: b6b8f3dab18f9f84b9e47d2d9944f223, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: cf5709cdc680e934d8a98c1e5f5b284a, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 3f7124b4c25d45c46a0ef52b7661a012, type: 2}
+  - level: 47
+    move: {fileID: 11400000, guid: c07e0972c8706794891a633d15408427, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: bcc39f962239a4047bbfb85776a73d47, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 709f3d0f2d196cc4a9e8145cd69f2004, type: 2}
+  - {fileID: 11400000, guid: f79575eb147536f4789c5fc59768a79e, type: 2}
+  - {fileID: 11400000, guid: 4bb75f56f69241447ad2dcc2f80aaa50, type: 2}
+  - {fileID: 11400000, guid: 857886d7d5b9e7e43b949b02f2012782, type: 2}
+  - {fileID: 11400000, guid: c7ba6d479ca85044d9c74b2bf7901446, type: 2}
+  - {fileID: 11400000, guid: a052b0fde8df74a45b67cee2982997cf, type: 2}
+  - {fileID: 11400000, guid: 8905feb5de71a3b4da50e60245081f42, type: 2}
+  - {fileID: 11400000, guid: 765b7b28a93862c47baf7549569b6abc, type: 2}
+  - {fileID: 11400000, guid: 9970cda403a2acd46bae4a9433704e3e, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: d0661dc3cca27174daaf21c8b8d903df, type: 2}
+  - {fileID: 11400000, guid: 333b1dab26f34474da982bd470e88fbe, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 2e97c90779b8da444ac5537310827be9, type: 2}
+  - {fileID: 11400000, guid: 9fa512b1a1f8b494b8983789a26b78bc, type: 2}
+  - {fileID: 11400000, guid: bb5cef0a10f30b2488254f6c904d6164, type: 2}
+  compatibility: 0500000006000000
+  stepsToHatch: 5120
+  height: 0.4
+  weight: 3.3
+  color: 5
+  shape: 10
+  habitat: 0
+  kind: Cherry
+  pokedex: The small ball holds the nutrients needed for evolution. Apparently, it
+    is very sweet and tasty.
+  generation: 4
+  battlerPlayerX: -3
+  battlerPlayerY: 0
+  battlerEnemyX: 6
+  battlerEnemyY: 25
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: d320989827d7c0e4bb4083b2c9d4d2c5, type: 2}
+    method: 0
+    level: 25
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

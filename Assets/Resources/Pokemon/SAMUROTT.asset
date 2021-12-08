@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: SAMUROTT
+  m_EditorClassIdentifier: 
+  number: 503
+  Name: Samurott
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 5f0000006400000055000000460000006c00000046000000
+  genderRate: 1
+  growthRate: 3
+  baseExp: 238
+  effortPoints: 000000000000000000000000000000000300000000000000
+  rareness: 45
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 1f16353bf23ab2343915f31d64c08b0a, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 4d0319e1ac0f3f846a2c4eb8eb77b73d, type: 2}
+  moveset:
+  - level: 0
+    move: {fileID: 11400000, guid: 4623db742ce813c40b66559b1fdb9f71, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 4623db742ce813c40b66559b1fdb9f71, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: b917b8bb667589e47a3e8f5aadb1e905, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 1efdeb0e782ab1d48824ee0ea9b9af1b, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: 1efdeb0e782ab1d48824ee0ea9b9af1b, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 11
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 7451678146d36bd45bb6a84a918bd731, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: cfa1cca448d7977468e45c47d7118a60, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: be47a9aace950ec4da5e108ef8a12f96, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: ec4b1796027668548b4c5347d6a8c57c, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: 99159734f75edf74390333eaf88eb597, type: 2}
+  - level: 39
+    move: {fileID: 11400000, guid: 59d966f58a2f5704a859ee4d87a1a349, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - level: 51
+    move: {fileID: 11400000, guid: dcd6aa79ce8303545ba4005631dcba68, type: 2}
+  - level: 58
+    move: {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - level: 63
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 7c2c09fa9827001499e2e668ff740de8, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 40fbbd79ee7a5af479241996d7409199, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 2cf74c04e8846e945b4f270e7dc0dcdd, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 1862fe79dde81ca4b95e38f9173a0426, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 9c5e5d7c4c5b0cf4e850a3c8e2c7d3cf, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: 582807179e5367949b0161f84840f198, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 169d2d736722a3d44a125034b77e1508, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 7af59392b2609df488b3422977a46d22, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 653641c02be5b634dba091cefe68f508, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - {fileID: 11400000, guid: 179f0c68685f6ee46abba68414e5b3dc, type: 2}
+  - {fileID: 11400000, guid: 9e131da667eae7841bdc532deface537, type: 2}
+  eggMoves: []
+  compatibility: 04000000
+  stepsToHatch: 5120
+  height: 1.5
+  weight: 94.6
+  color: 1
+  shape: 7
+  habitat: 0
+  kind: Formidable
+  pokedex: Part of the armor on its anterior legs becomes a giant sword. Its cry
+    alone is enough to intimidate most enemies.
+  generation: 5
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: 1
+  battlerEnemyY: 11
+  battlerShadowX: 0
+  battlerShadowSize: 3
+  evolveMethods: []

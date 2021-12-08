@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: DRAGALGE
+  m_EditorClassIdentifier: 
+  number: 691
+  Name: Dragalge
+  type1: {fileID: 11400000, guid: 5102592db4d3c0b42afdfffb099d366a, type: 2}
+  type2: {fileID: 11400000, guid: 4e61585cd9c553744b9f3f346ca3f698, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 410000004b0000005a0000002c000000610000007b000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 173
+  effortPoints: 000000000000000000000000000000000000000002000000
+  rareness: 55
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 4d7ad2eed0417954fab73880567b86d2, type: 2}
+  - {fileID: 11400000, guid: a53b78d306ed4c349b06352d7518cc4d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 846d9ebc4a50982459d47abc1cd23a11, type: 2}
+  moveset:
+  - level: 0
+    move: {fileID: 11400000, guid: 31e7e327637443f4a9175475f2e52d87, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 31e7e327637443f4a9175475f2e52d87, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 2cf74c04e8846e945b4f270e7dc0dcdd, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: de7b033fd0b1be6478c7a9d2cd10656b, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: a48be0dd24ebfbb4ebf688813d41523f, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: a48be0dd24ebfbb4ebf688813d41523f, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: 1efdeb0e782ab1d48824ee0ea9b9af1b, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: 065a9272a8f9dec43a89efd38f05232b, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: 72514c2b7c076374583ce1454fe2c414, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: d7335704a1c02c74192853ef1b46ee61, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: 1e3bfb6b95690ec479e079404dd02e3f, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - level: 35
+    move: {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - level: 38
+    move: {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - level: 42
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: 789a8466f214038449da73f2897f0af6, type: 2}
+  - level: 59
+    move: {fileID: 11400000, guid: 2cf74c04e8846e945b4f270e7dc0dcdd, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: aa0e7551ec9ad5845a7cc38290f44dd5, type: 2}
+  - {fileID: 11400000, guid: 789a8466f214038449da73f2897f0af6, type: 2}
+  - {fileID: 11400000, guid: 2cf74c04e8846e945b4f270e7dc0dcdd, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 733b71b3f1afbad4781a673a8bd2ef03, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 3d9bca32e18e01148bc971b5ef3eaf15, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 14af2c9c2be357d40bce6e81b4039958, type: 2}
+  - {fileID: 11400000, guid: ca9dee6b895549c44bbb45eeb3b4e76a, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: c6076a2f2b3a0ec4e84c1eb56c0412e7, type: 2}
+  - {fileID: 11400000, guid: c63726464bef8424599861c98bdd735b, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - {fileID: 11400000, guid: b546fae3659fc83479a2016cdb7414f0, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 5f1d27a8a5f42ca4394f16600b30a724, type: 2}
+  - {fileID: 11400000, guid: 58f75b111cb59134b8ceb985038384d0, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: bd402d81b9ec7fb4b9c815d68553d80a, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves: []
+  compatibility: 010000000d000000
+  stepsToHatch: 5120
+  height: 1.8
+  weight: 81.5
+  color: 2
+  shape: 4
+  habitat: 0
+  kind: Mock Kelp
+  pokedex: Their poison is strong enough to eat through the hull of a tanker, and
+    they spit it indiscriminately at anything that enters their territory.
+  generation: 6
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

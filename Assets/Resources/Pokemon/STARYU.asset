@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: STARYU
+  m_EditorClassIdentifier: 
+  number: 120
+  Name: Staryu
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 1e0000002d00000037000000550000004600000037000000
+  genderRate: 7
+  growthRate: 2
+  baseExp: 68
+  effortPoints: 000000000000000000000000010000000000000000000000
+  rareness: 225
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 8327fb29212f944439070533320d6795, type: 2}
+  - {fileID: 11400000, guid: f65d9efa2c4a2e64a945aedc2a6486b0, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 7873921cfe218a043a9b2624ead93952, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: c4c401b96e0644f4fa882a863ee6d92a, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 512f3cb23729717469b1a54f8bfd333f, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: a1a2da6755fc63e4484eea6662220f34, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 01381b5cd0b6f9d49be508b8d8b3d52f, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: 8c18b0924f6ad4d4783f67f89ec43d08, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: 31cd901174c35b7499736b0130c884ff, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: d7335704a1c02c74192853ef1b46ee61, type: 2}
+  - level: 24
+    move: {fileID: 11400000, guid: e97c31018c3acc7408f50470de6c71ad, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 3eb9c09d88e1bb3488eb6b07296ac81f, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: aeff372b87aa1394aa904f5bdc82efa1, type: 2}
+  - level: 35
+    move: {fileID: 11400000, guid: 901f99921a13b6d4f934d5b7bbc82ca5, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 164861b5b0601ae45baabf770ad2acfb, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: e8d8900a9734faa4d9d4f06cdbc2fa32, type: 2}
+  - level: 42
+    move: {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: 0d4b4515384eabf45b8d012597a4c7f0, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: bcc39f962239a4047bbfb85776a73d47, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 458fbbf5b7fce0b438d246d874bf6b6c, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 6c990fbefc91eaf40b66f88cd4d325a9, type: 2}
+  - {fileID: 11400000, guid: e97c31018c3acc7408f50470de6c71ad, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 7c394a35fe67307408a52fbf5519958c, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 5f1d27a8a5f42ca4394f16600b30a724, type: 2}
+  - {fileID: 11400000, guid: 58f75b111cb59134b8ceb985038384d0, type: 2}
+  - {fileID: 11400000, guid: ccecd3dfaa77c7b4c8f7ba5b34bf6524, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves: []
+  compatibility: 08000000
+  stepsToHatch: 5120
+  height: 0.8
+  weight: 34.5
+  color: 2
+  shape: 4
+  habitat: 7
+  kind: Star Shape
+  pokedex: It gathers with others in the night and makes its red core glow on and
+    off with the twinkling stars. It can regenerate limbs if they are severed from
+    its body.
+  generation: 1
+  battlerPlayerX: 3
+  battlerPlayerY: 0
+  battlerEnemyX: 4
+  battlerEnemyY: 10
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 40ba5a3dd04aaaa41804a71eaee7ce4a, type: 2}
+    method: 18
+    level: 0
+    item: {fileID: 11400000, guid: 6bb310bce33bf274ebb3ead6a9753d46, type: 2}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

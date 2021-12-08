@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: BAGON
+  m_EditorClassIdentifier: 
+  number: 371
+  Name: Bagon
+  type1: {fileID: 11400000, guid: 4e61585cd9c553744b9f3f346ca3f698, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2d0000004b0000003c00000032000000280000001e000000
+  genderRate: 3
+  growthRate: 2
+  baseExp: 60
+  effortPoints: 000000000100000000000000000000000000000000000000
+  rareness: 45
+  happiness: 35
+  abilities:
+  - {fileID: 11400000, guid: b821596e669b4694e85fdf8032643acb, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ce488d3df2970324c8cfedc6915b4f8b, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: e8c50a10b6f515147aeedb471d0509ce, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: e12e209f6b164f2478eca7351d76785d, type: 2}
+  - level: 7
+    move: {fileID: 11400000, guid: 25b5fd83f20fb83459585a216540b044, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: dbe84880b586df24690639118cad2148, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: 4c09f47e1c46cb348ae10a477ae8937c, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: 9f67b9857b245ed4bac66a6106ea78b1, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: 7451678146d36bd45bb6a84a918bd731, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 9c7782b67bf51b2498f6b476ada6018b, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 8a3847c40dc83df48bd2a8a23d1a2769, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  - level: 39
+    move: {fileID: 11400000, guid: a8a2007764e2af94da3743121f81dcff, type: 2}
+  - level: 44
+    move: {fileID: 11400000, guid: 9c767ad4ddecda04b93fee0c164c88a5, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: f24bbeb588f376546a1cbb8b7a168138, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 6ec3d2102029ca24ebdadbd203e9c84a, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: aa0e7551ec9ad5845a7cc38290f44dd5, type: 2}
+  - {fileID: 11400000, guid: 8a3847c40dc83df48bd2a8a23d1a2769, type: 2}
+  - {fileID: 11400000, guid: 789a8466f214038449da73f2897f0af6, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: f44021ebea438ea498b20cf321ca21c9, type: 2}
+  - {fileID: 11400000, guid: 9c767ad4ddecda04b93fee0c164c88a5, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: f90fd8421ff52154f8e46e1f29743ebd, type: 2}
+  - {fileID: 11400000, guid: ca9dee6b895549c44bbb45eeb3b4e76a, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 107def8aec8d1944a855c946e4dd2cd1, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 179cd32e15381b14caae2dadb65cd4f2, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: f79575eb147536f4789c5fc59768a79e, type: 2}
+  - {fileID: 11400000, guid: a3d088e1c79486245bb97dcab6285dc8, type: 2}
+  - {fileID: 11400000, guid: 789a8466f214038449da73f2897f0af6, type: 2}
+  - {fileID: 11400000, guid: a2f0219195ae5bf4eafe0d8beac18e6c, type: 2}
+  - {fileID: 11400000, guid: 820165d78fde6d449b4f75cb54c4d2e6, type: 2}
+  - {fileID: 11400000, guid: 738fa855cd84d4e4dbb23c60d94aafdc, type: 2}
+  - {fileID: 11400000, guid: 4cb95ef667457d148a14371fca4786ae, type: 2}
+  - {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  - {fileID: 11400000, guid: 0fafe7ae6440a1444b55e1cc55763bdd, type: 2}
+  - {fileID: 11400000, guid: 31e7e327637443f4a9175475f2e52d87, type: 2}
+  compatibility: 0d000000
+  stepsToHatch: 10240
+  height: 0.6
+  weight: 42.1
+  color: 1
+  shape: 11
+  habitat: 6
+  kind: Rock Head
+  pokedex: "Although it is small, this Pok\xE9mon is very powerful because its body
+    is a bundle of muscles. It launches head-butts with its ironlike skull."
+  generation: 3
+  battlerPlayerX: 3
+  battlerPlayerY: 0
+  battlerEnemyX: -5
+  battlerEnemyY: 19
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 536cf867493940648b1999082f21fc2e, type: 2}
+    method: 0
+    level: 30
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

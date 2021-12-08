@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: GOLDEEN
+  m_EditorClassIdentifier: 
+  number: 118
+  Name: Goldeen
+  type1: {fileID: 11400000, guid: 4feb461b40469704bb8dbfe0423743db, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2d000000430000003c0000003f0000002300000032000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 64
+  effortPoints: 000000000100000000000000000000000000000000000000
+  rareness: 225
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: e92567c2836b1c84b8b37b4695ef77b2, type: 2}
+  - {fileID: 11400000, guid: 1326774b8a7ba4c418aba5fc9acadaa9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f98b596b01a1b4f499859041cf125602, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 5ffe045b5d1284540aa5b4a3856f52c7, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 1efdeb0e782ab1d48824ee0ea9b9af1b, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: cba5ae0a510392341aa96bf5b92b3fa2, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: a29f3881c9dfbf74f9f4f820851f0df1, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: c4fd0234a28188b4fa057b8b6afd5b0e, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: b6f8ecce0a4b7c34b8165ed8f991b052, type: 2}
+  - level: 16
+    move: {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: 1d20ea3d30d25c1488f5fce5d15672b2, type: 2}
+  - level: 24
+    move: {fileID: 11400000, guid: c4e6e4003fcc2804c93b5b00d6c8b5e2, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 3dd5e868366405443b1d5b874bc91dcd, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 87c340587bcb9fe4391f479aa1c344c9, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 4c1e55f71c035094e8088fc93ed02b3a, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: b917b8bb667589e47a3e8f5aadb1e905, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: f76fd2220e8340c488d8f434983900da, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 66540f8069f5f554ba51e98844b40ae8, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: d13fdfbdecd0fca418757375a1923080, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 02c8cc2fbc136a94d879d76a59765cdc, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 169d2d736722a3d44a125034b77e1508, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 164319c9bbde29e49b9c36ef5979e05e, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 18ae92af37123bc4fb3c598c98b68f6f, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9d37b259d12288a4bb83a69e6474d42a, type: 2}
+  - {fileID: 11400000, guid: 30ed1053d86ebb442b94e02af62c2658, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: bd6d0e741d447dd49a0abd96b62c9582, type: 2}
+  - {fileID: 11400000, guid: 04afededd239f5b42b8afa2b1f9a2fd7, type: 2}
+  - {fileID: 11400000, guid: e25ff55c0d294c2479ccdf2b96504041, type: 2}
+  - {fileID: 11400000, guid: 3b78a77655a995a4481bb648f8e476c7, type: 2}
+  - {fileID: 11400000, guid: 7f79981779f90ed46939b34dcb87b6ab, type: 2}
+  - {fileID: 11400000, guid: c57fa1a0d8831a24291988209e123312, type: 2}
+  - {fileID: 11400000, guid: 113ce8f88d1d9fa4dbbae11f08c09615, type: 2}
+  - {fileID: 11400000, guid: 352468116a4160a49b40a5545e4c1762, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: d74bbd1529414e14891d421571d9a72a, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  compatibility: 0b000000
+  stepsToHatch: 5120
+  height: 0.6
+  weight: 15
+  color: 7
+  shape: 2
+  habitat: 9
+  kind: Goldfish
+  pokedex: In the springtime, schools of Goldeen can be seen swimming up falls and
+    rivers. It metes out staggering damage with its single horn.
+  generation: 1
+  battlerPlayerX: -4
+  battlerPlayerY: 0
+  battlerEnemyX: 5
+  battlerEnemyY: 4
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 22fbcc5d5abfbec46a5009a92d8d71bc, type: 2}
+    method: 0
+    level: 33
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: DRAGONRUSH
+  m_EditorClassIdentifier: 
+  idNumber: 70
+  Name: Dragon Rush
+  functionCode: 010
+  basePower: 100
+  type: {fileID: 11400000, guid: 4e61585cd9c553744b9f3f346ca3f698, type: 2}
+  damageCategory: 0
+  accuracy: 75
+  totalPP: 10
+  additionalEffectChance: 20
+  target: 10
+  priority: 0
+  flags: abe
+  description: The user tackles the foe while exhibiting overwhelming menace. It
+    may also make the target flinch.

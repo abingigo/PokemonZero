@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ac059f817d70a4daf2498ac18cfefc, type: 3}
+  m_Name: TM39
+  m_EditorClassIdentifier: 
+  number: 326
+  Name: TM39
+  pluralName: TM39s
+  pocket: 4
+  price: 10000
+  description: Boulders are hurled at the target. It also lowers the target's Speed
+    by preventing its movement.
+  useOutsideBattle: 3
+  useInBattle: 0
+  specialItem: 0
+  move: {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}

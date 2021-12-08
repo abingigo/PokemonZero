@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: SLUGMA
+  m_EditorClassIdentifier: 
+  number: 218
+  Name: Slugma
+  type1: {fileID: 11400000, guid: 16d5ce159a6d9374191d2f7002755c54, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 280000002800000028000000140000004600000028000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 50
+  effortPoints: 000000000000000000000000000000000100000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: bf3d838208baf4247a7f951467547cd1, type: 2}
+  - {fileID: 11400000, guid: d8cc0e1236e3f3e47b0a141597de148b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 4759e45ce40c1b245a01f60903ec7191, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 81884471bce47d74cb5a48d51434d157, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 137584bd988fb5946af8b07f8eadaad1, type: 2}
+  - level: 6
+    move: {fileID: 11400000, guid: e12e209f6b164f2478eca7351d76785d, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 8a8bc081280f17943818f46ddd06e8a0, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: 359d65208421a9c459af8557f698a0e5, type: 2}
+  - level: 20
+    move: {fileID: 11400000, guid: f75feb7a85018f944a710bea445c319a, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: 68821e874d752894aa4caa0f6a7edd76, type: 2}
+  - level: 27
+    move: {fileID: 11400000, guid: 74df6d454d41bdf4e8d7777a394bee46, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: 82b0b5235920068429cf65400614f520, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 0af16b8261dbfb44ea6bcafb878e2ba0, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: 04afededd239f5b42b8afa2b1f9a2fd7, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: a1a2da6755fc63e4484eea6662220f34, type: 2}
+  - level: 48
+    move: {fileID: 11400000, guid: 9c767ad4ddecda04b93fee0c164c88a5, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: f44021ebea438ea498b20cf321ca21c9, type: 2}
+  - {fileID: 11400000, guid: 21c4ae45a64f56f40b02765eaaf49255, type: 2}
+  - {fileID: 11400000, guid: 9c767ad4ddecda04b93fee0c164c88a5, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 54881034344feb4418dcaf079657fccb, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 01db128e98c41fa49adf2d0c934ddaed, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 0ba349cceaf4f6e4c9671aea97f2df52, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9f04dce678f5271478bf3435724d13a8, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: b4614e59b39a4ca4c9dced24c26d9084, type: 2}
+  - {fileID: 11400000, guid: 6422ab59df246034887e3bf5f3271ad7, type: 2}
+  - {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - {fileID: 11400000, guid: 5248a6557bd9e314fafa4426654bacbe, type: 2}
+  - {fileID: 11400000, guid: 54881034344feb4418dcaf079657fccb, type: 2}
+  - {fileID: 11400000, guid: edb8e571557756143ae4f426719f9917, type: 2}
+  - {fileID: 11400000, guid: 3ea755ce672a4d14398ac5ea38745ecd, type: 2}
+  - {fileID: 11400000, guid: 333b1dab26f34474da982bd470e88fbe, type: 2}
+  - {fileID: 11400000, guid: de7b033fd0b1be6478c7a9d2cd10656b, type: 2}
+  - {fileID: 11400000, guid: 6932e8e7ca290aa4681521ccf91cf766, type: 2}
+  - {fileID: 11400000, guid: b45569434c13d4d468e9e7eaf4fef9c7, type: 2}
+  - {fileID: 11400000, guid: d85184a28d0a2114b9f27b30d3f48872, type: 2}
+  compatibility: 0a000000
+  stepsToHatch: 5120
+  height: 0.7
+  weight: 35
+  color: 7
+  shape: 1
+  habitat: 4
+  kind: Lava
+  pokedex: "It is a species of Pok\xE9mon that lives in volcanic areas. If its body
+    cools, its skin hardens and immobilizes it. To avoid that, it sleeps near magma."
+  generation: 2
+  battlerPlayerX: -5
+  battlerPlayerY: 0
+  battlerEnemyX: -1
+  battlerEnemyY: 22
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 53a036b6fdfe6894ab8a3fbf70181fbe, type: 2}
+    method: 0
+    level: 38
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

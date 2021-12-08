@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ac059f817d70a4daf2498ac18cfefc, type: 3}
+  m_Name: TM63
+  m_EditorClassIdentifier: 
+  number: 350
+  Name: TM63
+  pluralName: TM63s
+  pocket: 4
+  price: 10000
+  description: It prevents the target from using its held item. Its Trainer is also
+    prevented from using items on it.
+  useOutsideBattle: 3
+  useInBattle: 0
+  specialItem: 0
+  move: {fileID: 11400000, guid: 8bf3f228428e2b34cbf058a163817cdf, type: 2}

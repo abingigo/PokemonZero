@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: LURANTIS
+  m_EditorClassIdentifier: 
+  number: 754
+  Name: Lurantis
+  type1: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 46000000690000005a0000002d000000500000005a000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 168
+  effortPoints: 000000000200000000000000000000000000000000000000
+  rareness: 75
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: c960ccabfecf5e14f983862e7054db95, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: b0a6819de4d8c614bb8d13208fdb076a, type: 2}
+  moveset:
+  - level: 0
+    move: {fileID: 11400000, guid: c07e0972c8706794891a633d15408427, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: c07e0972c8706794891a633d15408427, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 9e131da667eae7841bdc532deface537, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: e4e0b35a14a5e3246bdc055865844271, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: be47a9aace950ec4da5e108ef8a12f96, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: bc2c067b17831a84d974763995cd722d, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: d0661dc3cca27174daaf21c8b8d903df, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 95bae70b03ec1cb46a7f49da4440ec70, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: bc2c067b17831a84d974763995cd722d, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: d0661dc3cca27174daaf21c8b8d903df, type: 2}
+  - level: 14
+    move: {fileID: 11400000, guid: 95bae70b03ec1cb46a7f49da4440ec70, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: 4fd478406f5381d43b03cfa9a5161ed3, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: 61242dad55c1c2c47aa499172d9c8284, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: 4623db742ce813c40b66559b1fdb9f71, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 2e97c90779b8da444ac5537310827be9, type: 2}
+  - level: 47
+    move: {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - level: 55
+    move: {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: a771e4a7b01f2d44a89bdce6917c3c13, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 6ec3d2102029ca24ebdadbd203e9c84a, type: 2}
+  - {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 4cb536fcd53ee2e46bd8bb8506547cfe, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 77c1d3e55da79974094300bff42aa0c6, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 1862fe79dde81ca4b95e38f9173a0426, type: 2}
+  - {fileID: 11400000, guid: d1cd22b77a522e440a9df36f8849daae, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: e2098cbc6810b20418d18d7624720cb0, type: 2}
+  - {fileID: 11400000, guid: b725cb5730e1d7447ac0616f2d43d79e, type: 2}
+  - {fileID: 11400000, guid: eb98d811445ab1548a5b0b96f44f2792, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 90d6c9647065f2e49b1f3401be30a233, type: 2}
+  - {fileID: 11400000, guid: e682fd55ccbab34458c6a93c1da8e285, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 1af62b415d1a7b44f8ac395f23e93e3f, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  - {fileID: 11400000, guid: 9e131da667eae7841bdc532deface537, type: 2}
+  eggMoves: []
+  compatibility: 06000000
+  stepsToHatch: 5120
+  height: 0.9
+  weight: 18.5
+  color: 5
+  shape: 11
+  habitat: 0
+  kind: Bloom Sickle
+  pokedex: It requires a lot of effort to maintain Lurantis's vivid coloring, but
+    some collectors enjoy this work and treat it as their hobby.
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

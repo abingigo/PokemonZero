@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: SYNCHRONOISE
+  m_EditorClassIdentifier: 
+  idNumber: 548
+  Name: Synchronoise
+  functionCode: 123
+  basePower: 120
+  type: {fileID: 11400000, guid: afcb29c4aa47d7e44b1909212dbf0758, type: 2}
+  damageCategory: 1
+  accuracy: 100
+  totalPP: 10
+  additionalEffectChance: 0
+  target: 11
+  priority: 0
+  flags: bef
+  description: "Using an odd shock wave, the user damages any Pok\xE9mon of the same
+    type as the user."

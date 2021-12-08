@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ac059f817d70a4daf2498ac18cfefc, type: 3}
+  m_Name: SUPERREPEL
+  m_EditorClassIdentifier: 
+  number: 2
+  Name: Super Repel
+  pluralName: Super Repels
+  pocket: 1
+  price: 700
+  description: "An item that prevents weak wild Pok\xE9mon from appearing for 200
+    steps after its use."
+  useOutsideBattle: 2
+  useInBattle: 0
+  specialItem: 0
+  move: {fileID: 0}

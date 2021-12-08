@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: SHIINOTIC
+  m_EditorClassIdentifier: 
+  number: 756
+  Name: Shiinotic
+  type1: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type2: {fileID: 11400000, guid: b3489cc7b8bc2d040b26eca2a4bab2e8, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 3c0000002d000000500000001e0000005a00000064000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 142
+  effortPoints: 000000000000000000000000000000000000000002000000
+  rareness: 75
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 8327fb29212f944439070533320d6795, type: 2}
+  - {fileID: 11400000, guid: 6299f59fab2fcfe4a8337b197bbf6c1f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 318d93e4af437c045bb6fb6500dc25c7, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 30370983c226f7f4c9ed6ce2f329c928, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 5e7d8a00c31c9dc43a8e45752b1784e7, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 4fd478406f5381d43b03cfa9a5161ed3, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 62c0e43818821a14a8c3887cde369da7, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: 5e7d8a00c31c9dc43a8e45752b1784e7, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 62c0e43818821a14a8c3887cde369da7, type: 2}
+  - level: 11
+    move: {fileID: 11400000, guid: 3796573b90e8b3f43bc2b31d23cbd889, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: abe7227700b063843bb2277db96224a3, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: 8658b2de94218014cb670102be7ef5d3, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: 4fd478406f5381d43b03cfa9a5161ed3, type: 2}
+  - level: 26
+    move: {fileID: 11400000, guid: e8d8900a9734faa4d9d4f06cdbc2fa32, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - level: 35
+    move: {fileID: 11400000, guid: 7e318e9935717d54482f20bb671fb2a7, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 806e76f656e659146b8ddae3e5746cc7, type: 2}
+  - level: 44
+    move: {fileID: 11400000, guid: 481ddc1a67aff4e42a8b452dbc1d6575, type: 2}
+  - level: 49
+    move: {fileID: 11400000, guid: ac5e69f887e997c4a9f80e4d1759e9ca, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: 9afc697a1aefaeb46b8b12ee2a0056b9, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 2788749b13d80bc4c94fb13130214292, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: bcc39f962239a4047bbfb85776a73d47, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: ac5e69f887e997c4a9f80e4d1759e9ca, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 7c394a35fe67307408a52fbf5519958c, type: 2}
+  - {fileID: 11400000, guid: 9181aa6ee32743d4b967ec4b47655d28, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 6fc7175e582005e46ba235aff202bf04, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - {fileID: 11400000, guid: ccecd3dfaa77c7b4c8f7ba5b34bf6524, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 14be1c7337eecda4d9e831b35afab4b6, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  eggMoves: []
+  compatibility: 06000000
+  stepsToHatch: 5120
+  height: 1
+  weight: 11.5
+  color: 6
+  shape: 11
+  habitat: 0
+  kind: Illuminating
+  pokedex: It puts its prey to sleep and siphons off their vitality through the tip
+    of its arms. If one of its kind is weakened, it helps by sending it vitality.
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

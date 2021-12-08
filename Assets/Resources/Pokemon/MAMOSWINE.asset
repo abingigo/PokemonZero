@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: MAMOSWINE
+  m_EditorClassIdentifier: 
+  number: 473
+  Name: Mamoswine
+  type1: {fileID: 11400000, guid: 23a8fdf4bf4b5794888980c1e2d1c640, type: 2}
+  type2: {fileID: 11400000, guid: b642020f54f7aa54f8c36480f251cd46, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 6e000000820000005000000050000000460000003c000000
+  genderRate: 3
+  growthRate: 2
+  baseExp: 239
+  effortPoints: 000000000300000000000000000000000000000000000000
+  rareness: 50
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 91bd5fa8b230da1408dfac3b2fd12d9d, type: 2}
+  - {fileID: 11400000, guid: 6f57b7086499aa742802e08a2743e891, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 13b0b07ff49eed8469906b9d781647ff, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: c4e6e4003fcc2804c93b5b00d6c8b5e2, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: a8a2007764e2af94da3743121f81dcff, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 68821e874d752894aa4caa0f6a7edd76, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 5ffe045b5d1284540aa5b4a3856f52c7, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 22b0148e4cd9a614baf1cc468da19d65, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 113ce8f88d1d9fa4dbbae11f08c09615, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 1d3f5932f91f39f4c94757e5ecacf2e9, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: 113ce8f88d1d9fa4dbbae11f08c09615, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 1d3f5932f91f39f4c94757e5ecacf2e9, type: 2}
+  - level: 11
+    move: {fileID: 11400000, guid: c57fa1a0d8831a24291988209e123312, type: 2}
+  - level: 14
+    move: {fileID: 11400000, guid: 738fa855cd84d4e4dbb23c60d94aafdc, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: b82a85a586c325d4ea66eda1f1627920, type: 2}
+  - level: 21
+    move: {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - level: 24
+    move: {fileID: 11400000, guid: fcf289e9ebcebbf458c28790c50dcd27, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: cf5709cdc680e934d8a98c1e5f5b284a, type: 2}
+  - level: 33
+    move: {fileID: 11400000, guid: de85f6f8247ebe94aa3aca055ef5f297, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: fd2c71a29ef42a644b458ddff2bbd936, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: 0fafe7ae6440a1444b55e1cc55763bdd, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: 805ff6ccc75ec21418c31f068ebe4019, type: 2}
+  - level: 52
+    move: {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - level: 58
+    move: {fileID: 11400000, guid: a8a2007764e2af94da3743121f81dcff, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 33e600589cf48384084c9faa1b447186, type: 2}
+  - {fileID: 11400000, guid: 7c2c09fa9827001499e2e668ff740de8, type: 2}
+  - {fileID: 11400000, guid: 7399e032a4d3e9943a28edc51d1ce9f3, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - {fileID: 11400000, guid: 805ff6ccc75ec21418c31f068ebe4019, type: 2}
+  - {fileID: 11400000, guid: 4db975a9d34068045952d2600c735b08, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 9b40f56ddb9e2cb4f87dfa3ca852da47, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 3041fc8982643a4498fc38369055a9fd, type: 2}
+  - {fileID: 11400000, guid: 255ee893ddd880244ba35258986d55f5, type: 2}
+  - {fileID: 11400000, guid: e93ac3af756b14041a8b64b2b3f6e1cb, type: 2}
+  - {fileID: 11400000, guid: 740dc55180a544642913f01ff8d4a9e6, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 107def8aec8d1944a855c946e4dd2cd1, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 641cfc71cc354474396401643603fa00, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 56534d553ac7fa540a2e7b7391866455, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 432ee9b7101e395418fc5c83dc8529f6, type: 2}
+  - {fileID: 11400000, guid: 6c135a91d8f3313448e55cf4a021c4e8, type: 2}
+  - {fileID: 11400000, guid: d5600cf1508bd1e43bc6f8084d882233, type: 2}
+  - {fileID: 11400000, guid: 3c0ad09ebf38b1c42844efe53e7a1050, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 2445eeb0235589d4b91ab5c116bbe35c, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  eggMoves: []
+  compatibility: 04000000
+  stepsToHatch: 5120
+  height: 2.5
+  weight: 291
+  color: 2
+  shape: 7
+  habitat: 0
+  kind: Twin Tusk
+  pokedex: Its impressive tusks are made of ice. The population thinned when it turned
+    warm after the ice age.
+  generation: 4
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: -7
+  battlerEnemyY: 9
+  battlerShadowX: 0
+  battlerShadowSize: 3
+  evolveMethods: []

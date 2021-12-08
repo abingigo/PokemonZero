@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: WURMPLE
+  m_EditorClassIdentifier: 
+  number: 265
+  Name: Wurmple
+  type1: {fileID: 11400000, guid: f8100491677cb204e81f57dc7c8839bb, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2d0000002d0000002300000014000000140000001e000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 56
+  effortPoints: 010000000000000000000000000000000000000000000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 425eb20ddd562af4d8cc8289970f23e5, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5fe94f591f01c2d4c951fd8dcee96e6b, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 4fe0ec0e517590948b31c542d2012fe8, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: 1757f69826de8ab4daa9133b486186fe, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 75de89d831cdd914fae27803db5f20c4, type: 2}
+  - {fileID: 11400000, guid: 5e608745621bd7d428d5bd93df8aabb7, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  eggMoves: []
+  compatibility: 02000000
+  stepsToHatch: 3840
+  height: 0.3
+  weight: 3.6
+  color: 7
+  shape: 13
+  habitat: 2
+  kind: Worm
+  pokedex: It sticks to tree branches and eats leaves. The thread it spits from its
+    mouth becomes gooey when it touches air and slows the movement of its foes.
+  generation: 3
+  battlerPlayerX: -1
+  battlerPlayerY: 0
+  battlerEnemyX: -2
+  battlerEnemyY: 18
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 052f219f6e920aa48baca0bb634ce440, type: 2}
+    method: 10
+    level: 7
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}
+  - product: {fileID: 11400000, guid: a29e556d95d1a524687664cfdc79fc11, type: 2}
+    method: 11
+    level: 7
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

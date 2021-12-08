@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: SANDYGAST
+  m_EditorClassIdentifier: 
+  number: 769
+  Name: Sandygast
+  type1: {fileID: 11400000, guid: 0efe27d07494a9b41a9179f76fa88737, type: 2}
+  type2: {fileID: 11400000, guid: b642020f54f7aa54f8c36480f251cd46, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 3700000037000000500000000f000000460000002d000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 64
+  effortPoints: 000000000000000001000000000000000000000000000000
+  rareness: 140
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 4481be3a9f7a5024aa8e276d1671b1d6, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c52bfbaea888f31459267b1c83cae054, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: c660e6e8266b0e045bffc8c86eaed2f4, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: 30370983c226f7f4c9ed6ce2f329c928, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: 5e7d8a00c31c9dc43a8e45752b1784e7, type: 2}
+  - level: 9
+    move: {fileID: 11400000, guid: 5e5344d5440911e4ba158895f43227a6, type: 2}
+  - level: 14
+    move: {fileID: 11400000, guid: 83f6c4b0b55920d43b2ee2afbb575048, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: abe7227700b063843bb2277db96224a3, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: 7399e032a4d3e9943a28edc51d1ce9f3, type: 2}
+  - level: 27
+    move: {fileID: 11400000, guid: bfc9389e00e8c21438d9d441760574eb, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - level: 41
+    move: {fileID: 11400000, guid: c6076a2f2b3a0ec4e84c1eb56c0412e7, type: 2}
+  - level: 45
+    move: {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: 22b3c080393afed43ae49ea609870793, type: 2}
+  - level: 54
+    move: {fileID: 11400000, guid: 56534d553ac7fa540a2e7b7391866455, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 7c2c09fa9827001499e2e668ff740de8, type: 2}
+  - {fileID: 11400000, guid: 7399e032a4d3e9943a28edc51d1ce9f3, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: c76385f9a6db804448a3e052d33f9904, type: 2}
+  - {fileID: 11400000, guid: 805ff6ccc75ec21418c31f068ebe4019, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 6c990fbefc91eaf40b66f88cd4d325a9, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 01db128e98c41fa49adf2d0c934ddaed, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: fa0d99b3d1d2f68478ffb324c4fb5899, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 88111c7e31a1cef4ea67663cdc386ed2, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: 56534d553ac7fa540a2e7b7391866455, type: 2}
+  - {fileID: 11400000, guid: c6076a2f2b3a0ec4e84c1eb56c0412e7, type: 2}
+  - {fileID: 11400000, guid: 0acc358555bac0445b70fea0bbbaa347, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 2df1ec66b4eea0a458d56b8585bbe135, type: 2}
+  - {fileID: 11400000, guid: 432ee9b7101e395418fc5c83dc8529f6, type: 2}
+  - {fileID: 11400000, guid: d5600cf1508bd1e43bc6f8084d882233, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 5666e150a4f5ef94a9f697162a2feb59, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 0af16b8261dbfb44ea6bcafb878e2ba0, type: 2}
+  - {fileID: 11400000, guid: 68821e874d752894aa4caa0f6a7edd76, type: 2}
+  - {fileID: 11400000, guid: 6422ab59df246034887e3bf5f3271ad7, type: 2}
+  - {fileID: 11400000, guid: 7b723c79b6e762d46b8ad034facbc195, type: 2}
+  - {fileID: 11400000, guid: 6932e8e7ca290aa4681521ccf91cf766, type: 2}
+  - {fileID: 11400000, guid: b45569434c13d4d468e9e7eaf4fef9c7, type: 2}
+  - {fileID: 11400000, guid: d85184a28d0a2114b9f27b30d3f48872, type: 2}
+  compatibility: 0a000000
+  stepsToHatch: 3840
+  height: 0.5
+  weight: 70
+  color: 2
+  shape: 1
+  habitat: 0
+  kind: Sand Heap
+  pokedex: It likes the shovel on its head, so Sandygast will get serious and fight
+    any children who come to take it back.
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 22758f797dce02a4884c2e84f857b1d7, type: 2}
+    method: 0
+    level: 42
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

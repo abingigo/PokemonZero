@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b165d675e3d648c4d863cdff948cdefa, type: 3}
+  m_Name: REFLECT
+  m_EditorClassIdentifier: 
+  idNumber: 595
+  Name: Reflect
+  functionCode: 0A2
+  basePower: 0
+  type: {fileID: 11400000, guid: afcb29c4aa47d7e44b1909212dbf0758, type: 2}
+  damageCategory: 2
+  accuracy: 0
+  totalPP: 20
+  additionalEffectChance: 0
+  target: 14
+  priority: 0
+  flags: d
+  description: A wondrous wall of light is put up to suppress damage from physical
+    attacks for five turns.

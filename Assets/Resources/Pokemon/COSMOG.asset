@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: COSMOG
+  m_EditorClassIdentifier: 
+  number: 789
+  Name: Cosmog
+  type1: {fileID: 11400000, guid: afcb29c4aa47d7e44b1909212dbf0758, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2b0000001d0000001f000000250000001d0000001f000000
+  genderRate: 7
+  growthRate: 2
+  baseExp: 40
+  effortPoints: 010000000000000000000000000000000000000000000000
+  rareness: 45
+  happiness: 0
+  abilities:
+  - {fileID: 11400000, guid: cd020170826a4c446b516bafbeb337fd, type: 2}
+  hiddenAbility: {fileID: 0}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 37622ea7f9398554b80f80ebfb716c1f, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: d76ee4968078f7e478e1fb6bfc107cc9, type: 2}
+  tutorMoves: []
+  eggMoves: []
+  compatibility: 0e000000
+  stepsToHatch: 30720
+  height: 0.2
+  weight: 0.1
+  color: 1
+  shape: 0
+  habitat: 0
+  kind: Nebula
+  pokedex: "Whether or not it's a Pok\xE9mon from this world is a mystery. When it's
+    in a jam, it warps away to a safe place to hide."
+  generation: 7
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 5d5a5ed72466dda4796cb647916a2dd9, type: 2}
+    method: 0
+    level: 43
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

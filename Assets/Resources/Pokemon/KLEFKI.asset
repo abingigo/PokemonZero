@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: KLEFKI
+  m_EditorClassIdentifier: 
+  number: 707
+  Name: Klefki
+  type1: {fileID: 11400000, guid: 1af614eedc636c54087ace0bc602bb6b, type: 2}
+  type2: {fileID: 11400000, guid: b3489cc7b8bc2d040b26eca2a4bab2e8, type: 2}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 39000000500000005b0000004b0000005000000057000000
+  genderRate: 3
+  growthRate: 0
+  baseExp: 165
+  effortPoints: 000000000000000001000000000000000000000000000000
+  rareness: 75
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 297d53e89cdf8d149a7a20a9b9a21649, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1627ced6be4e2d34f83232d46cf49cdf, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 62dc991a51d72294b9507c2decf49f04, type: 2}
+  - level: 1
+    move: {fileID: 11400000, guid: f8a7c7f25ce99464e8ee813d941435e9, type: 2}
+  - level: 5
+    move: {fileID: 11400000, guid: a29160d01bb58dc45a58caeb9ad07e7b, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 5e7d8a00c31c9dc43a8e45752b1784e7, type: 2}
+  - level: 12
+    move: {fileID: 11400000, guid: 22919859f3e2a1146aa7fc877a6c43ad, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: a8c68243bddfc2f43ba405bbc9dc8bf5, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: c4b7b5b1672b0dc4695ac27763124f32, type: 2}
+  - level: 23
+    move: {fileID: 11400000, guid: c3de9b8510ab33941b68216e1c6ffa59, type: 2}
+  - level: 27
+    move: {fileID: 11400000, guid: 5b41405c20a7e904a98275b948378085, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: c0ac7d571a37c9c49820a0bd71db88d2, type: 2}
+  - level: 34
+    move: {fileID: 11400000, guid: a9958b44401cc27429b0f58d296d76b0, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 5ddc1d6f4cef3aa4bbb7050e3df96243, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: 554435b3f466a3a43865cd6a5b82862b, type: 2}
+  - level: 44
+    move: {fileID: 11400000, guid: 9181aa6ee32743d4b967ec4b47655d28, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: d180427aa77413042acdde6ff3f5148d, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 71a954b50e95c03418b9e6232e02619a, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 40fbbd79ee7a5af479241996d7409199, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: bcc39f962239a4047bbfb85776a73d47, type: 2}
+  - {fileID: 11400000, guid: 4cb536fcd53ee2e46bd8bb8506547cfe, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 458fbbf5b7fce0b438d246d874bf6b6c, type: 2}
+  - {fileID: 11400000, guid: 5b41405c20a7e904a98275b948378085, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 5cd364d3a43c15e46ad4c6dfcd2e1dcf, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 869295da54c43a54897c7ba827fe9a18, type: 2}
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: 8af7932eea2781e4ab3d7d5f0a52098f, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 7c394a35fe67307408a52fbf5519958c, type: 2}
+  - {fileID: 11400000, guid: 9181aa6ee32743d4b967ec4b47655d28, type: 2}
+  - {fileID: 11400000, guid: 5eb9ebaaf4c22e44c8e346777123df81, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: 2267163dd3fd6694bab61af3ea58e725, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: ccecd3dfaa77c7b4c8f7ba5b34bf6524, type: 2}
+  - {fileID: 11400000, guid: c0ac7d571a37c9c49820a0bd71db88d2, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 042a5ed854fe20d4fa93ec24c3252029, type: 2}
+  - {fileID: 11400000, guid: ae7d505d7f57df34e9f3914d23df4d30, type: 2}
+  - {fileID: 11400000, guid: 74376a6bb3cd04e46af0d13d206bfdea, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  compatibility: 09000000
+  stepsToHatch: 5120
+  height: 0.2
+  weight: 3
+  color: 3
+  shape: 0
+  habitat: 0
+  kind: Key Ring
+  pokedex: It never lets go of a key that it likes, so people give it the keys to
+    vaults and safes as a way to prevent crime.
+  generation: 6
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 0
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods: []

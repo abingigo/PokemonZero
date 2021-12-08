@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: ELGYEM
+  m_EditorClassIdentifier: 
+  number: 605
+  Name: Elgyem
+  type1: {fileID: 11400000, guid: afcb29c4aa47d7e44b1909212dbf0758, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 3700000037000000370000001e0000005500000037000000
+  genderRate: 3
+  growthRate: 1
+  baseExp: 67
+  effortPoints: 000000000000000000000000000000000100000000000000
+  rareness: 255
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 92e1e5274200aec43953cb7d12d3bade, type: 2}
+  - {fileID: 11400000, guid: a8293479bad7aee4bb80b02ff2288af7, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 7873921cfe218a043a9b2624ead93952, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 55625fd82e590e74c9dcac6cdfc888c9, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: d817f7b098346334c8170810787f3d99, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: d180427aa77413042acdde6ff3f5148d, type: 2}
+  - level: 11
+    move: {fileID: 11400000, guid: 7cebffd8b9092aa4ba758f8eeb5402ee, type: 2}
+  - level: 15
+    move: {fileID: 11400000, guid: 352468116a4160a49b40a5545e4c1762, type: 2}
+  - level: 18
+    move: {fileID: 11400000, guid: 9f67b9857b245ed4bac66a6106ea78b1, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - level: 25
+    move: {fileID: 11400000, guid: 5ddc1d6f4cef3aa4bbb7050e3df96243, type: 2}
+  - level: 29
+    move: {fileID: 11400000, guid: 82ab9f92625f30d4798af6b6dd1a39b8, type: 2}
+  - level: 32
+    move: {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  - level: 36
+    move: {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - level: 39
+    move: {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - level: 43
+    move: {fileID: 11400000, guid: 71a954b50e95c03418b9e6232e02619a, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: a1a2da6755fc63e4484eea6662220f34, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: b5dbe4bb92ae2404e9dc45c6319f85d6, type: 2}
+  - level: 50
+    move: {fileID: 11400000, guid: b5ad3e36b4cc96d41b8c3bc0dfad1fcb, type: 2}
+  - level: 53
+    move: {fileID: 11400000, guid: dcfd46b2aac3fa34cae1ced5e8b8b3e0, type: 2}
+  - level: 56
+    move: {fileID: 11400000, guid: 14be1c7337eecda4d9e831b35afab4b6, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - {fileID: 11400000, guid: 7b21df2f9d5a04a4db6a7e07908156ac, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 71a954b50e95c03418b9e6232e02619a, type: 2}
+  - {fileID: 11400000, guid: 2788749b13d80bc4c94fb13130214292, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 727fe08606774df45923617d3fe24a17, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: ac5e69f887e997c4a9f80e4d1759e9ca, type: 2}
+  - {fileID: 11400000, guid: 9e2730400208de34580ea7e0bb16f3ae, type: 2}
+  - {fileID: 11400000, guid: 8bf3f228428e2b34cbf058a163817cdf, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 6c990fbefc91eaf40b66f88cd4d325a9, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: 6f69e82c73086a947b8ea110f24d2bf3, type: 2}
+  - {fileID: 11400000, guid: 7c394a35fe67307408a52fbf5519958c, type: 2}
+  - {fileID: 11400000, guid: 3062e9179dd2f0044bbf9cc9d4577d75, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 101a7db6512fb0d459f2a773f491dcf3, type: 2}
+  - {fileID: 11400000, guid: 7a387e71160f310449de0a54f5c7a16e, type: 2}
+  - {fileID: 11400000, guid: 2267163dd3fd6694bab61af3ea58e725, type: 2}
+  - {fileID: 11400000, guid: c9ccc164d125a734db1daa57a7db844a, type: 2}
+  - {fileID: 11400000, guid: 06aefaed9071cd148ad72abcd12dcd54, type: 2}
+  - {fileID: 11400000, guid: 1d9a6a85b043d4341b5de783d10930bd, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 15527e0e226a1bf4c89b0e6e841fa2cd, type: 2}
+  - {fileID: 11400000, guid: 43f60c202da1d2e4f9d7f625e9764f3f, type: 2}
+  - {fileID: 11400000, guid: 88111c7e31a1cef4ea67663cdc386ed2, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: c6076a2f2b3a0ec4e84c1eb56c0412e7, type: 2}
+  - {fileID: 11400000, guid: c63726464bef8424599861c98bdd735b, type: 2}
+  - {fileID: 11400000, guid: f53950ef960207242a225c08ecfb08ce, type: 2}
+  - {fileID: 11400000, guid: 0acc358555bac0445b70fea0bbbaa347, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 5226b4fdf01335b4197b5f26597afe97, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: b3030af636f24f7438f84ce2b83be711, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 904eac28bab37c940b5d903e10fbcc52, type: 2}
+  - {fileID: 11400000, guid: ae02ca96fa6d8784bb55ea2a2fc4db09, type: 2}
+  - {fileID: 11400000, guid: 58f75b111cb59134b8ceb985038384d0, type: 2}
+  - {fileID: 11400000, guid: ccecd3dfaa77c7b4c8f7ba5b34bf6524, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 5666e150a4f5ef94a9f697162a2feb59, type: 2}
+  - {fileID: 11400000, guid: 174ab769d1291824abe970785700d33b, type: 2}
+  - {fileID: 11400000, guid: 020cb57261ce0a14abf8ffd8488a3c93, type: 2}
+  - {fileID: 11400000, guid: 14be1c7337eecda4d9e831b35afab4b6, type: 2}
+  - {fileID: 11400000, guid: f036d09cb953c564aa76b2fe26315faf, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: 7b21df2f9d5a04a4db6a7e07908156ac, type: 2}
+  - {fileID: 11400000, guid: 5e7d8a00c31c9dc43a8e45752b1784e7, type: 2}
+  - {fileID: 11400000, guid: 05ca090d42ef6bd4b904a9cd6252b8d8, type: 2}
+  - {fileID: 11400000, guid: 0d4b4515384eabf45b8d012597a4c7f0, type: 2}
+  - {fileID: 11400000, guid: 20b965bca0968254eb1e252c919029d5, type: 2}
+  - {fileID: 11400000, guid: 5248a6557bd9e314fafa4426654bacbe, type: 2}
+  - {fileID: 11400000, guid: 036bf2a9abf3c894ab810f91fb600b44, type: 2}
+  - {fileID: 11400000, guid: d09d1af127a97fe48b2506319f38e4eb, type: 2}
+  - {fileID: 11400000, guid: 0acc358555bac0445b70fea0bbbaa347, type: 2}
+  - {fileID: 11400000, guid: d76ee4968078f7e478e1fb6bfc107cc9, type: 2}
+  compatibility: 07000000
+  stepsToHatch: 5120
+  height: 0.5
+  weight: 9
+  color: 1
+  shape: 5
+  habitat: 0
+  kind: Cerebral
+  pokedex: "This Pok\xE9mon had never been seen until it appeared from far in the
+    desert 50 years ago."
+  generation: 5
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 27
+  battlerShadowX: 0
+  battlerShadowSize: 2
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 04b3beebe7929644b89768b7fb0a01b5, type: 2}
+    method: 0
+    level: 42
+    item: {fileID: 0}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}

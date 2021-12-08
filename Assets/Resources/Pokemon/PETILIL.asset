@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d77015fe30c2db4992e4ee3b8edc7d5, type: 3}
+  m_Name: PETILIL
+  m_EditorClassIdentifier: 
+  number: 548
+  Name: Petilil
+  type1: {fileID: 11400000, guid: 63eaed1e3aaab9a49a68b1c1868b789c, type: 2}
+  type2: {fileID: 0}
+  type3: {fileID: 11400000, guid: 57e7f5af8a87c3347a66f23bf64cde91, type: 2}
+  baseStats: 2d00000023000000320000001e0000004600000032000000
+  genderRate: 6
+  growthRate: 1
+  baseExp: 56
+  effortPoints: 000000000000000000000000000000000100000000000000
+  rareness: 190
+  happiness: 70
+  abilities:
+  - {fileID: 11400000, guid: 2c8c649687353cd42b8b659246758919, type: 2}
+  - {fileID: 11400000, guid: 21546ea36e95678499ea98d53872fd02, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c960ccabfecf5e14f983862e7054db95, type: 2}
+  moveset:
+  - level: 1
+    move: {fileID: 11400000, guid: 30370983c226f7f4c9ed6ce2f329c928, type: 2}
+  - level: 4
+    move: {fileID: 11400000, guid: 95bae70b03ec1cb46a7f49da4440ec70, type: 2}
+  - level: 8
+    move: {fileID: 11400000, guid: 6499b12852cc6a549a8f291384179a3e, type: 2}
+  - level: 10
+    move: {fileID: 11400000, guid: 8658b2de94218014cb670102be7ef5d3, type: 2}
+  - level: 13
+    move: {fileID: 11400000, guid: abe7227700b063843bb2277db96224a3, type: 2}
+  - level: 17
+    move: {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - level: 19
+    move: {fileID: 11400000, guid: b6b8f3dab18f9f84b9e47d2d9944f223, type: 2}
+  - level: 22
+    move: {fileID: 11400000, guid: fea30b8b78cdfda458eaacd5c279de37, type: 2}
+  - level: 26
+    move: {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - level: 28
+    move: {fileID: 11400000, guid: 709f3d0f2d196cc4a9e8145cd69f2004, type: 2}
+  - level: 31
+    move: {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - level: 35
+    move: {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - level: 37
+    move: {fileID: 11400000, guid: 5634fa46ba93d1f428d31ce08733b979, type: 2}
+  - level: 40
+    move: {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - level: 44
+    move: {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - level: 46
+    move: {fileID: 11400000, guid: 440bd928019752740b3586c08408087f, type: 2}
+  tutorMoves:
+  - {fileID: 11400000, guid: 29fc4774dde75eb42ba7c4587306e2a2, type: 2}
+  - {fileID: 11400000, guid: c3e3f7109145ad945b4ec7bdc6b4a677, type: 2}
+  - {fileID: 11400000, guid: 8d0aac58c0306cd4da77b04d307b1330, type: 2}
+  - {fileID: 11400000, guid: 40fbbd79ee7a5af479241996d7409199, type: 2}
+  - {fileID: 11400000, guid: 4834451ed7acd8b4a8319d15f2e9e2a7, type: 2}
+  - {fileID: 11400000, guid: ad325815b8a09834faa6a891d9bf3058, type: 2}
+  - {fileID: 11400000, guid: ac5e69f887e997c4a9f80e4d1759e9ca, type: 2}
+  - {fileID: 11400000, guid: 80acaf170a51b254682cde1dedb38f3f, type: 2}
+  - {fileID: 11400000, guid: 8df64fa4a4c177a4ba360765e232dd4b, type: 2}
+  - {fileID: 11400000, guid: 0486752389663374fa70f769b9040eec, type: 2}
+  - {fileID: 11400000, guid: 1b57a0daf5cc29249ae2f9fa84d9ab6d, type: 2}
+  - {fileID: 11400000, guid: 6766fd6338619cd459fdef9ccf0efff8, type: 2}
+  - {fileID: 11400000, guid: ba4288702c2783e48894ead99cd50f0c, type: 2}
+  - {fileID: 11400000, guid: cb4cbe6de930a6f449f3ab445191ab3b, type: 2}
+  - {fileID: 11400000, guid: 1f7fd6222a5f1b24eb160457825f3917, type: 2}
+  - {fileID: 11400000, guid: e2098cbc6810b20418d18d7624720cb0, type: 2}
+  - {fileID: 11400000, guid: ab46ac1171a8f4f4a9822d5a3099ac0e, type: 2}
+  - {fileID: 11400000, guid: 3da6175aace3081459be9380cfa60a8c, type: 2}
+  - {fileID: 11400000, guid: 12d0f5bc9a56b934b900d95a918753f2, type: 2}
+  - {fileID: 11400000, guid: 130f204d92dc13f4d99007872d4750cd, type: 2}
+  - {fileID: 11400000, guid: 149bad98012070341be52d9cbe1ec05d, type: 2}
+  - {fileID: 11400000, guid: f132157d9c1843547acf74ba263e1131, type: 2}
+  - {fileID: 11400000, guid: 490ec71c94b5fea48ad5fdc9609b9a22, type: 2}
+  - {fileID: 11400000, guid: 98926a68b1dbb5740ba4027f3738577c, type: 2}
+  - {fileID: 11400000, guid: 170e1609fa869fb46886ebed08e82229, type: 2}
+  - {fileID: 11400000, guid: c36ffaec7609c5d4aa77235a3d56d461, type: 2}
+  - {fileID: 11400000, guid: 6b85cae7b5ee8d64789c4e056be7bec7, type: 2}
+  - {fileID: 11400000, guid: 011ea866e60554045abdd010aedbf8b6, type: 2}
+  - {fileID: 11400000, guid: 7d0093a51ad071b4ab15f373e69897a5, type: 2}
+  - {fileID: 11400000, guid: 28aab882e0b356b419f4fbaf006127a7, type: 2}
+  - {fileID: 11400000, guid: 144b03cdb39580248b48b3fe4aed75fb, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  eggMoves:
+  - {fileID: 11400000, guid: a9a8ab45a6a1f7f488e53c156115b563, type: 2}
+  - {fileID: 11400000, guid: 985c5060330fe7748aa15dcc6f6703b1, type: 2}
+  - {fileID: 11400000, guid: 59d966f58a2f5704a859ee4d87a1a349, type: 2}
+  - {fileID: 11400000, guid: 738fa855cd84d4e4dbb23c60d94aafdc, type: 2}
+  - {fileID: 11400000, guid: c7ba6d479ca85044d9c74b2bf7901446, type: 2}
+  - {fileID: 11400000, guid: 765b7b28a93862c47baf7549569b6abc, type: 2}
+  - {fileID: 11400000, guid: 4fd478406f5381d43b03cfa9a5161ed3, type: 2}
+  - {fileID: 11400000, guid: 9970cda403a2acd46bae4a9433704e3e, type: 2}
+  - {fileID: 11400000, guid: 2e97c90779b8da444ac5537310827be9, type: 2}
+  - {fileID: 11400000, guid: 9b1b01b71ff849b4483b2c5409bcfe4c, type: 2}
+  compatibility: 06000000
+  stepsToHatch: 5120
+  height: 0.5
+  weight: 6.6
+  color: 4
+  shape: 4
+  habitat: 0
+  kind: Bulb
+  pokedex: Since they prefer moist, nutrient-rich soil, the areas where Petilil live
+    are known to be good for growing plants.
+  generation: 5
+  battlerPlayerX: 0
+  battlerPlayerY: 0
+  battlerEnemyX: 0
+  battlerEnemyY: 12
+  battlerShadowX: 0
+  battlerShadowSize: 1
+  evolveMethods:
+  - product: {fileID: 11400000, guid: 9ba61834eb9d03c458d623363263b5ec, type: 2}
+    method: 18
+    level: 0
+    item: {fileID: 11400000, guid: a3b12baafd9a7bf4c93e61baab4e9f7b, type: 2}
+    beauty: 0
+    move: {fileID: 0}
+    pokemon: {fileID: 0}
+    location: 0
+    type: {fileID: 0}
