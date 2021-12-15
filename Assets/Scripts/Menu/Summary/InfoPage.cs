@@ -32,7 +32,25 @@ public class InfoPage : MonoBehaviour
             gameObject.SetActive(false);
             pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
-        }    
+        }
+        if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if(currpoke != pp.party_count - 1)
+            {
+                currpoke++;
+                Setup(currpoke);
+                FindObjectOfType<Summary>().Setup(currpoke);
+            }
+        }
+        if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if(currpoke != 0)
+            {
+                currpoke--;
+                Setup(currpoke);
+                FindObjectOfType<Summary>().Setup(currpoke);
+            }
+        }
     }
 
     public void Setup(int poke)

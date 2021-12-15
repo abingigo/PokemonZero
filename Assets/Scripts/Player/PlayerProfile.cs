@@ -6,12 +6,13 @@ public class PlayerProfile : MonoBehaviour
     public string PlayerName;
     public int gender;
     public List<InventoryItem> items;
-    public FieldPokemon[] party = new FieldPokemon[6];
+    public FieldPokemon[] party;
     public int party_count;
     public int[] badges = new int[8];
 
     private void Start()
     {
+        party = new FieldPokemon[6];
         DontDestroyOnLoad(gameObject);
     }
 }

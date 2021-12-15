@@ -29,8 +29,8 @@ public class DoorExitTeleport : MonoBehaviour, Collidable
         yield return new WaitForSeconds(2f);
         player.transform.position = pos;
         blackscreen.SetBool("Start", false);
-        player.GetComponentsInChildren<AudioSource>()[1].clip = newBGM;
-        player.GetComponentsInChildren<AudioSource>()[1].Play();
+        player.GetComponentInChildren<AudioSource>().clip = newBGM;
+        player.GetComponentInChildren<AudioSource>().Play();
         yield return new WaitForSeconds(0.5f);
         if(door != null)
         {

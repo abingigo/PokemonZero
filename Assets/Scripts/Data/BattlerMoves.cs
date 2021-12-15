@@ -1,3 +1,4 @@
+[System.Serializable]
 public class BattlerMoves
 {
     public Moves moves;

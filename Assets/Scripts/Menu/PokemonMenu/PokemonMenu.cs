@@ -101,14 +101,14 @@ public class PokemonMenu : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && j > 0)
             {
                 j--;
-                arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y + 35, arrow.transform.localPosition.z);
+                arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y + 42, arrow.transform.localPosition.z);
                 FindObjectOfType<PlayerMovement>().gameObject.GetComponent<AudioSource>().clip = GameObject.FindObjectOfType<AudioClips>().selCursor;
                 FindObjectOfType<PlayerMovement>().gameObject.GetComponent<AudioSource>().Play();
             }
             if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow) && j < 3)
             {
                 j++;
-                arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y - 35, arrow.transform.localPosition.z);
+                arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y - 42, arrow.transform.localPosition.z);
                 FindObjectOfType<PlayerMovement>().gameObject.GetComponent<AudioSource>().clip = GameObject.FindObjectOfType<AudioClips>().selCursor;
                 FindObjectOfType<PlayerMovement>().gameObject.GetComponent<AudioSource>().Play();
             }
@@ -124,6 +124,8 @@ public class PokemonMenu : MonoBehaviour
                 {
                     summaryScreen.SetActive(true);
                     summaryScreen.GetComponent<Summary>().Setup(currentSel);
+                    summaryScreen.GetComponent<Summary>().GetScreen(0).SetActive(true);
+                    summaryScreen.GetComponent<Summary>().GetScreen(0).GetComponent<InfoPage>().Setup(currentSel);
                 }
                 else if(j == 3)
                 {

@@ -36,13 +36,13 @@ public class Menu : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && i > 0 && inMenu)
         {
             i--;
-            arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y + 32, arrow.transform.localPosition.z);
+            arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y + 45, arrow.transform.localPosition.z);
             pm.gameObject.GetComponent<AudioSource>().clip = GameObject.FindObjectOfType<AudioClips>().selCursor;
             pm.gameObject.GetComponent<AudioSource>().Play();
         }
         if ((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && i < 5 && inMenu)
         {
-            arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y - 32, arrow.transform.localPosition.z);
+            arrow.transform.localPosition = new Vector3(arrow.transform.localPosition.x, arrow.transform.localPosition.y - 45, arrow.transform.localPosition.z);
             i++;
             pm.gameObject.GetComponent<AudioSource>().clip = GameObject.FindObjectOfType<AudioClips>().selCursor;
             pm.gameObject.GetComponent<AudioSource>().Play();

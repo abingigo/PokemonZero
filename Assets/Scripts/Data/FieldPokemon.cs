@@ -48,7 +48,7 @@ public class FieldPokemon
 
         level = lvl;
 
-        if (nickname != null)
+        if (nickname != "")
             nickName = nickname;
         else
             nickName = p.Name;
@@ -169,6 +169,9 @@ public class FieldPokemon
         statusCount = 0;
 
         ballUsed = 0;
+
+        for(int k = 0; k < 4; k++)
+            battlerMoves[k] = null;
 
         int j = 0;
         foreach(moves m in p.moveset)

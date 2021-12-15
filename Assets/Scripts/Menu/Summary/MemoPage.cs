@@ -25,7 +25,7 @@ public class MemoPage : MonoBehaviour
         FieldPokemon b = pp.party[poke];
         nature.text = b.nature.ToString() + " nature";
         date.text = "Met on " + b.caughtDate;
-        routeCaught.text = "Caught on" + b.routeCaught;
+        routeCaught.text = "Caught on " + b.routeCaught;
         lvlmet.text = "Met at level " + b.levelcaught;
         var textFile = Resources.Load<TextAsset>("Misc/flairs");
         string[] x = textFile.text.Split(new char[] {'\n'});
@@ -43,6 +43,33 @@ public class MemoPage : MonoBehaviour
             gameObject.SetActive(false);
             pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
+        }
+        if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            GameObject g = GameObject.FindObjectOfType<Summary>().GetScreen(2);
+            g.SetActive(true);
+            g.GetComponent<SkillsPage>().Setup(currpoke);
+            gameObject.SetActive(false);
+            pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+            pm.gameObject.GetComponent<AudioSource>().Play();
+        }
+        if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if(currpoke != pp.party_count - 1)
+            {
+                currpoke++;
+                Setup(currpoke);
+                FindObjectOfType<Summary>().Setup(currpoke);
+            }
+        }
+        if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if(currpoke != 0)
+            {
+                currpoke--;
+                Setup(currpoke);
+                FindObjectOfType<Summary>().Setup(currpoke);
+            }
         }
     }
 }

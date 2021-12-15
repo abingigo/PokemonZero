@@ -2,6 +2,7 @@ using UnityEngine;
 
 public enum DamageCategory{ Physical, Special, Status }
 public enum Target { None, User, NearAlly, UserOrNearAlly, UserAndAllies, NearFoe, AllNearFoes, RandomNearFoe, Foe, AllFoes, NearOther, AllNearOthers, Other, AllBattlers, UserSide, FoeSide, BothSides}
+
 public class Moves : ScriptableObject
 {
     public int idNumber;

@@ -4,7 +4,11 @@ public class GeneralSprites : MonoBehaviour
 {
     public Sprite genderMale, genderFemale;
     [SerializeField] Texture2D types_0;
+
+    [SerializeField] Texture2D category;
+
     [HideInInspector] public Sprite normal, fighting, flying, poison, ground, rock, bug, ghost, steel, Null, fire, water, grass, electric, psychic, ice, dragon, dark, fairy;
+    [HideInInspector] public Sprite physical, special, status;
 
     private void Start()
     {
@@ -27,5 +31,9 @@ public class GeneralSprites : MonoBehaviour
         dragon   =  Sprite.Create(types_0, new Rect(0, types_0.height * 2 / 19, types_0.width, types_0.height / 19), new Vector2(0, 0), .01f);
         dark     =  Sprite.Create(types_0, new Rect(0, types_0.height / 19, types_0.width, types_0.height / 19), new Vector2(0, 0), .01f);
         fairy    =  Sprite.Create(types_0, new Rect(0, 0, types_0.width, types_0.height / 19), new Vector2(0, 0), .01f);
+
+        physical = Sprite.Create(category, new Rect(0, category.height * 2 / 3, category.width, category.height / 3), new Vector2(0, 0), .01f);
+        special  = Sprite.Create(category, new Rect(0, category.height * 1 / 3, category.width, category.height / 3), new Vector2(0, 0), .01f);
+        status   = Sprite.Create(category, new Rect(0, 0, category.width, category.height / 3), new Vector2(0, 0), .01f);
     }
 }

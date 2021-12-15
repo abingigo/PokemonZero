@@ -59,8 +59,6 @@ public class Summary : MonoBehaviour
             itemName.text = b.heldItem.Name;
         }
         currPokemon = poke;
-        screens[0].SetActive(true);
-        screens[0].GetComponent<InfoPage>().Setup(poke);
     }
 
     public GameObject GetScreen(int s)

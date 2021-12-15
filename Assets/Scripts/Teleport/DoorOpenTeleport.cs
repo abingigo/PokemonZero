@@ -30,8 +30,8 @@ public class DoorOpenTeleport : MonoBehaviour, Collidable
         blackscreen.SetBool("Start", false);
         player.GetComponent<PlayerMovement>().enabled = true;
         menu.enabled = true;
-        player.GetComponentsInChildren<AudioSource>()[1].clip = newBGM;
-        player.GetComponentsInChildren<AudioSource>()[1].Play();
+        player.GetComponentInChildren<AudioSource>().clip = newBGM;
+        player.GetComponentInChildren<AudioSource>().Play();
         player.GetComponent<PlayerMovement>().isColliding = false;
     }
 }
