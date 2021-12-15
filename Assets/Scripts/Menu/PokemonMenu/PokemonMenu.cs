@@ -70,7 +70,7 @@ public class PokemonMenu : MonoBehaviour
                 UnHighlight(currentSel);
                 CloseBall(currentSel);
                 currentSel++;
-                if (currentSel > 5 || currentSel > pp.party_count)
+                if (currentSel > 5 || currentSel >= pp.party_count)
                     currentSel = 0;
                 Highlight(currentSel);
                 OpenBall(currentSel);

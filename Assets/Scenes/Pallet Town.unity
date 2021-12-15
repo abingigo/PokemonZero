@@ -34393,7 +34393,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: {fileID: 1769705713}
-  pm: {fileID: 1819130259}
   arrow: {fileID: 1767727620}
   pokemonMenu: {fileID: 1602175688}
 --- !u!1 &798464653
@@ -44701,7 +44700,38 @@ MonoBehaviour:
   PlayerName: Foo
   gender: 0
   items: []
-  party: []
+  party:
+  - personalId: 0
+    nickName: dkjfkd
+    pokemon: {fileID: 11400000, guid: d957555e4f6ef4f42819f6b1506b90b2, type: 2}
+    ability: {fileID: 0}
+    level: 0
+    currEXP: 0
+    currHP: 5
+    maxHP: 10
+    attack: 0
+    defense: 0
+    specialAttack: 0
+    specialDefense: 0
+    speed: 0
+    battlerMoves: []
+    heldItem: {fileID: 0}
+    happiness: 0
+    gender: 0
+    nature: 0
+    isShiny: 0
+    form: 0
+    status: 0
+    statusCount: 0
+    eggSteps: 0
+    ballUsed: 0
+    ev: 
+    iv: 
+    pokerus: 0
+    fused: {fileID: 0}
+    levelcaught: 0
+    caughtDate: 
+    routeCaught: 
   party_count: 1
   badges: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!4 &1336475728
