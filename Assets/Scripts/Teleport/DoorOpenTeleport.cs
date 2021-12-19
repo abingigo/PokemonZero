@@ -5,10 +5,15 @@ public class DoorOpenTeleport : MonoBehaviour, Collidable
 {
     [SerializeField] GameObject player;
     [SerializeField] Vector3 pos;
-    [SerializeField] AudioClip door_open;
     [SerializeField] Animator blackscreen;
     [SerializeField] Menu menu;
     [SerializeField] AudioClip newBGM;
+    GameObject mainCamera;
+
+    private void Start()
+    {
+        mainCamera = FindObjectOfType<StartGame>().gameObject;
+    }
 
     public void collide()
     {
@@ -20,7 +25,7 @@ public class DoorOpenTeleport : MonoBehaviour, Collidable
 
     IEnumerator Enter()
     {
-        player.GetComponent<AudioSource>().clip = door_open;
+        player.GetComponent<AudioSource>().clip = AudioClips.doorEnter;
         player.GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(0.5f);
         blackscreen.SetBool("Start", true);
@@ -30,8 +35,8 @@ public class DoorOpenTeleport : MonoBehaviour, Collidable
         blackscreen.SetBool("Start", false);
         player.GetComponent<PlayerMovement>().enabled = true;
         menu.enabled = true;
-        player.GetComponentInChildren<AudioSource>().clip = newBGM;
-        player.GetComponentInChildren<AudioSource>().Play();
+        mainCamera.GetComponentInChildren<AudioSource>().clip = newBGM;
+        mainCamera.GetComponentInChildren<AudioSource>().Play();
         player.GetComponent<PlayerMovement>().isColliding = false;
     }
 }

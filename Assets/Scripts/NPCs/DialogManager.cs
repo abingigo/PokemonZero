@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class DialogManager : MonoBehaviour
 {
     [SerializeField] GameObject dialogBox;
-    [SerializeField] Text dialogText;
+    [SerializeField] TextMeshProUGUI dialogText;
     Queue<string> sentences;
     [SerializeField] GameObject arrow;
 
@@ -14,8 +14,6 @@ public class DialogManager : MonoBehaviour
     Pokemon pokemon;
 
     [SerializeField] GameObject player;
-    PlayerProfile pp;
-    [SerializeField] Menu menu;
 
     bool inDialog = false;
     public bool dialogAllowed = true;
@@ -24,7 +22,6 @@ public class DialogManager : MonoBehaviour
 
     private void Awake()
     {
-        pp = GameObject.FindObjectOfType<PlayerProfile>();
         Instance = this;
         sentences = new Queue<string>();
     }
@@ -37,7 +34,7 @@ public class DialogManager : MonoBehaviour
             {
                 if(!player.GetComponent<AudioSource>().isPlaying)
                 {
-                    player.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().selCursor;
+                    player.GetComponent<AudioSource>().clip = AudioClips.selCursor;
                     player.GetComponent<AudioSource>().Play();
                 }
                 ShowNextSentence();
@@ -67,7 +64,7 @@ public class DialogManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        sentence = sentence.Replace("$pname", pp.PlayerName);
+        sentence = sentence.Replace("$pname", PlayerProfile.PlayerName);
         if (sentence != "GiveItem" && sentence != "GivePokemon")
         {
             StopAllCoroutines();

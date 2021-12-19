@@ -144,7 +144,7 @@ public class NPCController : MonoBehaviour, Interactable
 
     private bool isWalkable(Vector3 targetpos)
     {
-        if (Physics2D.OverlapCircle(targetpos, 0.3f, GameObject.FindObjectOfType<Layers>().obstacles | GameObject.FindObjectOfType<Layers>().interactable) != null)
+        if (Physics2D.OverlapCircle(targetpos, 0.3f, Layers.obstacles | Layers.interactable) != null)
             return false;
         return true;
     }

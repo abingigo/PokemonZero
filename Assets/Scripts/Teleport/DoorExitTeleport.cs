@@ -6,10 +6,15 @@ public class DoorExitTeleport : MonoBehaviour, Collidable
 {
     [SerializeField] GameObject player;
     [SerializeField] Vector3 pos;
-    [SerializeField] AudioClip door_close;
     [SerializeField] Animator blackscreen, door;
     [SerializeField] Menu menu;
     [SerializeField] AudioClip newBGM;
+    [SerializeField] GameObject mainCamera;
+
+    private void Start()
+    {
+        mainCamera = FindObjectOfType<StartGame>().gameObject;
+    }
 
     public void collide()
     {
@@ -21,7 +26,7 @@ public class DoorExitTeleport : MonoBehaviour, Collidable
 
     IEnumerator Exit()
     {
-        player.GetComponent<AudioSource>().clip = door_close;
+        player.GetComponent<AudioSource>().clip = AudioClips.doorExit;
         player.GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(0.5f);
         blackscreen.SetBool("Start", true);
@@ -29,8 +34,8 @@ public class DoorExitTeleport : MonoBehaviour, Collidable
         yield return new WaitForSeconds(2f);
         player.transform.position = pos;
         blackscreen.SetBool("Start", false);
-        player.GetComponentInChildren<AudioSource>().clip = newBGM;
-        player.GetComponentInChildren<AudioSource>().Play();
+        mainCamera.GetComponentInChildren<AudioSource>().clip = newBGM;
+        mainCamera.GetComponentInChildren<AudioSource>().Play();
         yield return new WaitForSeconds(0.5f);
         if(door != null)
         {

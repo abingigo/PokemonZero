@@ -3,7 +3,6 @@ using TMPro;
 
 public class MemoPage : MonoBehaviour
 {
-    PlayerProfile pp;
     GeneralSprites gs;
     PlayerMovement pm;
     [SerializeField] TextMeshProUGUI nature;
@@ -15,14 +14,13 @@ public class MemoPage : MonoBehaviour
 
     private void Awake()
     {
-        pp = FindObjectOfType<PlayerProfile>();
         gs = FindObjectOfType<GeneralSprites>();
         pm = FindObjectOfType<PlayerMovement>();
     }
 
     public void Setup(int poke)
     {
-        FieldPokemon b = pp.party[poke];
+        FieldPokemon b = PlayerProfile.party[poke];
         nature.text = b.nature.ToString() + " nature";
         date.text = "Met on " + b.caughtDate;
         routeCaught.text = "Caught on " + b.routeCaught;
@@ -41,7 +39,7 @@ public class MemoPage : MonoBehaviour
             g.SetActive(true);
             g.GetComponent<InfoPage>().Setup(currpoke);
             gameObject.SetActive(false);
-            pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+            pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
         }
         if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
@@ -50,12 +48,12 @@ public class MemoPage : MonoBehaviour
             g.SetActive(true);
             g.GetComponent<SkillsPage>().Setup(currpoke);
             gameObject.SetActive(false);
-            pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+            pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
         }
         if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if(currpoke != pp.party_count - 1)
+            if(currpoke != PlayerProfile.party_count - 1)
             {
                 currpoke++;
                 Setup(currpoke);

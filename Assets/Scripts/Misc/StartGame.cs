@@ -12,8 +12,7 @@ public class StartGame : MonoBehaviour
 
     private void Start()
     {
-        PlayerProfile pp = GameObject.FindObjectOfType<PlayerProfile>();
-        if(pp.gender == 0)
+        if(PlayerProfile.gender == 0)
         {
             player.GetComponent<SpriteRenderer>().sprite = boy;
             player.GetComponent<Animator>().runtimeAnimatorController = boy_anim;
@@ -26,5 +25,12 @@ public class StartGame : MonoBehaviour
 
         BGM.GetComponent<AudioSource>().clip = ac;
         BGM.GetComponent<AudioSource>().Play();
+
+        if(PlayerProfile.position != Vector2.zero)
+        {
+            player.transform.position = PlayerProfile.position;
+            player.GetComponent<Animator>().SetFloat("Horizontal", PlayerProfile.horizontal);
+            player.GetComponent<Animator>().SetFloat("Vertical", PlayerProfile.vertical);
+        }
     }
 }

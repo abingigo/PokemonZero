@@ -6,13 +6,11 @@ public class RibbonsPage : MonoBehaviour
 {
     int currpoke;
     PlayerMovement pm;
-    PlayerProfile pp;
 
     public void Setup(int poke)
     {
         currpoke = poke;
         pm = FindObjectOfType<PlayerMovement>();
-        pp = FindObjectOfType<PlayerProfile>();
     }
 
     void Update()
@@ -23,12 +21,12 @@ public class RibbonsPage : MonoBehaviour
             g.SetActive(true);
             g.GetComponent<MovesPage>().Setup(currpoke);
             gameObject.SetActive(false);
-            pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+            pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
         }
         if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if(currpoke != pp.party_count - 1)
+            if(currpoke != PlayerProfile.party_count - 1)
             {
                 currpoke++;
                 Setup(currpoke);

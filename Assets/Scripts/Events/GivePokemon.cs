@@ -9,11 +9,13 @@ public class GivePokemon : MonoBehaviour, Interactable
     [SerializeField] Menu menu;
     [SerializeField] AudioClip pokemonGet;
     [SerializeField] List<Dialog> dialog;
-    [SerializeField] GameObject yesNo;
+    OptionsBox ob;
+    bool answered = false;
+    int i = -1;
 
     public void interact()
     {
-        if(!GameObject.FindObjectOfType<GameManager>().starterSelected)
+        if(!GameManager.starterSelected)
         {
             player.GetComponent<PlayerMovement>().enabled = false;
             player.GetComponent<Animator>().SetFloat("speed", 0);
@@ -32,24 +34,30 @@ public class GivePokemon : MonoBehaviour, Interactable
     IEnumerator Event()
     {
         yield return StartCoroutine(Interacting(2));
-        yesNo.SetActive(true);
-        yesNo.GetComponent<YesNo>().answered = false;
-        yield return new WaitUntil(() => yesNo.GetComponent<YesNo>().answered);
-        if (yesNo.GetComponent<YesNo>().i == 1)
+        ob = OptionsBox.Instance;
+        ob.addOptions(new string[] {"Yes", "No"});
+        ob.p = positions.choice;
+        ob.ShowOptions(menu.gameObject.transform, recieveOption);
+
+        yield return new WaitUntil(() => answered);
+
+        if(i == 1)
         {
             player.GetComponent<PlayerMovement>().enabled = true;
             menu.enabled = true;
             player.GetComponent<PlayerMovement>().isInteracting = false;
-            yesNo.SetActive(false);
+            answered = false;
+            i = -1;
             yield break;
         }
-        yesNo.SetActive(false);
+
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;
-        FindObjectOfType<GameManager>().starterSelected = true;
-        FindObjectOfType<PlayerProfile>().party[0] = new FieldPokemon(pokemon, "", -1, -1, -1, -1, 5, false);
-        FindObjectOfType<PlayerProfile>().party_count = 1;
+        GameManager.starterSelected = true;
+        PlayerProfile.party[0] = new FieldPokemon(pokemon, "", -1, -1, -1, -1, 5, false);
+        PlayerProfile.party_count = 1;
         player.GetComponent<AudioSource>().clip = pokemonGet;
+        
         player.GetComponent<AudioSource>().Play();
         yield return StartCoroutine(Interacting(0));
     }
@@ -66,5 +74,17 @@ public class GivePokemon : MonoBehaviour, Interactable
             menu.enabled = true;
             player.GetComponent<PlayerMovement>().isInteracting = false;
         }
+    }
+
+    void recieveOption(string s)
+    {
+        switch(s)
+        {
+            case "Yes": i = 0;
+                        break;
+            case "No": i = 1;
+                       break;
+        }
+        answered = true;
     }
 }

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class MoveDetailsPage : MonoBehaviour
 {
-    PlayerProfile pp;
     GeneralSprites gs;
     [SerializeField] TextMeshProUGUI[] moves = new TextMeshProUGUI[4];
     [SerializeField] TextMeshProUGUI[] pps = new TextMeshProUGUI[4];
@@ -21,7 +20,6 @@ public class MoveDetailsPage : MonoBehaviour
 
     public void Awake()
     {
-        pp = FindObjectOfType<PlayerProfile>();
         gs = FindObjectOfType<GeneralSprites>();
         cursorred = Sprite.Create(cursor_sprite, new Rect(0, cursor_sprite.height * 1 / 2, cursor_sprite.width, cursor_sprite.height / 2), new Vector2(0, 0), .01f);
         cursorwhite = Sprite.Create(cursor_sprite, new Rect(0, 0, cursor_sprite.width, cursor_sprite.height / 2), new Vector2(0, 0), .01f);
@@ -30,7 +28,7 @@ public class MoveDetailsPage : MonoBehaviour
     public void Setup(int poke, int move = 0)
     {
         movelength = 0;
-        FieldPokemon b = pp.party[poke];
+        FieldPokemon b = PlayerProfile.party[poke];
         Sprite s = (Sprite)Resources.Load($"Graphics/Pokemon/Icons/{b.pokemon.Name.ToUpper()}", typeof(Sprite));
         Sprite[] s1 = new Sprite[] { Sprite.Create(s.texture, new Rect(new Vector2(0, 0), new Vector2(64, 64)), new Vector2(0, 0)), Sprite.Create(s.texture, new Rect(new Vector2(64, 0), new Vector2(64, 64)), new Vector2(0, 0)) };
         vibe = StartCoroutine(Vibing(s1));
@@ -70,7 +68,7 @@ public class MoveDetailsPage : MonoBehaviour
 
     public void Setup_Move(int move)
     {
-        FieldPokemon b = pp.party[currpoke];
+        FieldPokemon b = PlayerProfile.party[currpoke];
         category.sprite = (Sprite) gs.GetType().GetField(b.battlerMoves[move].moves.damageCategory.ToString().ToLower()).GetValue(gs);
 
         if(b.battlerMoves[move].moves.basePower != 0)
@@ -138,9 +136,9 @@ public class MoveDetailsPage : MonoBehaviour
             }
             if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.E))
             {
-                BattlerMoves bm = pp.party[currpoke].battlerMoves[currmove];
-                pp.party[currpoke].battlerMoves[currmove] = pp.party[currpoke].battlerMoves[swapmove];
-                pp.party[currpoke].battlerMoves[swapmove] = bm;
+                BattlerMoves bm = PlayerProfile.party[currpoke].battlerMoves[currmove];
+                PlayerProfile.party[currpoke].battlerMoves[currmove] = PlayerProfile.party[currpoke].battlerMoves[swapmove];
+                PlayerProfile.party[currpoke].battlerMoves[swapmove] = bm;
                 Image i = moves[swapmove].GetComponentsInChildren<Image>()[1];
                 i.color = new UnityEngine.Color(i.color.r, i.color.g, i.color.b, 0);
                 switching = false;

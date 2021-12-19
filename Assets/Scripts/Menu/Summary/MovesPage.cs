@@ -4,7 +4,6 @@ using TMPro;
 
 public class MovesPage : MonoBehaviour
 {
-    PlayerProfile pp;
     GeneralSprites gs;
     PlayerMovement pm;
     [SerializeField] TextMeshProUGUI[] moves = new TextMeshProUGUI[4];
@@ -16,7 +15,6 @@ public class MovesPage : MonoBehaviour
 
     public void Awake()
     {
-        pp = FindObjectOfType<PlayerProfile>();
         gs = FindObjectOfType<GeneralSprites>();
         pm = FindObjectOfType<PlayerMovement>();
         inDetails = false;
@@ -38,7 +36,7 @@ public class MovesPage : MonoBehaviour
                 g.SetActive(true);
                 g.GetComponent<RibbonsPage>().Setup(currpoke);
                 gameObject.SetActive(false);
-                pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+                pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
                 pm.gameObject.GetComponent<AudioSource>().Play();
             }
             if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
@@ -47,12 +45,12 @@ public class MovesPage : MonoBehaviour
                 g.SetActive(true);
                 g.GetComponent<SkillsPage>().Setup(currpoke);
                 gameObject.SetActive(false);
-                pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+                pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
                 pm.gameObject.GetComponent<AudioSource>().Play();
             }
             if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
-                if(currpoke != pp.party_count - 1)
+                if(currpoke != PlayerProfile.party_count - 1)
                 {
                     currpoke++;
                     Setup(currpoke);
@@ -73,7 +71,7 @@ public class MovesPage : MonoBehaviour
 
     public void Setup(int poke)
     {
-        FieldPokemon b = pp.party[poke];
+        FieldPokemon b = PlayerProfile.party[poke];
         for(int i = 0; i < 4; i++)
             moves[i].gameObject.SetActive(false);
         

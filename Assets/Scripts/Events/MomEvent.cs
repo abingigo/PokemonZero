@@ -6,13 +6,12 @@ public class MomEvent : MonoBehaviour, Collidable
     [SerializeField] GameObject player, NPC;
     [SerializeField] Menu menu;
     [SerializeField] GameObject exclamation;
-    [SerializeField] AudioClip excl;
 
     public void collide()
     {
-        if(!GameObject.FindObjectOfType<GameManager>().momEvent)
+        if(!GameManager.momEvent)
         {
-            GameObject.FindObjectOfType<GameManager>().momEvent = true;
+            GameManager.momEvent = true;
             player.GetComponent<PlayerMovement>().enabled = false;
             menu.enabled = false;
             StartCoroutine(Event());
@@ -25,7 +24,7 @@ public class MomEvent : MonoBehaviour, Collidable
         exclamation.SetActive(true);
         exclamation.transform.position = NPC.transform.position + new Vector3(0, 1);
         exclamation.GetComponent<Animator>().SetBool("Surprise", true);
-        player.GetComponent<AudioSource>().clip = excl;
+        player.GetComponent<AudioSource>().clip = AudioClips.exclaim;
         player.GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(1);
         exclamation.GetComponent<Animator>().SetBool("Surprise", false);

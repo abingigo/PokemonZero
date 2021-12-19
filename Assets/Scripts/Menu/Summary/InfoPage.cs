@@ -10,14 +10,12 @@ public class InfoPage : MonoBehaviour
     [SerializeField] TextMeshProUGUI currEXP;
     [SerializeField] TextMeshProUGUI tonextLvl;
     [SerializeField] Slider Exp;
-    PlayerProfile pp;
     GeneralSprites gs;
     PlayerMovement pm;
     int currpoke;
 
     private void Awake()
     {
-        pp = FindObjectOfType<PlayerProfile>();
         gs = FindObjectOfType<GeneralSprites>();
         pm = FindObjectOfType<PlayerMovement>();
     }
@@ -30,12 +28,12 @@ public class InfoPage : MonoBehaviour
             g.SetActive(true);
             g.GetComponent<MemoPage>().Setup(currpoke);
             gameObject.SetActive(false);
-            pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+            pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
         }
         if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if(currpoke != pp.party_count - 1)
+            if(currpoke != PlayerProfile.party_count - 1)
             {
                 currpoke++;
                 Setup(currpoke);
@@ -55,7 +53,7 @@ public class InfoPage : MonoBehaviour
 
     public void Setup(int poke)
     {
-        FieldPokemon b = pp.party[poke];
+        FieldPokemon b = PlayerProfile.party[poke];
 
         dexNumber.text = b.pokemon.number.ToString();
         species.text = b.pokemon.Name;

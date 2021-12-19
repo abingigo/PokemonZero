@@ -22,8 +22,6 @@ public class Intro : MonoBehaviour
     int i = 0;
     public GameObject inputField;
 
-    public PlayerProfile pp;
-
     private void Start()
     {
         sentences = new Queue<string>();
@@ -61,7 +59,7 @@ public class Intro : MonoBehaviour
                 }
                 else if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
                 {
-                    pp.gender = i;
+                    PlayerProfile.gender = i;
                     genderSelect.SetActive(false);
                     if(i == 0)
                         boy.GetComponent<Animator>().SetBool("BoyActive", true);
@@ -114,13 +112,13 @@ public class Intro : MonoBehaviour
         {
             if (speechBox.activeInHierarchy == false)
                 speechBox.SetActive(true);
-            StartCoroutine(TypeSentence($"So you are {pp.PlayerName}?"));
+            StartCoroutine(TypeSentence($"So you are {PlayerProfile.PlayerName}?"));
         }
         else if (sentence == "RDY")
         {
             if (speechBox.activeInHierarchy == false)
                 speechBox.SetActive(true);
-            StartCoroutine(TypeSentence($"{pp.PlayerName}, are you ready?"));
+            StartCoroutine(TypeSentence($"{PlayerProfile.PlayerName}, are you ready?"));
         }
         else
         {
@@ -132,7 +130,7 @@ public class Intro : MonoBehaviour
 
     public void EndEdit()
     {
-        pp.PlayerName = inputField.GetComponent<InputField>().text;
+        PlayerProfile.PlayerName = inputField.GetComponent<InputField>().text;
         inputField.SetActive(false);
         ShowNextSentence();
     }

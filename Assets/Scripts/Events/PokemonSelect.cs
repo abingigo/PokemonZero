@@ -7,19 +7,18 @@ public class PokemonSelect : MonoBehaviour, Collidable
     [SerializeField] List<Dialog> dialog;
     [SerializeField] GameObject player, NPC, exclamation;
     [SerializeField] Menu menu;
-    [SerializeField] AudioClip excl;
 
     public void collide()
     {
-        if(!GameObject.FindObjectOfType<GameManager>().oakEvent)
+        if(!GameManager.oakEvent)
         {
-            GameObject.FindObjectOfType<GameManager>().oakEvent = true;
+            GameManager.oakEvent = true;
             player.GetComponent<PlayerMovement>().enabled = false;
             player.GetComponent<Animator>().SetFloat("speed", 0);
             menu.enabled = false;
             StartCoroutine(Event());
         }
-        else if(GameObject.FindObjectOfType<GameManager>().oakEvent && !GameObject.FindObjectOfType<GameManager>().starterSelected)
+        else if(GameManager.oakEvent && !GameManager.starterSelected)
         {
             player.GetComponent<PlayerMovement>().enabled = false;
             player.GetComponent<Animator>().SetFloat("speed", 0);
@@ -37,7 +36,7 @@ public class PokemonSelect : MonoBehaviour, Collidable
         exclamation.SetActive(true);
         exclamation.transform.position = NPC.transform.position + new Vector3(0, 1);
         exclamation.GetComponent<Animator>().SetBool("Surprise", true);
-        player.GetComponent<AudioSource>().clip = excl;
+        player.GetComponent<AudioSource>().clip = AudioClips.exclaim;
         player.GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(1);
         exclamation.GetComponent<Animator>().SetBool("Surprise", false);
@@ -54,7 +53,7 @@ public class PokemonSelect : MonoBehaviour, Collidable
         exclamation.SetActive(true);
         exclamation.transform.position = NPC.transform.position + new Vector3(0, 1);
         exclamation.GetComponent<Animator>().SetBool("Surprise", true);
-        player.GetComponent<AudioSource>().clip = excl;
+        player.GetComponent<AudioSource>().clip = AudioClips.exclaim;
         player.GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(1);
         exclamation.GetComponent<Animator>().SetBool("Surprise", false);

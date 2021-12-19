@@ -22,7 +22,7 @@ public class FieldPokemon
     public int specialAttack;
     public int specialDefense;
     public int speed;
-    public BattlerMoves[] battlerMoves = new BattlerMoves[4];
+    public BattlerMoves[] battlerMoves;
     public Items heldItem;
     public int happiness;
     public Gender gender;
@@ -123,7 +123,7 @@ public class FieldPokemon
 
         if (natureFlag == -1)
         {
-            int c = (int)personalId % 25;
+            int c = (int)(personalId % 25);
             nature = (Nature)c;
         }
         else
@@ -170,8 +170,10 @@ public class FieldPokemon
 
         ballUsed = 0;
 
+        battlerMoves = new BattlerMoves[4];
+
         for(int k = 0; k < 4; k++)
-            battlerMoves[k] = null;
+            battlerMoves[k] = new BattlerMoves(null);
 
         int j = 0;
         foreach(moves m in p.moveset)
@@ -179,8 +181,7 @@ public class FieldPokemon
             if (m.level > level)
                 break;
             else
-                battlerMoves[j] = new BattlerMoves(m.move);
-            j++;
+                battlerMoves[j++] = new BattlerMoves(m.move);
             if (j == 4)
                 j -= 4;
         }

@@ -6,7 +6,6 @@ public class Summary : MonoBehaviour
 {
     int currPokemon = 0;
     [SerializeField] GameObject[] screens = new GameObject[5];
-    PlayerProfile pp;
     [SerializeField] Image pokeball;
     [SerializeField] TextMeshProUGUI Name;
     [SerializeField] Image gender;
@@ -16,16 +15,21 @@ public class Summary : MonoBehaviour
     [SerializeField] TextMeshProUGUI itemName;
     GeneralSprites gs;
 
-    private void Awake()
+    private void Update()
     {
-        pp = FindObjectOfType<PlayerProfile>();
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(FindObjectOfType<PokemonMenu>())
+                FindObjectOfType<PokemonMenu>().inPartyMenu = true;
+            gameObject.SetActive(false);
+        }
     }
 
     public void Setup(int poke)
     {
         gs = FindObjectOfType<GeneralSprites>();
 
-        FieldPokemon b = pp.party[poke];
+        FieldPokemon b = PlayerProfile.party[poke];
         Name.text = b.nickName;
 
         if (b.gender == Gender.Female)

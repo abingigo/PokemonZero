@@ -9,7 +9,6 @@ public class SkillsPage : MonoBehaviour
     [SerializeField] TextMeshProUGUI ability, abilitydesc;
     Sprite redhp, yellowhp, greenhp;
     [SerializeField] Texture2D overlay_hp;
-    PlayerProfile pp;
     PlayerMovement pm;
     int currpoke;
 
@@ -18,13 +17,12 @@ public class SkillsPage : MonoBehaviour
         greenhp = Sprite.Create(overlay_hp, new Rect(0, overlay_hp.height * 2 / 3, overlay_hp.width, overlay_hp.height / 3), new Vector2(0, 0), .01f);
         yellowhp = Sprite.Create(overlay_hp, new Rect(0, overlay_hp.height / 3, overlay_hp.width, overlay_hp.height / 3), new Vector2(0, 0), .01f);
         redhp = Sprite.Create(overlay_hp, new Rect(0, 0, overlay_hp.width, overlay_hp.height / 3), new Vector2(0, 0), .01f);
-        pp = FindObjectOfType<PlayerProfile>();
         pm = FindObjectOfType<PlayerMovement>();
     }
 
     public void Setup(int poke)
     {
-        FieldPokemon b = pp.party[poke];
+        FieldPokemon b = PlayerProfile.party[poke];
         hp.text = $"{b.currHP}/{b.maxHP}";
         attack.text = b.attack.ToString();
         defense.text = b.defense.ToString();
@@ -53,7 +51,7 @@ public class SkillsPage : MonoBehaviour
             g.SetActive(true);
             g.GetComponent<MovesPage>().Setup(currpoke);
             gameObject.SetActive(false);
-            pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+            pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
         }
         if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
@@ -62,12 +60,12 @@ public class SkillsPage : MonoBehaviour
             g.SetActive(true);
             g.GetComponent<MemoPage>().Setup(currpoke);
             gameObject.SetActive(false);
-            pm.gameObject.GetComponent<AudioSource>().clip = FindObjectOfType<AudioClips>().summaryPage;
+            pm.gameObject.GetComponent<AudioSource>().clip = AudioClips.summaryPage;
             pm.gameObject.GetComponent<AudioSource>().Play();
         }
         if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if(currpoke != pp.party_count - 1)
+            if(currpoke != PlayerProfile.party_count - 1)
             {
                 currpoke++;
                 Setup(currpoke);

@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     float speed = 2f;
     Vector2 movement;
     bool horizontal = false, vertical = false, isMoving = false;
-    public bool isColliding = false, isInteracting = false;
+    public bool isColliding = false, isInteracting = false, inEncounter = false;
     AudioSource source;
     Animator animator;
 
@@ -61,6 +61,9 @@ public class PlayerMovement : MonoBehaviour
 
         if(!isColliding)
             Collide();
+
+        if(!inEncounter)
+            Encounter();
     }
 
     public IEnumerator Move(Vector3 targetpos)
@@ -77,11 +80,11 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isWalkable(Vector3 targetpos)
     {
-        if (Physics2D.OverlapCircle(targetpos, 0.3f, GameObject.FindObjectOfType<Layers>().obstacles | GameObject.FindObjectOfType<Layers>().interactable) != null)
+        if (Physics2D.OverlapCircle(targetpos, 0.3f,Layers.obstacles | Layers.interactable) != null)
         {
             if(!source.isPlaying)
             {
-                source.clip = FindObjectOfType<AudioClips>().bump;
+                source.clip = AudioClips.bump;
                 source.Play();
             }
             return false;
@@ -94,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         var faceDir = new Vector3(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
         var interactpos = transform.position + faceDir;
 
-        var collider = Physics2D.OverlapCircle(interactpos, 0.3f, GameObject.FindObjectOfType<Layers>().interactable);
+        var collider = Physics2D.OverlapCircle(interactpos, 0.3f, Layers.interactable);
         if (collider != null)
         {
             isInteracting = true;
@@ -107,11 +110,22 @@ public class PlayerMovement : MonoBehaviour
         var faceDir = new Vector3(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
         var interactpos = transform.position + faceDir;
 
-        var collider = Physics2D.OverlapCircle(interactpos, 0.3f, GameObject.FindObjectOfType<Layers>().collidable);
+        var collider = Physics2D.OverlapCircle(interactpos, 0.3f, Layers.collidable);
         if (collider != null)
         {
             isColliding = true;
             collider.GetComponent<Collidable>()?.collide();
+        }
+    }
+
+    void Encounter()
+    {
+        var collider = Physics2D.OverlapCircle(transform.position, 0.3f, Layers.encounters);
+        if(collider != null)
+        {
+            inEncounter = true;
+            Debug.Log("shdhduh");
+            collider.GetComponent<Encounter>()?.encounter();
         }
     }
 }

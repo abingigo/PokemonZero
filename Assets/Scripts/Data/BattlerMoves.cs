@@ -9,6 +9,12 @@ public class BattlerMoves
     public BattlerMoves(Moves move)
     {
         moves = move;
+        if(move == null)
+        {
+            currPP = maxPP = 0;
+            ppup = 0;
+            return;
+        }
         currPP = maxPP = move.totalPP;
         ppup = 0;
     }
