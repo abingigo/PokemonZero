@@ -10,7 +10,7 @@ public class StartGame : MonoBehaviour
     public GameObject BGM;
     public AudioClip ac;
 
-    private void Start()
+    private void Awake()
     {
         if(PlayerProfile.gender == 0)
         {

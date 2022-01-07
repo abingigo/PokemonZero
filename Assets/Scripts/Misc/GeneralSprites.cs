@@ -1,17 +1,24 @@
 using UnityEngine;
 
-public class GeneralSprites : MonoBehaviour
+public static class GeneralSprites
 {
-    public Sprite genderMale, genderFemale;
-    [SerializeField] Texture2D types_0;
+    public static Sprite genderMale, genderFemale;
+    static Texture2D types_0;
 
-    [SerializeField] Texture2D category;
+    static Texture2D category;
 
-    [HideInInspector] public Sprite normal, fighting, flying, poison, ground, rock, bug, ghost, steel, Null, fire, water, grass, electric, psychic, ice, dragon, dark, fairy;
-    [HideInInspector] public Sprite physical, special, status;
+    public static Sprite normal, fighting, flying, poison, ground, rock, bug, ghost, steel, Null, fire, water, grass, electric, psychic, ice, dragon, dark, fairy;
+    public static Sprite physical, special, status;
 
-    private void Start()
+    static GeneralSprites()
     {
+        genderFemale = Resources.Load<Sprite>("Graphics/UI/genderfemale");
+        genderMale = Resources.Load<Sprite>("Graphics/UI/gendermale");
+
+        types_0 = Resources.Load<Texture2D>("Graphics/UI/types");
+
+        category = Resources.Load<Texture2D>("Graphics/UI/category");
+
         normal   =  Sprite.Create(types_0, new Rect(0, types_0.height * 18 / 19, types_0.width, types_0.height / 19), new Vector2(0, 0), .01f);
         fighting =  Sprite.Create(types_0, new Rect(0, types_0.height * 17 / 19, types_0.width, types_0.height / 19), new Vector2(0, 0), .01f);
         flying   =  Sprite.Create(types_0, new Rect(0, types_0.height * 16 / 19, types_0.width, types_0.height / 19), new Vector2(0, 0), .01f);

@@ -3,7 +3,6 @@ using TMPro;
 
 public class MemoPage : MonoBehaviour
 {
-    GeneralSprites gs;
     PlayerMovement pm;
     [SerializeField] TextMeshProUGUI nature;
     [SerializeField] TextMeshProUGUI date;
@@ -14,7 +13,6 @@ public class MemoPage : MonoBehaviour
 
     private void Awake()
     {
-        gs = FindObjectOfType<GeneralSprites>();
         pm = FindObjectOfType<PlayerMovement>();
     }
 

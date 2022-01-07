@@ -25,6 +25,8 @@ public class PokemonSelect : MonoBehaviour, Collidable
             menu.enabled = false;
             StartCoroutine(Event1());
         }
+        else
+            player.GetComponent<PlayerMovement>().isColliding = false;
     }
 
     IEnumerator Event()
@@ -41,7 +43,7 @@ public class PokemonSelect : MonoBehaviour, Collidable
         yield return new WaitForSeconds(1);
         exclamation.GetComponent<Animator>().SetBool("Surprise", false);
         exclamation.SetActive(false);
-        yield return StartCoroutine(Interacting(0));
+        yield return StartCoroutine(Interacting(2));
         player.GetComponent<PlayerMovement>().enabled = true;
         menu.enabled = true;
         player.GetComponent<PlayerMovement>().isColliding = false;

@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     float speed = 2f;
     Vector2 movement;
     bool horizontal = false, vertical = false, isMoving = false;
-    public bool isColliding = false, isInteracting = false, inEncounter = false;
+    public bool isColliding = false, isInteracting = false;
     AudioSource source;
     Animator animator;
 
@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
             if (movement != Vector2.zero)
             {
                 targetpos = transform.position + new Vector3(movement.x, movement.y, 0);
-                if (isWalkable(targetpos - new Vector3(0,0.3f,0)))
+                if (isWalkable(targetpos - new Vector3(0,0.5f,0)))
                     StartCoroutine(Move(targetpos));
             }
             animator.SetFloat("speed", movement.sqrMagnitude);
@@ -58,12 +58,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return) && !isInteracting)
             Interact();
-
-        if(!isColliding)
-            Collide();
-
-        if(!inEncounter)
-            Encounter();
     }
 
     public IEnumerator Move(Vector3 targetpos)
@@ -76,11 +70,14 @@ public class PlayerMovement : MonoBehaviour
         }
         transform.position = targetpos;
         isMoving = false;
+        Encounter();
+        if(!isColliding)
+            Collide();
     }
 
     private bool isWalkable(Vector3 targetpos)
     {
-        if (Physics2D.OverlapCircle(targetpos, 0.3f,Layers.obstacles | Layers.interactable) != null)
+        if (Physics2D.OverlapBox(targetpos, new Vector2(1, 0.2f), 45, Layers.obstacles | Layers.interactable) != null)
         {
             if(!source.isPlaying)
             {
@@ -95,9 +92,9 @@ public class PlayerMovement : MonoBehaviour
     void Interact()
     {
         var faceDir = new Vector3(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
-        var interactpos = transform.position + faceDir;
+        var interactpos = transform.position - new Vector3(0, 0.5f, 0) + faceDir;
 
-        var collider = Physics2D.OverlapCircle(interactpos, 0.3f, Layers.interactable);
+        var collider = Physics2D.OverlapBox(interactpos, new Vector2(1, 0.1f), 90, Layers.interactable);
         if (collider != null)
         {
             isInteracting = true;
@@ -108,11 +105,12 @@ public class PlayerMovement : MonoBehaviour
     void Collide()
     {
         var faceDir = new Vector3(animator.GetFloat("Horizontal"), animator.GetFloat("Vertical"));
-        var interactpos = transform.position + faceDir;
+        var interactpos = transform.position - new Vector3(0, 0.5f, 0) + faceDir;
 
-        var collider = Physics2D.OverlapCircle(interactpos, 0.3f, Layers.collidable);
+        var collider = Physics2D.OverlapBox(interactpos, new Vector2(1, 0.1f), 90, Layers.collidable);
         if (collider != null)
         {
+            Debug.Log("Bonk");
             isColliding = true;
             collider.GetComponent<Collidable>()?.collide();
         }
@@ -120,12 +118,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Encounter()
     {
-        var collider = Physics2D.OverlapCircle(transform.position, 0.3f, Layers.encounters);
+        if(PlayerProfile.party_count == 0)
+            return;
+        var collider = Physics2D.OverlapBox(transform.position - new Vector3(0, 0.5f, 0), new Vector2(1, 0.1f), 90, Layers.encounters);
         if(collider != null)
-        {
-            inEncounter = true;
-            Debug.Log("shdhduh");
             collider.GetComponent<Encounter>()?.encounter();
-        }
     }
 }

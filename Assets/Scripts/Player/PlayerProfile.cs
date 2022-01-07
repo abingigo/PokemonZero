@@ -11,6 +11,7 @@ public class PlayerProfile : MonoBehaviour
     public static int[] badges = new int[8];
     public static Vector2 position = Vector2.zero;
     public static float horizontal = 0, vertical = -1;
+    public static locations currentLocation;
 
     private void Start()
     {

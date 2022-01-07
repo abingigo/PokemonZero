@@ -76,7 +76,7 @@ public class Pokemon : ScriptableObject
 {
     public int number;
     public string Name;
-    public Types type1, type2, type3;
+    public Types type1, type2;
     public int[] baseStats = new int[6];
     public GenderRate genderRate;
     public GrowthRate growthRate;

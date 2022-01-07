@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AudioClips: MonoBehaviour
+public static class AudioClips
 {
     public static AudioClip selCursor, selDecision, selCancel;
     public static AudioClip menuOpen, menuClose;
@@ -10,7 +10,7 @@ public class AudioClips: MonoBehaviour
     public static AudioClip exclaim;
     public static AudioClip partySwitch;
 
-    private void Awake()
+    static AudioClips()
     {
         selCursor = Resources.Load<AudioClip>("Audio/selCursor");
         selDecision = Resources.Load<AudioClip>("Audio/selDecision");

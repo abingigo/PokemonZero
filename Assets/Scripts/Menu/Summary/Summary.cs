@@ -13,11 +13,15 @@ public class Summary : MonoBehaviour
     [SerializeField] Image pokemon;
     [SerializeField] Image itemPic;
     [SerializeField] TextMeshProUGUI itemName;
-    GeneralSprites gs;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape) && !FindObjectOfType<MovesPage>().inDetails)
         {
             if(FindObjectOfType<PokemonMenu>())
                 FindObjectOfType<PokemonMenu>().inPartyMenu = true;
@@ -27,19 +31,17 @@ public class Summary : MonoBehaviour
 
     public void Setup(int poke)
     {
-        gs = FindObjectOfType<GeneralSprites>();
-
         FieldPokemon b = PlayerProfile.party[poke];
         Name.text = b.nickName;
 
         if (b.gender == Gender.Female)
         {
-            gender.sprite = gs.genderFemale;
+            gender.sprite = GeneralSprites.genderFemale;
             gender.color = new UnityEngine.Color(gender.color.r, gender.color.g, gender.color.b); 
         }
         else if(b.gender == Gender.Male)
         {
-            gender.sprite = gs.genderMale;
+            gender.sprite = GeneralSprites.genderMale;
             gender.color = new UnityEngine.Color(gender.color.r, gender.color.g, gender.color.b);
         }
         else

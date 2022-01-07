@@ -30,6 +30,11 @@ public class PokemonMenu : MonoBehaviour
     
     Coroutine[] vibes = new Coroutine[6];
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Update()
     {
         if(inPartyMenu || swapping)
@@ -123,9 +128,9 @@ public class PokemonMenu : MonoBehaviour
         else
             healthBars[i].GetComponentsInChildren<Image>()[1].sprite = pmg.greenhp;
         if (PlayerProfile.party[i].gender == Gender.Male)
-            slots[i].GetComponentsInChildren<Image>()[7].sprite = FindObjectOfType<GeneralSprites>().genderMale;
+            slots[i].GetComponentsInChildren<Image>()[7].sprite = GeneralSprites.genderMale;
         else if (PlayerProfile.party[i].gender == Gender.Female)
-            slots[i].GetComponentsInChildren<Image>()[7].sprite = FindObjectOfType<GeneralSprites>().genderFemale;
+            slots[i].GetComponentsInChildren<Image>()[7].sprite = GeneralSprites.genderFemale;
         else
             slots[i].GetComponentsInChildren<Image>()[7].enabled = false;
     }

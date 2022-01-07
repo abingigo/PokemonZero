@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class MoveDetailsPage : MonoBehaviour
 {
-    GeneralSprites gs;
     [SerializeField] TextMeshProUGUI[] moves = new TextMeshProUGUI[4];
     [SerializeField] TextMeshProUGUI[] pps = new TextMeshProUGUI[4];
     [SerializeField] Image[] types = new Image[4];
@@ -20,7 +19,6 @@ public class MoveDetailsPage : MonoBehaviour
 
     public void Awake()
     {
-        gs = FindObjectOfType<GeneralSprites>();
         cursorred = Sprite.Create(cursor_sprite, new Rect(0, cursor_sprite.height * 1 / 2, cursor_sprite.width, cursor_sprite.height / 2), new Vector2(0, 0), .01f);
         cursorwhite = Sprite.Create(cursor_sprite, new Rect(0, 0, cursor_sprite.width, cursor_sprite.height / 2), new Vector2(0, 0), .01f);
     }
@@ -38,22 +36,22 @@ public class MoveDetailsPage : MonoBehaviour
                 break;
             moves[i].gameObject.SetActive(true);
             moves[i].text = b.battlerMoves[i].moves.Name;
-            types[i].sprite = (Sprite) gs.GetType().GetField(b.battlerMoves[i].moves.type.Name.ToString().ToLower()).GetValue(gs);
+            types[i].sprite = (Sprite) typeof(GeneralSprites).GetField(b.battlerMoves[i].moves.type.Name.ToString().ToLower()).GetValue(null);
             pps[i].text = $"{b.battlerMoves[i].currPP}/{b.battlerMoves[i].maxPP}";
             movelength++;
         }
 
         if(b.pokemon.type2 == null)
         {
-            type0.sprite = (Sprite) gs.GetType().GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(gs);
+            type0.sprite = (Sprite) typeof(GeneralSprites).GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(null);
             type1.color = new UnityEngine.Color(type1.color.r, type1.color.g, type1.color.b, 0);
             type2.color = new UnityEngine.Color(type2.color.r, type2.color.g, type2.color.b, 0);
             type0.color = new UnityEngine.Color(type0.color.r, type0.color.g, type0.color.b, 1);
         }
         else
         {
-            type1.sprite = (Sprite) gs.GetType().GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(gs);
-            type2.sprite = (Sprite) gs.GetType().GetField(b.pokemon.type2.Name.ToString().ToLower()).GetValue(gs);
+            type1.sprite = (Sprite) typeof(GeneralSprites).GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(null);
+            type2.sprite = (Sprite) typeof(GeneralSprites).GetField(b.pokemon.type2.Name.ToString().ToLower()).GetValue(null);
             type1.color = new UnityEngine.Color(type1.color.r, type1.color.g, type1.color.b, 1);
             type2.color = new UnityEngine.Color(type2.color.r, type2.color.g, type2.color.b, 1);
             type0.color = new UnityEngine.Color(type0.color.r, type0.color.g, type0.color.b, 0);
@@ -69,7 +67,7 @@ public class MoveDetailsPage : MonoBehaviour
     public void Setup_Move(int move)
     {
         FieldPokemon b = PlayerProfile.party[currpoke];
-        category.sprite = (Sprite) gs.GetType().GetField(b.battlerMoves[move].moves.damageCategory.ToString().ToLower()).GetValue(gs);
+        category.sprite = (Sprite) typeof(GeneralSprites).GetField(b.battlerMoves[move].moves.damageCategory.ToString().ToLower()).GetValue(null);
 
         if(b.battlerMoves[move].moves.basePower != 0)
             power.text = b.battlerMoves[move].moves.basePower.ToString();

@@ -13,6 +13,7 @@ public class Menu : MonoBehaviour
     {
         pm = FindObjectOfType<PlayerMovement>();
         audioSource = pm.gameObject.GetComponent<AudioSource>();
+        DontDestroyOnLoad(gameObject);
     }
 
     public void Update()

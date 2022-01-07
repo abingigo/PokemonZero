@@ -9,7 +9,7 @@ public class DoorExitTeleport : MonoBehaviour, Collidable
     [SerializeField] Animator blackscreen, door;
     [SerializeField] Menu menu;
     [SerializeField] AudioClip newBGM;
-    [SerializeField] GameObject mainCamera;
+    GameObject mainCamera;
 
     private void Start()
     {

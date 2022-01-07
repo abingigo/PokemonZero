@@ -10,13 +10,11 @@ public class InfoPage : MonoBehaviour
     [SerializeField] TextMeshProUGUI currEXP;
     [SerializeField] TextMeshProUGUI tonextLvl;
     [SerializeField] Slider Exp;
-    GeneralSprites gs;
     PlayerMovement pm;
     int currpoke;
 
     private void Awake()
     {
-        gs = FindObjectOfType<GeneralSprites>();
         pm = FindObjectOfType<PlayerMovement>();
     }
 
@@ -60,8 +58,8 @@ public class InfoPage : MonoBehaviour
 
         if(b.pokemon.type2 != null)
         {
-            dualType1.sprite = (Sprite)gs.GetType().GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(gs);
-            dualType2.sprite = (Sprite)gs.GetType().GetField(b.pokemon.type2.Name.ToString().ToLower()).GetValue(gs);
+            dualType1.sprite = (Sprite) typeof(GeneralSprites).GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(null);
+            dualType2.sprite = (Sprite) typeof(GeneralSprites).GetField(b.pokemon.type2.Name.ToString().ToLower()).GetValue(null);
             dualType1.color = new UnityEngine.Color(dualType1.color.r, dualType1.color.g, dualType1.color.b, 1);
             dualType2.color = new UnityEngine.Color(dualType2.color.r, dualType2.color.g, dualType2.color.b, 1);
             singleType.color = new UnityEngine.Color(singleType.color.r, singleType.color.g, singleType.color.b, 0);
@@ -71,7 +69,7 @@ public class InfoPage : MonoBehaviour
             dualType1.color = new UnityEngine.Color(dualType1.color.r, dualType1.color.g, dualType1.color.b, 0);
             dualType2.color = new UnityEngine.Color(dualType2.color.r, dualType2.color.g, dualType2.color.b, 0);
             singleType.color = new UnityEngine.Color(singleType.color.r, singleType.color.g, singleType.color.b, 1);
-            singleType.sprite = (Sprite) gs.GetType().GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(gs);
+            singleType.sprite = (Sprite) typeof(GeneralSprites).GetField(b.pokemon.type1.Name.ToString().ToLower()).GetValue(null);
         }
 
         currEXP.text = b.currEXP.ToString();

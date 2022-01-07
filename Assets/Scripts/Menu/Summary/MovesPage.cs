@@ -4,7 +4,6 @@ using TMPro;
 
 public class MovesPage : MonoBehaviour
 {
-    GeneralSprites gs;
     PlayerMovement pm;
     [SerializeField] TextMeshProUGUI[] moves = new TextMeshProUGUI[4];
     [SerializeField] TextMeshProUGUI[] pps = new TextMeshProUGUI[4];
@@ -15,7 +14,6 @@ public class MovesPage : MonoBehaviour
 
     public void Awake()
     {
-        gs = FindObjectOfType<GeneralSprites>();
         pm = FindObjectOfType<PlayerMovement>();
         inDetails = false;
     }
@@ -81,7 +79,7 @@ public class MovesPage : MonoBehaviour
                 break;
             moves[i].gameObject.SetActive(true);
             moves[i].text = b.battlerMoves[i].moves.Name;
-            types[i].sprite = (Sprite) gs.GetType().GetField(b.battlerMoves[i].moves.type.Name.ToString().ToLower()).GetValue(gs);
+            types[i].sprite = (Sprite) typeof(GeneralSprites).GetField(b.battlerMoves[i].moves.type.Name.ToString().ToLower()).GetValue(null); //(Sprite) GeneralSprites.GetType().GetField(b.battlerMoves[i].moves.type.Name.ToString().ToLower()).GetValue(gs);
             pps[i].text = $"{b.battlerMoves[i].currPP}/{b.battlerMoves[i].maxPP}";
         }
         currpoke = poke;

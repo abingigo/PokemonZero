@@ -951,7 +951,6 @@ GameObject:
   - component: {fileID: 47566943}
   - component: {fileID: 47566947}
   - component: {fileID: 47566945}
-  - component: {fileID: 47566944}
   m_Layer: 7
   m_Name: Door00_back
   m_TagString: Untagged
@@ -973,57 +972,6 @@ Transform:
   m_Father: {fileID: 874649205}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &47566944
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47566942}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!114 &47566945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42502,7 +42450,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.8}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -42537,6 +42485,8 @@ MonoBehaviour:
     - Pick a Pokemon on the table. It will help you along your journey.
   - lines:
     - Wait! Don't leave yet!
+  - lines:
+    - Take poke
   player: {fileID: 1819130253}
   NPC: {fileID: 1941270614}
   exclamation: {fileID: 1109535131}
@@ -43757,43 +43707,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b35947b28f0094e8f33a916650fdea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerName: Foo
-  gender: 0
-  items: []
-  party:
-  - personalId: 0
-    nickName: 
-    pokemon: {fileID: 11400000, guid: d957555e4f6ef4f42819f6b1506b90b2, type: 2}
-    ability: {fileID: 0}
-    level: 0
-    currEXP: 0
-    currHP: 0
-    maxHP: 10
-    attack: 0
-    defense: 0
-    specialAttack: 0
-    specialDefense: 0
-    speed: 0
-    battlerMoves: []
-    heldItem: {fileID: 0}
-    happiness: 0
-    gender: 0
-    nature: 0
-    isShiny: 0
-    form: 0
-    status: 0
-    statusCount: 0
-    eggSteps: 0
-    ballUsed: 0
-    ev: 
-    iv: 
-    pokerus: 0
-    fused: {fileID: 0}
-    levelcaught: 0
-    caughtDate: 
-    routeCaught: 
-  party_count: 1
-  badges: 0000000000000000000000000000000000000000000000000000000000000000
 --- !u!4 &1336475728
 Transform:
   m_ObjectHideFlags: 0
@@ -51153,6 +51066,7 @@ GameObject:
   - component: {fileID: 1558885285}
   - component: {fileID: 1558885284}
   - component: {fileID: 1558885286}
+  - component: {fileID: 1558885287}
   m_Layer: 10
   m_Name: Long Grass
   m_TagString: Untagged
@@ -51510,6 +51424,32 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &1558885287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558885282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bdcab676fcf02409c2341162f0b936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  encounterThreshold: 320
+  pokemonPresent:
+  - poke: {fileID: 11400000, guid: d1a36e51632586a44a8ddf9074694f1f, type: 2}
+    enounterRate: 30
+    minLevel: 0
+    maxLevel: 0
+  - poke: {fileID: 11400000, guid: 3bcfdb8f6cd8bbb4e8db7dcbff7fe757, type: 2}
+    enounterRate: 50
+    minLevel: 0
+    maxLevel: 0
+  - poke: {fileID: 11400000, guid: 6fc53d8d2066a544288322f54aa268ad, type: 2}
+    enounterRate: 20
+    minLevel: 0
+    maxLevel: 0
 --- !u!1 &1562204969
 GameObject:
   m_ObjectHideFlags: 0
@@ -54383,7 +54323,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819130253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.5, y: -26, z: 0}
+  m_LocalPosition: {x: -44.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -54422,7 +54362,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColliding: 0
   isInteracting: 0
-  inEncounter: 0
 --- !u!82 &1819130260
 AudioSource:
   m_ObjectHideFlags: 0
@@ -55170,7 +55109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906247689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.5, y: -1.5, z: 0}
+  m_LocalPosition: {x: -44.5, y: -2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 874649205}
@@ -55189,18 +55128,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016742706, y: -1.0181755}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6328735, y: 0.5927298}
+  m_Size: {x: 1, y: 0.75}
   m_EdgeRadius: 0
 --- !u!114 &1906247692
 MonoBehaviour:
@@ -56117,10 +56056,7 @@ GameObject:
   - component: {fileID: 2002595024}
   - component: {fileID: 2002595023}
   - component: {fileID: 2002595025}
-  - component: {fileID: 2002595026}
-  - component: {fileID: 2002595028}
   - component: {fileID: 2002595029}
-  - component: {fileID: 2002595027}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -56140,9 +56076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09cf41ff8bde7844b824223bc3fea4a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  momEvent: 0
-  oakEvent: 0
-  starterSelected: 0
 --- !u!4 &2002595024
 Transform:
   m_ObjectHideFlags: 0
@@ -56174,68 +56107,6 @@ MonoBehaviour:
   arrow: {fileID: 38024696}
   player: {fileID: 1819130253}
   dialogAllowed: 1
---- !u!114 &2002595026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002595022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26c558fa89dc40d4c942002e1c210f75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2002595027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002595022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db9056194e4dc74d9b05a2f1ad0f30e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2002595028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002595022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edba36805e5ce904e9b47aa8d6c436e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  genderMale: {fileID: 21300000, guid: 3f2a89cc5b2a2dd4683b6465ab1b9919, type: 3}
-  genderFemale: {fileID: 21300000, guid: 320d3f8852d111f40864dae8c4bf5792, type: 3}
-  types_0: {fileID: 2800000, guid: 7cd34e1f741d0ae4fad08e494d5eefd7, type: 3}
-  category: {fileID: 2800000, guid: 93c8c5fef5fff8049b51b89cb264fffb, type: 3}
-  normal: {fileID: 0}
-  fighting: {fileID: 0}
-  flying: {fileID: 0}
-  poison: {fileID: 0}
-  ground: {fileID: 0}
-  rock: {fileID: 0}
-  bug: {fileID: 0}
-  ghost: {fileID: 0}
-  steel: {fileID: 0}
-  Null: {fileID: 0}
-  fire: {fileID: 0}
-  water: {fileID: 0}
-  grass: {fileID: 0}
-  electric: {fileID: 0}
-  psychic: {fileID: 0}
-  ice: {fileID: 0}
-  dragon: {fileID: 0}
-  dark: {fileID: 0}
-  fairy: {fileID: 0}
-  physical: {fileID: 0}
-  special: {fileID: 0}
-  status: {fileID: 0}
 --- !u!114 &2002595029
 MonoBehaviour:
   m_ObjectHideFlags: 0
