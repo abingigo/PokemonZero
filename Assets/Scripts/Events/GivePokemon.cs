@@ -45,10 +45,6 @@ public class GivePokemon : MonoBehaviour, Interactable
     IEnumerator Event()
     {
         yield return StartCoroutine(Interacting(2));
-        ob = OptionsBox.Instance;
-        ob.addOptions(new string[] {"Yes", "No"});
-        ob.p = positions.choice;
-        ob.ShowOptions(menu.gameObject.transform, recieveOption);
 
         yield return new WaitUntil(() => answered);
 
@@ -65,17 +61,20 @@ public class GivePokemon : MonoBehaviour, Interactable
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;
         GameManager.starterSelected = true;
-        PlayerProfile.party[0] = new FieldPokemon(pokemon, "", -1, -1, -1, -1, 5, false);
-        PlayerProfile.party_count = 1;
+        PlayerProfile.addPokemon(new FieldPokemon(pokemon, 5));
         yield return StartCoroutine(gotPokemon());
     }
 
     public IEnumerator Interacting(int a)
     {
         DialogManager dm = DialogManager.Instance;
-        dm.ShowDialog(dialog[a], null, null);
+        if(a == 2)
+            dm.AskQuestion(dialog[a], new string[]{"Yes", "No"}, recieveOption);
+        else
+            dm.ShowDialog(dialog[a], null, null, audioSource);
         dm.dialogAllowed = false;
         yield return new WaitUntil(() => dm.dialogAllowed);
+
         if(a == 1)
         {
             pm.enabled = true;
@@ -86,6 +85,7 @@ public class GivePokemon : MonoBehaviour, Interactable
 
     IEnumerator gotPokemon()
     {
+        yield return new WaitForSeconds(0.2f);
         audioSource.clip = pokemonGet;
         audioSource.Play();
         StartCoroutine(Interacting(0));

@@ -1,6 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
+//The functions in this script are used when a player enters an area by opening a door or any entity similar to a door in front of him
+//Basically this script is required if something plays an animation when the player teleports
+
 public class DoorOpenTeleport : MonoBehaviour, Collidable
 {
     [SerializeField] GameObject player;
@@ -13,14 +16,6 @@ public class DoorOpenTeleport : MonoBehaviour, Collidable
     private void Start()
     {
         mainCamera = FindObjectOfType<StartGame>().gameObject;
-    }
-
-    public void collide()
-    {
-        player.GetComponent<PlayerMovement>().enabled = false;
-        menu.enabled = false;
-        GetComponent<Animator>().SetBool("Open", true);
-        StartCoroutine(Enter());
     }
 
     IEnumerator Enter()
@@ -38,5 +33,13 @@ public class DoorOpenTeleport : MonoBehaviour, Collidable
         mainCamera.GetComponentInChildren<AudioSource>().clip = newBGM;
         mainCamera.GetComponentInChildren<AudioSource>().Play();
         player.GetComponent<PlayerMovement>().isColliding = false;
+    }
+
+    public void collide()
+    {
+        player.GetComponent<PlayerMovement>().enabled = false;
+        menu.enabled = false;
+        GetComponent<Animator>().SetBool("Open", true);
+        StartCoroutine(Enter());
     }
 }

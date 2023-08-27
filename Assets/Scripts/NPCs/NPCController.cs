@@ -9,14 +9,15 @@ public class NPCController : MonoBehaviour, Interactable
     [SerializeField] InventoryItem inventoryItem;
     bool isInteracting = false;
     [SerializeField] GameObject player;
+    [SerializeField] List<Vector3> positions;
     Animator anim;
-    Vector2 movement;
-    Vector3 targetpos;
     bool isMoving;
+    AudioSource audioSource;
 
     public void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = player.GetComponent<AudioSource>();
     }
 
     public void interact()
@@ -33,7 +34,7 @@ public class NPCController : MonoBehaviour, Interactable
     {
         isInteracting = true;
         DialogManager dm = DialogManager.Instance;
-        dm.ShowDialog(dialogs[a], pokemon, inventoryItem);
+        dm.ShowDialog(dialogs[a], pokemon, inventoryItem, audioSource);
         dm.dialogAllowed = false;
         yield return new WaitUntil(() => dm.dialogAllowed);
         isInteracting = false;
@@ -50,80 +51,23 @@ public class NPCController : MonoBehaviour, Interactable
 
     public IEnumerator MoveToPlayer()
     {
-        movement = transform.position - player.transform.position - new Vector3(player.GetComponent<Animator>().GetFloat("Horizontal"), player.GetComponent<Animator>().GetFloat("Vertical"));
-        
-        while(movement != Vector2.zero)
+        foreach (Vector3 position in positions)
         {
-            isMoving = true;
-            GetComponent<Animator>().SetFloat("speed", 1);
-            if(player.GetComponent<Animator>().GetFloat("Horizontal") == 0)
+            Vector3 x = transform.position - position;
+            if(Mathf.Abs(x.x) < Mathf.Epsilon)
             {
-                while (movement.x != 0)
-                {
-                    targetpos = transform.position + new Vector3(1, 0, 0);
-                    GetComponent<Animator>().SetFloat("Horizontal", 1);
-                    GetComponent<Animator>().SetFloat("Vertical", 0);
-                    if (isWalkable(targetpos - new Vector3(0, 0.3f, 0)))
-                        StartCoroutine(Move(targetpos));
-                    else
-                        break;
-                    yield return new WaitUntil(() => !isMoving);
-                    if (movement.x < 0)
-                        movement += new Vector2(1, 0);
-                    else
-                        movement += new Vector2(-1, 0);
-                }
-
-                while (movement.y != 0)
-                {
-                    targetpos = transform.position + new Vector3(0, 1, 0);
-                    GetComponent<Animator>().SetFloat("Horizontal", 0);
-                    GetComponent<Animator>().SetFloat("Vertical", 1);
-                    if (isWalkable(targetpos - new Vector3(0, 0.3f, 0)))
-                        StartCoroutine(Move(targetpos));
-                    else
-                        break;
-                    yield return new WaitUntil(() => !isMoving);
-                    if (movement.y < 0)
-                        movement += new Vector2(0, 1);
-                    else
-                        movement += new Vector2(0, -1);
-                }
+                GetComponent<Animator>().SetFloat("Horizontal", 0);
+                GetComponent<Animator>().SetFloat("Vertical", -1 * x.y / Mathf.Abs(x.y));
             }
             else
             {
-                while (movement.y != 0)
-                {
-                    targetpos = transform.position + new Vector3(0, 1, 0);
-                    GetComponent<Animator>().SetFloat("Horizontal", 0);
-                    GetComponent<Animator>().SetFloat("Vertical", 1);
-                    if (isWalkable(targetpos - new Vector3(0, 0.3f, 0)))
-                        StartCoroutine(Move(targetpos));
-                    else
-                        break;
-                    yield return new WaitUntil(() => !isMoving);
-                    if (movement.y < 0)
-                        movement += new Vector2(0, 1);
-                    else
-                        movement += new Vector2(0, -1);
-                }
-
-                while (movement.x != 0)
-                {
-                    targetpos = transform.position + new Vector3(1, 0, 0);
-                    GetComponent<Animator>().SetFloat("Horizontal", 1);
-                    GetComponent<Animator>().SetFloat("Vertical", 0);
-                    if (isWalkable(targetpos - new Vector3(0, 0.3f, 0)))
-                        StartCoroutine(Move(targetpos));
-                    else
-                        break;
-                    yield return new WaitUntil(() => !isMoving);
-                    if (movement.x < 0)
-                        movement += new Vector2(1, 0);
-                    else
-                        movement += new Vector2(-1, 0);
-                }
+                GetComponent<Animator>().SetFloat("Horizontal", 1 * x.x / Mathf.Abs(x.x));
+                GetComponent<Animator>().SetFloat("Vertical", 0);
             }
+            isMoving = true;
+            GetComponent<Animator>().SetFloat("speed", 1);
+            StartCoroutine(Move(position));
+            yield return new WaitUntil(() => !isMoving);
         }
         yield return new WaitForSeconds(0.1f);
         GetComponent<Animator>().SetFloat("speed", 0);
@@ -135,7 +79,7 @@ public class NPCController : MonoBehaviour, Interactable
         isMoving = true;
         while ((targetpos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetpos, 2 * Time.fixedDeltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, targetpos, Time.fixedDeltaTime);
             yield return null;
         }
         transform.position = targetpos;

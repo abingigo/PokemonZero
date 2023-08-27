@@ -21,8 +21,10 @@ public class Summary : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && !FindObjectOfType<MovesPage>().inDetails)
+        if(Input.GetKeyDown(KeyCode.Escape))
         {
+            if(FindObjectOfType<MovesPage>() && FindObjectOfType<MovesPage>().inDetails)
+                return;
             if(FindObjectOfType<PokemonMenu>())
                 FindObjectOfType<PokemonMenu>().inPartyMenu = true;
             gameObject.SetActive(false);

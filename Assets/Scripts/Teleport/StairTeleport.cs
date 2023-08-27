@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
+//Used when there is no animated entity on teleportation
+
 public class StairTeleport : MonoBehaviour, Collidable
 {
     [SerializeField] GameObject player;
@@ -8,9 +10,18 @@ public class StairTeleport : MonoBehaviour, Collidable
     [SerializeField] AudioClip door_close;
     [SerializeField] Animator blackscreen;
     [SerializeField] Menu menu;
+    [SerializeField] Vector2 direction;
 
+    //Referenced in PlayerMovement.cs
     public void collide()
     {
+        Animator anim = player.GetComponent<Animator>();
+        float h = anim.GetFloat("Horizontal"), v = anim.GetFloat("Vertical");
+        if (direction.x != h || direction.y != v)
+        {
+            player.GetComponent<PlayerMovement>().isColliding = false;
+            return;
+        }
         player.GetComponent<PlayerMovement>().enabled = false;
         menu.enabled = false;
         StartCoroutine(Teleport());

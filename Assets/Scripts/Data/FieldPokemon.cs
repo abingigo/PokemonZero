@@ -41,7 +41,7 @@ public class FieldPokemon
     public String caughtDate;
     public String routeCaught;
 
-    public FieldPokemon(Pokemon p, string nickname, int abilityFlag, int genderFlag, int natureFlag, int shinyFlag, int lvl, bool isEgg)
+    public FieldPokemon(Pokemon p, int lvl, string nickname="", int abilityFlag=-1, int genderFlag=-1, int natureFlag = -1, int shinyFlag = -1, bool isEgg=false)
     {
         Random rand = new Random();
         personalId = (uint)rand.Next(-int.MaxValue, int.MaxValue);

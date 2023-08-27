@@ -73,7 +73,7 @@ public class PokemonSelect : MonoBehaviour, Collidable
     public IEnumerator Interacting(int a)
     {
         DialogManager dm = DialogManager.Instance;
-        dm.ShowDialog(dialog[a], null, null);
+        dm.ShowDialog(dialog[a], null, null, null);
         dm.dialogAllowed = false;
         yield return new WaitUntil(() => dm.dialogAllowed);
     }

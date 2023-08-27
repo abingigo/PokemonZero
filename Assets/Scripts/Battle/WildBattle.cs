@@ -1,5 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class WildBattle : Battle
 {
+    BattleGraphicsManager graphicsManager;
+
     public WildBattle(Pokemon p, int level)
     {
         opponent = new Battler(p, level);
@@ -12,6 +18,12 @@ public class WildBattle : Battle
 
     public override void startBattle()
     {
+        graphicsManager = FindObjectOfType<BattleGraphicsManager>();
+        StartCoroutine(graphicsManager.setWildPokemon(opponent));
+    }
 
+    IEnumerator sendPokemon()
+    {
+        yield return null;
     }
 }

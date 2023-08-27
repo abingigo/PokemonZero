@@ -1,11 +1,14 @@
 using UnityEngine;
 using System;
+using System.Collections.Generic;
 
 public class Menu : MonoBehaviour
 {
     PlayerMovement pm;
     [SerializeField] GameObject pokemonMenu;
+    [SerializeField] GameObject bag;
     public bool inExtension = false, inMenu = false;
+    public List<string> options = new List<string>() { "Bag", $"{PlayerProfile.PlayerName}", "Save", "Quit" };
     OptionsBox ob;
     AudioSource audioSource;
 
@@ -40,10 +43,14 @@ public class Menu : MonoBehaviour
     public void ShowMenu()
     {
         ob = OptionsBox.Instance;
-        if(GameManager.starterSelected)
-            ob.addOptions(new string[] {"Pokemon", "Bag", $"{PlayerProfile.PlayerName}", "Save", "Quit"});
-        else
-            ob.addOptions(new string[] {"Bag", $"{PlayerProfile.PlayerName}", "Save", "Quit"});
+        if (GameManager.starterSelected)
+        {
+            options.RemoveAll(r => r == "Pokemon");
+            options.Insert(0, "Pokemon");
+        }
+        if (GameManager.hasPokedex)
+            options.Insert(0, "Pokedex");
+        ob.addOptions(options.ToArray());
         ob.p = positions.menu;
         ob.ShowOptions(transform, recieveChoice);
         pm.enabled = false;
@@ -61,7 +68,8 @@ public class Menu : MonoBehaviour
                                 pokemonMenu.GetComponent<PokemonMenu>().ShowMenu();
                             }
                             break;
-            case "Bag":     Debug.Log("djhfjd");
+            case "Bag":     bag.SetActive(true);
+                            bag.GetComponent<BagMenu>().Setup(0);
                             break;
             case "Quit":    Application.Quit();
                             break;

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,9 +17,14 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject player;
 
     bool inDialog = false;
+    bool asking = false, asked = false;
     public bool dialogAllowed = true;
 
     public static DialogManager Instance { get; private set; }
+    
+    OptionsBox ob;
+    string[] s;
+    Action<string> reci;
 
     private void Awake()
     {
@@ -30,20 +36,21 @@ public class DialogManager : MonoBehaviour
     {
         if (inDialog)
         {
-            if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return)) && arrow.activeInHierarchy)
+            if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return)) && (arrow.activeInHierarchy || asked))
             {
                 if(!player.GetComponent<AudioSource>().isPlaying)
                 {
                     player.GetComponent<AudioSource>().clip = AudioClips.selCursor;
                     player.GetComponent<AudioSource>().Play();
                 }
-                ShowNextSentence();
+                ShowNextSentence(null);
                 arrow.SetActive(false);
+                asking = asked = false;
             }
         }
     }
 
-    public void ShowDialog(Dialog dialog, Pokemon p, InventoryItem inventoryItem)
+    public void ShowDialog(Dialog dialog, Pokemon p, InventoryItem inventoryItem, AudioSource audioSource = null)
     {
         pokemon = p;
         item = inventoryItem;
@@ -52,10 +59,25 @@ public class DialogManager : MonoBehaviour
         foreach (string d in dialog.Lines)
             sentences.Enqueue(d);
         inDialog = true;
-        ShowNextSentence();
+        ShowNextSentence(audioSource);
     }
 
-    public void ShowNextSentence()
+    public void AskQuestion(Dialog dialog, string[] options, Action<string> rec, Pokemon p = null, InventoryItem inventoryItem = null, AudioSource audioSource = null)
+    {
+        pokemon = p;
+        item = inventoryItem;
+        dialogBox.SetActive(true);
+        sentences.Clear();
+        foreach (string d in dialog.Lines)
+            sentences.Enqueue(d);
+        inDialog = true;
+        ShowNextSentence(audioSource);
+        s = options;
+        reci = rec;
+        asking = true;
+    }
+
+    public void ShowNextSentence(AudioSource audioSource)
     {
         if (sentences.Count == 0)
         {
@@ -68,21 +90,21 @@ public class DialogManager : MonoBehaviour
         if (sentence != "GiveItem" && sentence != "GivePokemon")
         {
             StopAllCoroutines();
-            StartCoroutine(TypeSentence(sentence));
+            StartCoroutine(TypeSentence(sentence, audioSource));
         }
         else if (sentence == "GiveItem")
         {
             StopAllCoroutines();
-            StartCoroutine(TypeSentence($"Obtained a {item.items.Name}"));
+            StartCoroutine(TypeSentence($"Obtained a {item.items.Name}", audioSource));
         }
         else
         {
             StopAllCoroutines();
-            StartCoroutine(TypeSentence($"Obtained a {pokemon.Name}"));
+            StartCoroutine(TypeSentence($"Obtained a {pokemon.Name}", audioSource));
         }
     }
 
-    IEnumerator TypeSentence(string sentence)
+    IEnumerator TypeSentence(string sentence, AudioSource audioSource)
     {
         dialogText.text = "";
         foreach (char c in sentence.ToCharArray())
@@ -90,7 +112,21 @@ public class DialogManager : MonoBehaviour
             dialogText.text += c;
             yield return new WaitForSeconds(0.02f);
         }
-        arrow.SetActive(true);
+        if(audioSource != null)
+            yield return new WaitWhile (()=> audioSource.isPlaying);
+        if(!asking)
+            arrow.SetActive(true);
+        else
+            Ask();
+    }
+
+    void Ask()
+    {
+        ob = OptionsBox.Instance;
+        ob.addOptions(s);
+        ob.p = positions.choice;
+        ob.ShowOptions(FindObjectOfType<Menu>().transform, reci);
+        asked = true;
     }
 
     public void EndDialog()

@@ -94,13 +94,13 @@ public class MoveDetailsPage : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow) && currmove != movelength- 1)
+        if((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && currmove != movelength - 1)
         {
             cursor.gameObject.transform.position = new Vector3(cursor.gameObject.transform.position.x, cursor.gameObject.transform.position.y - 65.5f, cursor.gameObject.transform.position.z);
             currmove++;
             Setup_Move(currmove);
         }
-        if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && currmove != 0)
+        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && currmove != 0)
         {
             cursor.gameObject.transform.position = new Vector3(cursor.gameObject.transform.position.x, cursor.gameObject.transform.position.y + 65.5f, cursor.gameObject.transform.position.z);
             currmove--;

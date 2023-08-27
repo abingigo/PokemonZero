@@ -9,6 +9,8 @@ public static class AudioClips
     public static AudioClip doorEnter, doorExit;
     public static AudioClip exclaim;
     public static AudioClip partySwitch;
+    public static AudioClip wildBattleBGM;
+    public static AudioClip getItem;
 
     static AudioClips()
     {
@@ -23,5 +25,7 @@ public static class AudioClips
         doorExit = Resources.Load<AudioClip>("Audio/doorExit");
         exclaim = Resources.Load<AudioClip>("Audio/exclaim");
         partySwitch = Resources.Load<AudioClip>("Audio/partySwitch");
+        wildBattleBGM = Resources.Load<AudioClip>("Audio/wildBattleBGM");
+        getItem = Resources.Load<AudioClip>("Audio/itemGet");
     }
 }

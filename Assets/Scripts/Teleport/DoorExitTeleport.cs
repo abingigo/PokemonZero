@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//The functions in this script are used when a player exits an area by closing a door or any entity similar to a door behind him
+//Basically this script is required if something plays an animation when the player teleports
+
 public class DoorExitTeleport : MonoBehaviour, Collidable
 {
     [SerializeField] GameObject player;
@@ -15,6 +18,8 @@ public class DoorExitTeleport : MonoBehaviour, Collidable
     {
         mainCamera = FindObjectOfType<StartGame>().gameObject;
     }
+
+    //Referenced in PlayerMovement
 
     public void collide()
     {

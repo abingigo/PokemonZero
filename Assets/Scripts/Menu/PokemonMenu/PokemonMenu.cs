@@ -2,8 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
-//Add field moves when selecting pokemon in Select()
+using System;
 
 public class PokemonMenu : MonoBehaviour
 {
@@ -150,17 +149,18 @@ public class PokemonMenu : MonoBehaviour
             ob = OptionsBox.Instance;
             ob.addOptions(new string[]{"Summary", "Switch"});
 
-            /*for(int j = 0; j < 4; j++)
+            for(int j = 0; j < 4; j++)
             {
-                Moves m = pp.party[currentSel].battlerMoves[j].moves;
+                Moves m = PlayerProfile.party[currentSel].battlerMoves[j].moves;
                 if(m == null)
                     break;
-                if(m.)
-            }*/ //We add field moves here
+                if (Enum.IsDefined(typeof(HMMoves), m.idNumber))
+                    ob.addOptions(new string[] { m.Name });
+            }
 
             ob.addOptions(new string[] {"Cancel"});
-            ob.p = positions.choice;
-            ob.ShowOptions(transform, recieveChoice);
+            ob.p = positions.pokemonchoice;
+            ob.ShowOptions(FindObjectOfType<PokemonMenu>().transform, recieveChoice);
 
             inPartyMenu = false;
             FindObjectOfType<PlayerMovement>().gameObject.GetComponent<AudioSource>().clip = AudioClips.selDecision;
@@ -170,7 +170,7 @@ public class PokemonMenu : MonoBehaviour
 
     void Cancel()
     {
-        if(swapping)
+        if (swapping)
         {
             swapping = false;
             inPartyMenu = true;
